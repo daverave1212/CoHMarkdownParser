@@ -1,0 +1,390 @@
+
+#PageTitle#
+Backgrounds
+
+Here will be the description of backgrounds.
+
+#Background#
+Acolyte
+Servant of the Temple
+
+#BackgroundDescription#
+A man of the church.
+A mistress of the gods.
+Or a corrupt priest overcome by gluttony and greed.
+You have spent your life in the service of a temple to a specific god or pantheon of gods. Choose a god, a pantheon of gods, or some other quasi-divine being, and work with your DM to detail the nature of your religious service.
+You must choose a god to follow.
+
+#StartingItems#
+	Holy Symbol
+	5 Sticks of Incense
+	Book of Prayers
+	A bag containing 3d10 (15) gold
+
+#Skills#
+You have +1 Insight, +1 Religion and +1 Performance
+You have -1 Intimidation, -1 Biology and -1 Luck
+
+#Abilities#
+[Acolyte] : Passive
+You must choose a god to follow, from the Call of Heroes pantheon or your DM's world's pantheon.
+You have 50% discount on items specifically related to religion.
+You can get free (minimum necessary) food, water and shelter at churches or temples specific to your god for all of your party.
+
+[Divine Sense] : 1 Action
+Spend 1 Charge.
+You know the locations and types of all Holy, Unholy and Celestial creatures or things within 15 meters, unless the path to them is obstructed by thick or dense walls or magic.
+You can do this once per rest without using a Charge.
+
+#Background#
+Charlatan
+"People's Person"
+
+#BackgroundDescription#
+You know what people want and you deliver, or rather, you promise to deliver.
+You have always had a way with people. You know what makes them tick. It's a useful talent, and one that you're perfectly willing to use for your advantage.
+
+#StartingItems#
+	Cheating tools of your choice, such as wieghted dice, unusual coins or deck of cards, etc
+	Fine Clothes
+	A bag containing 9d10 (45) gold
+
+#Skills#
+You have +1 Sleight of Hand, +1 Deception and +1 Insight
+You have -1 Luck, -1 Animal Handling and -1 Intimidation
+
+#Abilities#
+[Charlatan] : Passive
+You have +2 on Sleight of Hand checks when trying to cheat at games.
+Once per week, if in a developed city, you can roll a Sleight of Hand check and gain gold equal to what you rolled.
+
+[Disguise] : 1 hour
+Using 50 gold worth of materials, you can disguise yourself to look differently. If you have to roll for this, roll Deception with a +3 bonus.
+
+
+#Background#
+Criminal
+Law Breaker
+
+#BackgroundDescription#
+You're far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society.
+
+#StartingItems#
+
+	Dark Hood
+	Pocket Knife
+	Crowbar
+	25 Fake Gold Coins
+	A bag containing 8d10 gold
+
+#Skills#
+You have +1 Stealth, +1 Deception and +1 Investigation
+You have -1 History, -1 Performance and -1 Religion
+
+#Abilities#
+[Criminal] : Passive
+You can gather information on criminal activities by spending one day in a city, investigating it.
+You have +2 on Persuasion when trying to negotiate an illegal deal.
+
+[Stalk] : Depends
+Pick a person you can see. If the target is alone, you can follow it and know it's location for up to 4 hours, without being detected (in normal conditions).
+
+#Background#
+Entertainer
+The Center of Attention
+
+#BackgroundDescription#
+We don't make mistakes, just happy little accidents.
+You thrive in front of an audience with you majestic lute, stunts or vocal mastery. Whatever techniques you use, your art is your life.
+
+#StartingItems#
+
+	Instrument of Choice
+	Entertainer Costume
+	Pocket Knife
+	A bag containing 4d10 gold
+
+#Skills#
+You have +1 Luck, +1 Acrobatics and +1 Performance
+You have -1 Survival, -1 Animal Handling and -1 Intimidation
+
+#Abilities#
+[Entertain] : 4 hours
+You must have an entertaining method of chioce.
+Once per day, if you are in a tavern, you can roll a Performance check. You gain (Rolled / 4) gold for entertaning the public.
+
+[Sense Mood] : 1 Action
+Pick a target you can see and hear. You can tell the target's mood, such as if it's angry, sad, happy, in love, etc.
+
+[Rest Performance] : Passive
+After every long rest with you, all allies have +1 maximum health until their next long rest.
+
+
+#Background#
+Folk Hero
+Champion of the People
+
+#BackgroundDescription#
+Destiny calls you to stand against the tyrants and monsters that threaten the common folk!
+You previously pursued a simple profession among the peasantry, perhaps as a farmer, miner, servant, shepherd, woodcutter, or gravedigger. But something happened that set you on a different path and marked you for greater things.
+
+#StartingItems#
+
+	A Riding Horse or a non-combat dog
+	Clothes, soap and deodorant
+	Hatchet
+	A bag containing 4d10 gold
+
+#Skills#
+You have +1 Animal Handling, +1 Survival and +1 Luck
+You have -1 Deception, -1 Arcana and -1 Stealth
+
+#Abilities#
+[Folk Hero] : Passive
+Once per week, you can request prosivions from local folk, such as food, water and shelter for up to 3 days, new clothes.
+You know the locations of taverns, inns and other such places around.
+You get 50% discount on all services provided at taverns.
+You have -5 on Deception rolls agains common folk.
+
+#Background#
+Folk Villain
+The Living Myth
+
+#BackgroundDescription#
+Legend says about you and your malevolent deeds, about your plots and mischieves...
+You are notorious among common folk. People have heard about you, but many have not seen it with their own eyes. They talk about the lord in the black temple, the lone savage in the forest or the wizard atop the tower, in the center of the town.
+
+#StartingItems#
+
+	Special Symbol
+	A bird or cat, non-combat companion (non-magical)
+	A bag containing 2d20 gold
+
+#Skills#
+You have +1 Knowledge, +1 Stealth and +1 Investigation
+You have -1 Luck, -1 Persuasion and -1 Sleight of Hand
+
+#Abilities#
+[Folk Villain] : Passive
+You have +2 Stealth against common folk and +2 on Knowledge regarding local myths, legends and problems.
+
+[Special Mark] : 1 Action
+You can leave a special mark on a tree, rock or ground. Those who see that mark are less likely to continue going ahead.
+
+#Background#
+Knight
+Paragon of Chivalry
+
+#BackgroundDescription#
+A privilege to be respected by others, but also to respect yourself.
+A knight is a person granted an honorary title of knighthood by a monarch, bishop or noble, in return of your total servitude, in both combat and noble duty.
+
+#StartingItems#
+
+	Riding Horse
+	Banner
+	Symbol or Signet
+	Special Decorative Shield
+	A bag containing 10d10 gold
+
+#Skills#
+You have +1 Athletics, +1 History and +1 Performance
+You have -1 Deception, -1 Nature and -1 Craft
+
+#Abilities#
+[Knight] : Passive
+You serve or used to serve as the Knight of a noble or important person.
+You have 25% discount on buying horses or mounts.
+You also have 25% discount on blacksmith services.
+
+[Vow] : A Lifetime
+You may vow upon the completion of a non-trivial mission or task. Succeeding rewards you with 1 Inspiration. Failing takes away 1 Inspiration, and your Inspiration can go below 0. If you have 0 or negative Inspiration, you have to gain Inspiration to compensate until you reach 1 to be able to use it again.
+
+#Background#
+Noble
+The Aristocrat
+
+
+#BackgroundDescription#
+Is your family old and established, or was your title only recently bestowed?
+You might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner.
+
+#StartingItems#
+
+	Fine Clothes
+	Scroll of Pedigree
+	Golden Ring or Necklace
+	A bag containing 10d20 gold
+
+#Skills#
+You have +1 History, +1 Persuasion, +1 Knowledge and +1 Insight
+You have -1 Performance, -1 Craft, -1 Survival and -1 Animal Handling
+
+#Abilities#
+[Noble] : Passive
+You can speak 1 more common language of choice.
+
+[A Bird in Hand] : 0 Actions
+Dunno
+
+#Background#
+Outlander
+The Lone Wolf
+
+#BackgroundDescription#
+Few live to see the beauty of these lands, for they can't see the forest from the trees.
+You grew up in the wilds. You've witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction.
+
+#StartingItems#
+
+	Rags
+	Makeshift Hunting Trap
+	Quarterstaff
+
+#Skills#
+You have +1 Athletics, +1 Survival, +1 Nature and +1 Biology
+You have -1 Knowledge, -1 History, -1 Deception and -1 Persuasion
+
+#Abilities#
+[Outlander] : Passive
+Choose a terrain type (ex: forest, desert, mountains). While in that terrain type, you can only get lost by magical means.
+When in an unknown territory, you can roll an Insight check. If you succeed, you know whether you are trespassing or not.
+
+[Procure Item] : 4 Hours
+Spend 1 Charge.
+Roll a Craft check.
+You can create (rolled check / 5) items from the surroundings (if the environment is proper).
+These can be mundane items, such as torches, rations, even rope.
+
+#Background#
+Sage
+Loremaster
+
+#BackgroundDescription#
+Your efforts have made you a master in your fields of study.
+You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you.
+
+#StartingItems#
+
+	Robes
+	Blank Book
+	Bottle of Ink
+	Quill
+	A bag containing 4d10 gold
+
+#Skills#
+You have +1 Arcana, +1 History and +1 Knowledge
+You have -1 Athletics, -1 Stealth and -1 Persuasion
+
+#Abilities#
+[Sage] : Passive
+You can speak 1 uncommon language o fchoice.
+You have +2 on Arcana rolls for magic symbols or glyphs.
+
+[Scribe] : Special
+Once per long rest, you can make an Arcana check to attempt to create a random magical scroll. You succeed if you roll equal to or above 22.
+
+#Background#
+Sailor
+Person of the Sea
+
+#BackgroundDescription#
+There's only one thing a man can be more in love with than a woman: the sea!
+You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths.
+
+#StartingItems#
+
+	Sailor Clothes
+	30 feet of rope
+	A personal small boat, in a location of your choosing
+	Fishing Pole
+	A bag containing 7d10 gold
+
+#Skills#
+You have +1 Luck, +1 Perception and +1 Use Rope
+You have -1 Religion, -1 Biology and -1 Stealth
+
+#Abilities#
+[Sailor] : Passive
+You know your way around a ship or boat.
+With you on board, ships travel 25% faster and you get 25% discount on voyages over water.
+You have +2 to hit against water specific creatures.
+You have +2 on Saves against water specific creatures.
+
+#Background#
+Soldier
+Brother in Arms
+
+#BackgroundDescription#
+War has been your life for as long as you care to remember.
+You trained as a youth, studied the use of weapons and armor, learned basic survival techniques, including how to stay alive on the battlefield.
+
+#StartingItems#
+
+	Insignia of Rank
+	Trophy
+	Spare Armor
+	A bag containing 8d10 gold
+
+#Skills#
+You have +1 Athletics, +1 Acrobatics and +1 Survival
+You have -1 Nature, -1 Craft and -1 Sleight of Hand
+
+#Abilities#
+[Soldier] : Passive
+When rolling Perception for ambush, roll with Advantage.
+
+[Extra Training] : Passive
+You know 1 extra Maneuver of choice.
+
+
+#Background#
+Urchin
+Street Scoundrel
+
+#BackgroundDescription#
+The streets have ears, eyes... they can hear, see and smell everything.
+You grew up on the streets. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you.
+
+#StartingItems#
+
+	Thieves' Tools
+	Rags
+	Pet Mouse
+	A bag containing 3d10 gold
+
+#Skills#
+You have +1 Stealth and +1 Sleight of Hand
+You have -1 Luck, -1 Investigation and -1 Knowledge
+
+#Abilities#
+[Urchin] : Passive
+You know hidden or less known streets or passages around city.
+You have +2 Stealth against guards.
+
+[Hiding Pack] : Passive
+After a long rest, choose an ally.
+While within 6 meters of you, that ally has +2 Stealth.
+
+
+
+#PageEnd#
+
+
+
+
+
+
+
+
+
+You have +1
+You have -1
+
+
+
+
+
+
+
+

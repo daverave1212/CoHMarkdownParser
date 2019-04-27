@@ -1,0 +1,378 @@
+
+	#Ignore#
+	
+1 Pence	(d)		= 1 pence
+1 Shilling (s)	= 12 pence
+1 Pound	(li)	= 240 pence
+
+1 Crown			= 5 shillings
+1 Farthing		= 1/4 penny
+1 Mark			= 264 Shillings
+
+
+				  Per Month
+Incomes		Total	Lifestyle	Upkeep	Taxes	Profit
+Poor:		60		30			20		6g		4g			// Unskilled, Mercenary, etc
+Modest:		300		150		100	30		20			// Peasants, soldiers, priests
+Good:		600		300		200	60		40			// Merchants, military officers						
+Wealthy:	1200	600		400	120	80			// Inkeepers, good tradesmen, royal servers						
+Aristocrat:	3000	1500		1000	300	200		// Politicians, high priests						
+						
+				
+Weapons take like 1 week to forge a longsword
+
+	Weapons Time to Forge and Prices (according to work value and material costs)
+Greatsword			14 days		= 600   work value + 700 mats = 1300 price 	(Wealthy)
+Warhammer			14 days		= 150   work value + 350 mats = 600 price 	(Wealthy)
+Claymore			7 days		= 75    work value + 220 mats = 295 price  	(Modest)
+Longsword			7 days		= 50    work value + 130 mats = 190 price	(Modest)
+Shortsword			3 days		= 30    work value + 100 mats = 130 price	(Modest)
+Cleaver (fine)		3 days		= 75    work value + 150 mats = 225 price	(Good)
+Scimitar			3 days		= 75    work value + 100 mats = 175 price	(Good)
+Sickle (steel)		3 days		= 75    work value + 100 mats = 175 price	(Good)
+Mace				7 days		= 75    work value + 130 mats = 215 price	(Modest)
+Hand Axe			3 days		= 30	work value + 50 mats  = 80 price 	(Modest)
+Battle Axe (large)	7 days		= 75	work value + 150 mats = 225 price 	(Modest)
+War Pickaxe (large)	7 days		= 150	work value + 150 mats = 300 price 	(Good)
+Trident (fine)		7 days		= 150	work value + 150 mats = 300 price 	(Good)
+Halberd				3 days		= 35	work value + 150 mats = 185 price 	(Modest)
+Lance				3 days		= 75	work value + 150 mats = 225 price 	(Good)
+Halberd				3 days		= 35	work value + 150 mats = 185 price 	(Modest)
+Rapier				3 days		= 75    work value + 125 mats = 200 price	(Good)
+Katana				7 days		= 150   work value + 125 mats = 275 price	(Good)
+Dagger (fine)		3 days		= 35    work value + 50  mats = 85 price 	(Good)
+Mace				7 days		= 150   work value + 130 mats = 280 price	(Modest)
+Warglaive			7 days		= 300	work value + 150 mats = 450 price	(Wealthy)
+
+
+#ItemTable#
+Weapons and Equipment
+
+Greatsword			    : 1300
+Warhammer			    : 600 
+Claymore			    : 295 
+Longsword			    : 190 
+Shortsword			    : 130 
+Cleaver (fine)		    : 225 
+Scimitar			    : 175 
+Sickle (steel)		    : 175 
+Mace				    : 215 
+Hand Axe			    : 80
+Battle Axe (large)	    : 225 
+War Pickaxe (large)	    : 300 
+Trident (fine)		    : 300 
+Halberd				    : 185 
+Lance				    : 225 
+Halberd				    : 185 
+Rapier				    : 200 
+Katana				    : 275 
+Dagger (fine)		    : 85
+Mace				    : 280 
+Warglaive			    : 450 
+Shield (regular)	: 100
+Shortbow			: 400
+Longbow				: 875
+Heavy Crossbow		: 875
+Light Crossbow		: 525
+Heavy Gun			: 2000
+Light Gun			: 1350
+Javelin				: 15
+Hammer				: 80
+Spear (fine)		: 140
+Quarterstaff		: 20
+Club	(fine)		: 10
+Greatclub (fine)	: 20
+Poor Man's Mallet	: 10
+Sling				: 10
+Blowgun				: 45
+Whip (fine)			: 500
+Arrows x 20		: 10
+Bolts  x 20		: 20
+Quiver			: 100
+Regular Poison Darts (full supply)	: 265	// No need to resupply, darts for a lifetime
+Quiver and Arrows (full supply)		: 130	// No need to resupply, arrows for a lifetime
+Bolts (full supply)					: 160	// No need to resupply, bolts for a lifetime
+Gunpowder for 1 encounter			: 15
+Common Clothes	: 15                	
+Robes         	: 15
+Robes (fine)	: 50
+Padded Armor  	: 100              	
+Leather Armor 	: 100              	
+Hide Armor    	: 100              	
+Splint Armor  	: 2000             	
+Chain Mail    	: 1300
+Plate Armor   	: 2600 //20kg	= 2000 + 600
+
+#ItemTable#
+Adventuring Gear
+
+Food for 1 Day				: 5
+Backpack					: 40
+Ball Bearings (bag)		 	: 10
+	- 2x1 meter zone becomes difficult terrain (1-time use)
+Bedroll					 	: 10
+Bell						: 10
+Block and Tackle			: 10
+Caltrops (set)				: 20
+	- Use on a 1x1 meter zone. A unit stepping on them takes 1d4 Pierce damage.
+	- They break after someone steps on them
+	- Deals double damage if it pierces flesh directly.
+Chain (2 meters)			: 50
+Crowbar						: 20
+First Aid Kit				: 20
+	- On a successful Biology DC15 check, stabilizes an unconscious character
+	- One time use
+Flask						: 3
+Grappling Hook				: 20
+Hunting Trap				: 100
+	- When stepping on it, Dexterity Save (10DC) or 1d6 damage and Snare
+	- Takes 1 minute to Rearm
+Lamp						: 25
+Ladder (2 meters)			: 10
+Lock and Key				: 100
+Manacles					: 20
+Mirror (steel)				: 50
+Mining Pick					: 225
+Paper (1 sheet)				: 2
+Piton						: 2
+Spike (iron - 30cm)			: 22
+Tent (2 people)				: 45
+
+
+
+#ItemTable#
+General Goods
+
+Food for 1 Day				: 5
+Basket						: 15
+Barrel						: 30
+Blanket						: 15
+Book (blank) (100p)			: 125
+Bottle (1 liter)			: 150
+Candle						: 2
+Chalk (1 piece)				: 2
+Chest						: 100
+Clothes (common)			: 15
+Clothes (fine)				: 50
+Mess Kit					: 10
+Mirror (steel)				: 50
+Oil (500ml)					: 25
+Pot (iron)					: 15
+Pouch						: 5
+Sack						: 10
+Soap						: 5
+Tankard						: 3
+Vial (100ml)				: 15 // Vials aren't that expensive, they have glassblowers. It's fantasy, they have glass!
+Waterskin					: 10
+Whetstone					: 1
+
+#ItemTable#
+Magic and Religion
+
+Holy Symbol (gold)		: 1230
+Holy Symbol (silver)	: 150
+Holy Water (100ml)		: 15
+	- Deals 1d8 damage to Unholy creature upon 100ml being splashed on it
+	- Requires an attack roll if throwing the Holy Water at a target
+Ink (100ml)				: 100
+Writing Feather			: 5
+
+
+#ItemTable#
+Metals (Per 100grams)
+
+
+Bronze				: 9
+Copper				: 12
+Iron				: 3
+Steel				: 100
+Silver				: 120
+Gold				: 1200
+Platinum			: 12000
+Mithril				: 60000
+
+
+#ItemTable#
+Tools
+
+Mason's Tools				: 500
+Carpenter's's Tools			: 500
+Smith's Tools				: 500
+Tinker's Tools				: 500
+
+#ItemTable#
+Potions and Poisons
+
+Acid (vial, 100ml)			: 100
+	- Deals 1d8 damage to creature upon 100ml being splashed on it
+	- Requires an attack roll if throwing the Acid at a target
+
+#ItemTable#
+Instruments
+
+Horn						: 300
+
+#ItemTable#
+Other Items
+
+Abacus				: 20
+Game Set (common)	: 10
+Game Set (complex)	: 50
+Game Set (rare)		: 500
+Scale				: 50
+
+
+#ItemTable#
+Vanity Items
+
+Clothes (luxury)	: 500
+
+#ItemTable#
+Mounts
+
+Camel				: 800	// Comes with saddle
+Donkey/Mule			: 120
+Elephant			: 5500	// Comes with saddle
+Horse (draft)		: 650
+Horse (riding)		: 975	// Comes with saddle
+
+#ItemTable#
+Exotic Mounts
+
+Wolf				: 800
+Dinosaur			: 8800
+Dragon Wyrm			: 39000
+
+#ItemTable#
+Vehicles
+
+Carriage			: 1300
+Cart				: 195
+Chariot				: 3250
+Wagon				: 455
+
+#ItemTable#
+Boats
+
+Galley				: 390.000
+Keelboat			: 39.000
+Longship			: 130.000
+Rowboat				: 650
+Sailing Ship		: 130.000
+Warship				: 325.000
+
+
+#ItemTable#
+Houses
+
+Slum					: 5000
+Decent Home				: 78.000
+	- 2 bedrooms, hearth
+Decent Home (Quality)	: 117.000
+	- 2 bedrooms, hearth
+	- Made of quality, good looking materials and architecture
+Good Home				: 195.000
+	- Up to 5 bedrooms and 2 stories, hearth, kitchen, toilet
+Good Home (Quality		: 292.500
+	- Up to 5 bedrooms and 2 stories, hearth, kitchen, toilet
+	- Made of quality, good looking materials and architecture
+- Made of quality, good looking materials and architecture
+Noble Home				: 390.000		
+	
+
+#PageEnd#	
+
+	
+	Weapons	Materials Prices (kg) (from online sources, converted)
+	Metal Used: Steel (1000c = 1 kg)
+Ultra Greatsword	7500c		7.0 kg					= 7000c mats   = 700 mats
+Greatsword			2500c		2.2 kg					= 2200c mats   = 220 mats
+Longsword			1500c		1.3 kg					= 1300c mats   = 130 mats
+Shortsword			1000c		1 kg					= 1000c mats   = 100 mats
+Rapier				2000c		1.25 kg					= 1250c mats   = 125 mats
+Katana				2500c		1.25 kg					= 1250c mats   = 125 mats
+Dagger				500c		0.5 kg					= 500c  mats   = 50  mats
+	
+// 	Weapons	Prices (lb) (from online sources)
+// Ultra Greatsword	7500c		15.0 lbs				= 500c / lb	  = 6000c mats + 1500c work
+// Greatsword			2500c		5.0 lbs					= 500c / lb   = 2000c mats + 500c work
+// Longsword			1500c		3 - 3.5 lbs (3.0)		= 500c / lb	  = 1200c mats + 300c work
+// Shortsword			1000c		2 - 2.5 lbs (2.0)		= 500c / lb	  = 800c mats + 200c work
+// Rapier				2000c		2 lb 4 oz	(2.5)		= 1000c mats + 1000c work
+// Katana				2500c		2.5			(2.5)		= 1000c mats + 1500c work
+// Dagger				500c		0.5 lb		(0.5)		= 1000c / lb  = 200c mats + 300c work
+
+
+
+
+
+Battle Armor Suit	50 lbs
+Helmet				6 lbs
+
+	Metals			Per 100
+Bronze				9g
+Copper				12g
+Iron				3g
+Steel				100
+Silver				120
+Gold				1200
+Platinum			12000
+Mithril				60000
+						
+						
+						
+						
+						
+HandleStringCase(Class);
+HandleStringCase(Options);
+HandleStringCase(Skills);
+HandleStringCase(Language);
+HandleStringCase(Stats);
+HandleStringCase(MainStat);
+HandleStringCase(Abilities);
+HandleStringCase(ClassAbilities);
+HandleStringCase(Other);
+HandleStringCase(Spec);
+HandleStringCase(PageEnd);
+HandleStringCase(Specialization);
+HandleStringCase(SpellList);
+HandleStringCase(Weapons);
+HandleStringCase(WeaponsLanguage);
+HandleStringCase(Race);
+HandleStringCase(LevelBonus);
+HandleStringCase(Ignore);
+HandleStringCase(Undefined);	
+						
+HandleGetTagCase(None);
+HandleGetTagCase(Class);
+HandleGetTagCase(Race);
+HandleGetTagCase(Options);
+HandleGetTagCase(Skills);
+HandleGetTagCase(Language);
+HandleGetTagCase(Stats);
+HandleGetTagCase(MainStat);
+HandleGetTagCase(Abilities);
+HandleGetTagCase(ClassAbilities);
+HandleGetTagCase(Other);
+HandleGetTagCase(Spec);
+HandleGetTagCase(PageEnd);
+HandleGetTagCase(SpellList);
+HandleGetTagCase(Specialization);
+HandleGetTagCase(Weapons);
+HandleGetTagCase(WeaponsLanguage);
+HandleGetTagCase(LevelBonus);
+HandleGetTagCase(Ignore);
+HandleGetTagCase(Undefined);
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						

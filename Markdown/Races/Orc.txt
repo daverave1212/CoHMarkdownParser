@@ -1,0 +1,143 @@
+#Race#
+	Orc	// VARIANT: Ogre (lot of hp, 4 ms)
+Tribal in nature, though not stupid. Orc societies are highly based on honor and strength. Many orcs are also in tune with nature or spirits, allowing them to be both powerful and cunning. Unlike orcs in traditional fantasy, Orcs in Call of Heroes are not necessarily vile and reckless. Orcs are leaders and hunters by nature, but will also be lead by someone stronger or who can indeed lead better than them. Even in a more peaceful tribe, the most charismatic, witty and strong orc will be the leader. Orcs are also driven by control (over territory, goods, etc). Many of them wish to be in control: they don't like other people doing things for them, unless they are sure they can do it better. For this reason, many orcs make a living without help. They build their own houses, hunt their own food or pillage for both the good of the tribe and their own.
+
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Fortitude, Wisdom, Dexterity or Charisma
+	Choose one: +3 Health or Know 1 more maneuver
+	Choose one: +1 Fortitude Save or +1 Dexterity Save or +1 Wisdom Save
+	
+#Skills#
+You have +1 Athletics, +1 Perception, +1 Intimidation
+You have -1 Knowledge, -1 Insight, -1 Persuasion
+
+
+#Stats#
+Base Health: 7
+Movement: 6 meters
+Lifespan: ~80 years
+Languages: Common and Orcish
+
+#WeaponsLanguage#
+If your Intelligence is at least 1, you can speak an additional Wild Language.
+You are trained in Hand Axes and Battle Axes.
+
+#Abilities#
+You start with the following racial abilities:
+
+[Boiling Blood] : 0 Actions
+Lose half of your current health.
+Your next attack gains Advantage on the Attack roll and it crits if it hits
+You can do this once per Long Rest.
+
+[Battle Anguish] : Passive
+Whevener you drop to 0 Health, your maximum Health permanently decreases by 1.
+
+#LevelBonus#
+At Level 1, you can pick one of the following talents and know it permanently:
+
+{Fierceness} : Passive
+You can use any weapon with Fortitude (instead of Dexterity, in some cases).
+
+{Adaptability} : Passive
+You can have your Fortitude as your Main Stat, even if your class says otherwise.
+
+{Beast Rider} : Passive
+You are trained in Riding and Exotic Riding (you can ride exotic mounts, such as wolves).
+You also have such an exotic mount of your choice, if the DM accepts it.
+This mount is a non-combat pet. It does not participate in combat.
+You gain +2 in Animal Handling.
+
+#LevelBonus#
+At Level 2 you gain +2 Feat Points.
+And don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 3, your maximum number of Charges increases by +1.
+Your maximum Health also increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 4 you gain the Action Surge ability. Use it wisely!
+
+[Action Surge] : 0 Actions
+Gain an extra 1 Action this turn!
+You can do this once per Long Rest.
+
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 5, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 6, choose any of your 5 base Stats and increase it by +1 (up to a maximum of +4).
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 7, your maximum number of Charges increases by +1.
+Your maximum Health increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 8, you gain +2 Feat Points and don't forget to choose a Talent from your class.
+
+#LevelBonus#
+At Level 9, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 10, you have reached the peak of your skill.
+Congratulations!
+But don't forget to choose a Talent from your class.
+It will be a powerful one!
+
+
+#PageEnd#
+
+	At Level 3:
+
+{Bloodthirst} : 0 Actions
+Spend 1 Charge.
+Gain 0.5 Actions this turn
+You can do this once per Long Rest.
+
+{Darkvision} : Passive
+You can see up to 12 meters away in darkness, without discerning colors.
+
+{Hunter} : Passive
+You are trained in 1-Handed and 2-Handed Ranged Weapons and Spears.
+
+{Calm Before the Storm} : Lol
+undefined
+
+
+
+{Savage Attacks} : 0 Actions
+Use after you land an attack.
+Roll and add one other damage die from the attacks' damage dice to the damage roll.
+You can do this once per Long Rest.
+
+{Strength Above Force} : Passive
+You have 50% resistance to (magical) Force damage.
+
+
+
+
+	
+	
+Things I can alter:
+	Starting stats
+	Base Health
+	Feat points
+	Saves
+	Dark Vision
+	Number of Maneuvers
+	Movement Speed
+	Initiative
+	
+

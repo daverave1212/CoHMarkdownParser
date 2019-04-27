@@ -1,0 +1,313 @@
+#Class#
+
+		Cleric
+Clerics are people attuned to a certain god.
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Charisma, Intelligence, Wisdom, Dexterity, Fortitude
+	Choose one: +1 Weapon Effect or +2 Spell DC
+	Choose one: +2 Fortitude Save or +2 Dexterity Save
+
+#Skills#
+You have +1 Religion, +1 Luck, +1 Insight
+You have -1 Biology, -1 Investigation, -1 Deception
+
+#Stats#
+Base Health: 7 + (Fortitude x 2)
+Bonus Health when leveling up: +5
+
+#Language#
+If your Intelligence is at least 2, choose one Higher or Common language you can speak.
+
+
+#MainStat#
+Choose between Wisdom or Charisma. This is your Main Stat.
+
+Your Spell DC is 8 + (Main Stat).
+Your Spell Hit Bonus is (Main Stat).
+
+You are Trained in Spells.
+Some spells will tell you to add your Power to the damage dice.
+Your Race tells you what your Power is.
+
+You have 3 Charges: O O O
+Certain Abilities require you to spend one Charge.
+You regain all Charges back when you Long Rest.
+
+#ClassAbilities#
+You start with the following class abilities:
+
+[Loyalty] : Special
+You have a special score called Loyalty.
+You start with 2 Loyalty.
+Special Cleric abilities influence your Loyalty once you get them.
+
+[Power of a God] : 0 Actions
+Invoke the power of your god.
+Instantly heal or damage a target for an amount equal to your Loyalty.
+3 meters range.
+You can do this once per Long Rest.
+
+#SpellList#
+You know a total number of spells and maneuvers equal to 2 + Your Level + Your Intelligence.
+You can reasign your spells whenever you level up.
+This is your spell list:
+
+Maneuvers: All
+Basic Spells:
+	[Bonfire] : 1 Action
+	[Cleansing Flames] : 0 Actions
+	[Detect Poison and Disease] : 1 Action
+	[Eldritch Blast] : 1 Action
+	{Inflict Wounds} : 1 Action
+	[Guidance] : Reaction
+	[Hollow Touch] : 1 Action
+	[Light] : 1 Action
+	[Mastery] : 1 Action
+	[Mind Blast] : 1 Action
+	[Purify Food and Drink] : 1 Action
+	[Resistance] : 1 Action
+	[Thaumaturgy] : 1 Action
+	[Thunder Clap] : 1 Action
+Normal Spells:
+	[Chaining Grasp] : 0 Actions
+	[Absorb Element] : Reaction
+	[Animate Dead] : 1 Action
+	[Charming Word] : 1 Action
+	[Cure Wounds] : 1 Action
+	[Cure Poison] : 1 Action
+	[Cure Disease] : 10 minutes
+	[Feather Fall] : Reaction or 0 Actions
+	[Radiant Smite] : 0 Actions
+	[Blinding Smite] : 0 Actions
+	[Cleansing Smite] : 0 Actions
+	[Curse of Pain] : 1 Action
+	[Curse of Weakness] : 1 Action
+	[Deathfire Bolt] : 1 Action
+	[Distort Vision] : 1 Action
+	[Flash] : 0 Actions
+	[Mending] : 1 Action
+	[Shield Element] : 0.5 Actions
+	[Turn Undead] : 0 Actions
+	[Wild Heart] : 1 Action
+Higher Level Spells:
+	[Conceal Magic] : 1 Action (Level 4)
+	[Invisibility] : 1 Action (Level 4)
+	[Levitate] : 1 Action (Level 4)
+	[Magic Prison] : 5 minutes (Level 8)
+	[Spare the Dying] : 1 Action (Level 4)
+	
+
+	//~ 4.00 Charges ?
+	//Choose your specialization
+	
+#Other#
+The first time you choose a cleric domain (specialization), you must choose between two abilities.
+For example, for Battle Cleric, you have to choose either March Ahead or Piety.
+Choose wisely...
+
+#Specialization#
+At Level 1, you can choose your specialization.
+Every Cleric can choose from the following Cleric specializations:
+- Battle Cleric, where you become devoted to either Peace or War (or both) and pursue either of those
+- Beacon Cleric, a keeper of the light or darkness, who power draws from flame or void...
+- Life Cleric, a balancer between life and death; your very fate hangs in this balance
+	
+#Spec#
+Battle Cleric
+Battle clerics specialize in conditions of war. You must choose your side
+You have the following ability:
+
+[Chains] : 1 Action
+Spend 1 Charge and choose a target within 6 meters.
+The target is healed for 1d12.
+Then, it makes a Wisdom Save.
+If it fails, it is Paralyzed for 1 minute.
+You can do this once per Long Rest.
+
+Choose your side, Battle Cleric!
+Pick only one of the following two abilities!
+
+	//War/Peace	~ 4 Charges
+	[March Ahead] : 0 Actions
+	Loyalty : +1
+	This turn, you can move more meters equal to your Loyalty.
+	You can do this once per Long Rest.
+	[Piety] : Passive
+	Loyalty : +3
+	
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Eternal Bindings} : 0 Actions or Reaction
+Loyalty: +1
+Spend 1 Charge.
+A creature within 3 meters makes a Wisdom save.
+If it fails, it becomes magically bound to an object within 3 meters of it and can't willingly move more than 3 meters away from that object.
+The creature can roll the save again at the start of their turn to escape the binding.
+Lasts up to 1 minute.
+
+{Heavy Burden} : 0 Actions
+Loyalty: +2
+Spend 1 Charge.
+A creature within 3 meters makes a Wisdom save.
+If it fails, it is Crippled.
+
+{Pain of War} : 0.5 Actions
+Loyalty: +1
+Spend 1 Charge.
+You gather divine energy to inflict heavy pain upon creatures in your surroundings.
+All creatures within 3 meters of you take 4 True damage.
+If a creature can't feel pain, it is unaffected.
+Creatures affected can tell you did this...
+
+// Talents:
+// War
+// Peace
+// Tension
+
+#Spec#
+Beacon Cleric
+As a cleric, you become a devotee of darkness or/and light.
+
+You have the following ability:
+
+[Grasp] : 0.5 Actions
+Pick a target within 6 meters (you don't need line of sight).
+That target does not benefit from partial cover for 1 minute.
+You can do this once per Long Rest.
+	
+
+Choose your side, Beacon Cleric!
+Pick only one of the following two abilities!
+
+	[Radiance] : Passive
+	Loyalty : +1
+	At all times, you radiate light in a 3 meter radius.
+	You can turn this on and off at will.
+	[Twilight] : Passive
+	Loyalty : +1
+	You have Dark Vision.
+	You are immune to being Blinded.
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Let There Be Light} : Passive
+Loyalty: +1
+The target of Grasp doesn't benefit from Total Cover, and takes 1d6 Fire damage.
+
+{Let There Be Darkness} : Passive
+Loyalty: +0
+When using Power of a God on an enemy, it also rolls a Wisdom save.
+If it fails, it is Blinded.
+When using Power of a God on an ally, it gains Dark Vision for up to 10 minutes.
+
+{Mass Grasp} : Passive
+Loyalty: +2
+Grasp now affects all enemies in a 4x4 area within 9 meters instead of 1 target creature.
+
+// flashbang
+
+#Spec#
+Soul Cleric
+You are a worshipper of life and/or death. Seek their balance, and seek balance within yourself.
+
+You have the following ability:
+
+	Life/Death	//~ 4 Charges
+[Life Cycle] : 0.5 Actions
+Transfer 6 health from a willing living creature to another willing living creature.
+Both creatures must be within 3 meters of you.
+	
+Choose your side, Life Cleric!
+Pick only one of the following two abilities!
+
+	[Keeper of Life] : 0 Actions
+	Loyalty : +1
+	Choose an ally.
+	The next time it takes damage, you take that damage instead.
+	[Keeper of Death] : Passive
+	Loyalty : +1
+	Your attacks deal +1d6 damage against Undead once per turn.
+	You are immune to being Feared.
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{True Necromancy} : 1 Action
+Loyalty: +1
+You have an Undead servant, a creature previously alive whose soul you are forcing to stay in this world against its will and do your bidding.
+Come up with a story about why you have an Undead servant, and why your god allowed this or gave him or her to you.
+_For example, your servant was in a group of cultists who killed your family. Now, your god gave you the power to resurrect one of these cultists to aid you in killing the rest of the cult._
+Your servant must follow your orders as long as it is related to the reason you are forcing it to stay.
+The servant must be a sentient humanoid and must be within 15 meters of you at all time, otherwise it will permanently lose 1 Maximum health for each hour spent apart.
+It has the following stats:
+ Health: 1/3 of your maximum health
+ Armor: Same as yours, but -1
+ Stats: All 0, except one which is 2 (you choose which).
+ Movement: 5 meters
+ Initiative: Always equal to yours, and takes its turn before or after you (you choose every time).
+ It can use 1 Action to make a melee attack on its turn: +3 to hit, 1d8 Force or Necrotic damage
+The servant can take 0.5 Actions, but only for simple, non-combat tasks.
+In addition, when getting your servant, choose one of the following abilities for it:
+	[Marksmanship] : Passive
+	The servant can shoot a bow, crossbow or any other ranged weapon.
+	Its attacks have up to 6 meters range.
+	[Magic] : Passive
+	Your servant's attacks can be magical spells.
+	When getting this, choose from Fire/Cold/Thunder.
+	Its attacks can now deal that type of damage and have up to 3 meters range.
+	[Maneuverist] : Passive
+	Your servant knows two Maneuvers from the Maneuver List which take 1 Action.
+Same rules for Resting/Long Resting/Death apply to your servant as to Heroes, and your servant is treated as a Hero for ability purposes.
+If the servant really dies, it is released from this world.
+Tip: Just because he or she is your servant, that doesn't mean you should treat him or her as a pet or a slave. Think of creative ways to build the relationship between you and your servant.
+// Premade character: Nercomancer and his wife
+
+{Life Harvest} : Passive
+Loyalty: +2
+Whenever YOU kill a worthy enemy, heal for 2 Health.
+
+{Prayer of Life} : 1 Action
+Loyalty: +2
+Heal an ally within 6 meters for 50% of their total health.
+You can do this only once in your life.
+Variant: If you are playing a short campaign or one-shot, your DM can decide for 25% instead of 50%.
+
+#PageEnd#
+
+//Talent : Channel like half o fyour health into an ally to make him stronger! (combos with undead servant)
+	
+	
+	
+// Talent [Invoke] : 0 Actions
+//    This turn, your Alignment is doubled.
+//    You can do this once per Long Rest.
+	
+
+
+
+		Trap			
+		Elemental Damage
+		Buffs
+		Choose between
+		Damage
+		Mobility
+		Pro and Con
+		On kill		
+		Zoning		
+		Swap Position
+		Return on investment
+		Specific range requirement
+		Specific position requirement
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	

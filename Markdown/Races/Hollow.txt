@@ -1,0 +1,151 @@
+#Race#
+	Hollow
+Hollows are revenants of people who suffered an unworthy or untimely death and who's job as a mortal is not finished.
+Like a ghost, a Hollow's pursuit is so strong that their soul refused to leave the mortal plane, and has come back into their own body to finish what they started.
+A hollow is an undead, yet not considered necessarily unholy.
+As a Hollow, you might have been revived by the god you follow, or simply your feeling of purpose was so strong that your soul did not leave your body when you died.
+A Hollow always has a goal, usually started when they were alive. Or, you might have gotten your goal when you died, such as exacting revenge on the person who killed you.
+Most of the time, hollows are devoid of emotions. Many common emotions they used to have are now numbed.
+They might retain emotions they particularily had when they were alive, such as love (if, for example, they had someone they loved very much).
+The primary emotion they feel is the one that drives them to their goal.
+In following their goal, a Hollow might be unusually hopeful or perseverent.
+The worst emotions a hollow can feel are uselessness and hopelessness.
+Sometimes, being hollow comes with partial amnesia. A Hollow might forget certain aspects of their past life, such as forgetting some skills or who some people were, where they lived, sometimes even what their name is, in which case a Hollow will come up with a name to represent them, based on what they know.
+After achieving their goal, a hollow usually feels complete, unless another goal arises.
+Then, it's the Hollow's choice what it wants to do: roam until their body becomes too rotten to continue and finally release their soul, or kill themselves, as their life's purpose was fulfilled.
+	Keywords: Vessel, Soul, Willpower, Husk
+
+
+#OTHER#
+When choosing Hollow as a race:
+	Choose which race you were prior to your death.
+	This is only for aesthetics and storytelling purposes.
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Wisdom, Intelligence or Dexterity
+	Choose one: +2 Charisma Saves or +2 Fortitude Saves
+	Choose one: +2 Health or +1 Save DC
+	
+#Skills#
+You have -1 Athletics, -1 Luck, -1 Nature, -1 Persuasion and -1 Animal Handling
+
+#Stats#
+Base Health: 2
+Movement: 6 meters
+Lifespan: 1 to 20 years as a Hollow
+Languages: Any common language specific to your past life race
+
+#Language#
+If your Intelligence is at least 1, you can speak 1 additional Common language.
+
+#Abilities#
+You start with the following racial abilities:
+
+[Undeath] : Passive
+You have Advantage to rolls against Diseases.
+You have 50% vulnerability to Fire damage and to attacks done with silver weapons.
+You do not require food to survive, but you do require 8 hours of sleep per day, water and air.
+You are considered Undead.
+
+[Valiant] : Passive
+When you drop to 0 Health, you can still take your next turn without penalty.
+After your next turn, you fall unconscious.
+You also fall unconscious in that time if you take damage again.
+
+#LevelBonus#
+At Level 1, you can pick one of the following talents and know it permanently:
+
+{Husk} : Reaction
+When an ally near you would be damaged by an attack, you can take that damage for them instead.
+You can do this once per Long Rest.
+
+{Beating Heart} : Passive
+You slow down the decaying of your body and increase your life span by up to 100 years.
+Your maximum health also increases by 3.
+
+#LevelBonus#
+At Level 2 you gain +2 Feat Points.
+And don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 3, your maximum number of Charges increases by +1.
+Your maximum Health also increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 4 you gain the Action Surge ability. Use it wisely!
+
+[Action Surge] : 0 Actions
+Gain an extra 1 Action this turn!
+You can do this once per Long Rest.
+
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 5, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 6, choose any of your 5 base Stats and increase it by +1 (up to a maximum of +4).
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 7, your maximum number of Charges increases by +1.
+Your maximum Health increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 8, you gain +2 Feat Points and don't forget to choose a Talent from your class.
+
+#LevelBonus#
+At Level 9, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 10, you have reached the peak of your skill.
+Congratulations!
+But don't forget to choose a Talent from your class.
+It will be a powerful one!
+
+
+#PageEnd#
+	
+	At Level 3:
+
+
+
+{Soul Vessel} : Passive
+
+
+{Release} : 0 Actions
+Your soul temporarily exits your body, leaving your body motionless to the ground. While outside your body, the soul can't do anything except perceive.
+You can return to your body for 0 Actions on your turn.
+While outside your body, you have +3 on Perception, Insight and Luck.
+If more than 1 minute outside the body passes, your soul instantly re-enters the body.
+You can do this once per Long Rest.
+
+{Kindled} : Passive
+You are no longer vulnerable to Fire damage.
+After every worthy encounter, if your health is below 25% and you are conscious, heal back to 25% Health.
+
+
+
+{Painless Revenge} : 0 Actions
+Choose an enemy near you.
+That enemy performs an attack on you.
+If you survive the attack, you gain 1 Action which you can use to attack or cast spells on that enemy.
+You can do this once per Long Rest.
+
+{Darkvision} : Passive
+You can see up to 12 meters away in darkness, without discerning colors.
+
+
+
+
+
+
+
+

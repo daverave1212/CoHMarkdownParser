@@ -1,0 +1,352 @@
+
+#Class#
+		Warlock
+Warlocks are people who made pacts with powerful beings
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Charisma, Intelligence, Wisdom, Dexterity, Fortitude
+	Choose one: +1 Weapon Effect or +2 Spell DC
+	Choose one: +5 Health or +2 Fortitude Save or +2 Wisdom Save
+
+#Skills#
+You have +1 Religion, +1 Knowledge and +1 Perception.
+You have -1 Stealth, -1 Luck and -1 Survival
+
+#Stats#
+Base Health: 10 + (Fortitude)
+Bonus Health when leveling up: +5
+
+
+#Language#
+If your Intelligence is at least 2, choose one Higher language you can speak.
+
+
+#MainStat#
+Choose between Intelligence, Dexterity or Charisma. This is your Main Stat.
+
+Your Spell DC is 8 + (Main Stat).
+Your Spell Hit Bonus is (Main Stat).
+
+You are Trained in Spells.
+Some spells will tell you to add your Spell Power to the damage dice.
+Your Race tells you what your Spell Power is.
+
+You have 2 Charges: O O
+Certain Abilities require you to spend Charges.
+You regain all Charges back when you rest.
+
+#SpellList#
+You know a total number of spells and maneuvers equal to 2 + Your Level + Your Intelligence.
+You can reasign your spells whenever you level up.
+This is your spell list:
+
+Maneuvers: All
+Basic Spels:
+	[Acid Burst] : 0.5 Actions
+	{Poison Spray} : 0.5 Actions
+	[Burning Breath] : 0.5 Actions
+	[Bonfire] : 1 Action
+	[Dancing Blade] : 1 Action
+	[Eldritch Blast] : 1 Action
+	[Fire Bolt] : 1 Action
+	[Guidance] : Reaction
+	[Hollow Touch] : 1 Action
+	[Flameblade] : 0 Actions
+	[Magic Missiles] : 1 Action
+	[Mastery] : 1 Action
+	[Mind Blast] : 1 Action
+	[Prestidigitation] : 1 Action
+	[Thaumaturgy] : 1 Action
+	[Thunder Clap] : 1 Action
+Normal Spells:
+	[Chaining Grasp] : 0 Actions
+	[Absorb Element] : Reaction
+	[Animate Dead] : 1 Action
+	[Charming Word] : 1 Action
+	[Cure Wounds] : 1 Action
+	[Dispel Magic] : 1 Action
+	[Fog Cloud] : 1 Action
+	[Curse of Pain] : 1 Action
+	[Curse of Weakness] : 1 Action
+	[Deathfire Bolt] : 1 Action
+	[Distort Vision] : 1 Action
+	[Fake Sound] : 0.5 Action
+	[Mage Armor] : 1 Action
+	[Phase Orb] : 0.5 Actions
+	[Scorching Rays] : 1 Action
+	[Turn Undead] : 0 Actions
+Higher Level Spells:
+	[Antimagic Rune] : 1 Action (Level 4)
+	[Conjure Object] : 1 Action (Level 4)
+	[Fire Ball] : 1 Action (Level 4)
+	[Invisibility] : 1 Action (Level 4)
+	[Levitate] : 1 Action (Level 4)
+	[Sense Magic] : 0 Actions (Level 4)
+	[Spare the Dying] : 1 Action (Level 4)
+	[Spider Climb] : 1 Action (Level 4)
+	[Translation] : 0 Actions (Level 4)
+	Portal] : 4 Hours (Level 8)
+	[Wraithwalk] : 0 Actions (Level 8)
+	
+
+#ClassAbilities#
+You start with the following class abilities:
+
+[Life Tap] : 0.5 Actions
+Take 6 damage.
+Gain 1 Charge.
+//You can't have more than 2 Charges, but this is in the rules
+	~ 3 Charges ?
+
+#Other#
+Choose one of the following types of patrons:
+[Fey Patron] : Passive
+Your lord is a higher fey creature.
+You can pick a Racial Ability from any other race and have it permanently.
+Your Spell DC increases by +2 when you try to put enemies to Sleep or to Charm them.
+
+[Celestial Patron] : Passive
+Your lord is a celestial being, who lives in a higher plane.
+Your Spell DC increases by +2 when you try to Snare or Blind enemies.
+
+	[Life Cycle] : 0.5 Actions
+	Take 6 damage and heal an ally within 3 meters for 6 Health.
+	Or deal 6 damage to a willing ally within 3 meters and heal yourself for 6 Health.
+
+[Demon Pact] : Passive
+Your lord is a powerful demon.
+Once per Long Rest, you can use Life Tap for 0 Actions and without taking Damage.
+Your Spell DC increases by +2 when you try to Stun enemies.
+
+[Old God Pact] : Passive
+Your lord is an old, slumbering god.
+The first time you choose a Race talent, gain all of them.
+
+	// ~ 3.25 Charges
+
+
+Now that your character is almost ready, choose your specialization:
+
+#Specialization#
+At Level 1, you can choose your specialization.
+Every Warlock can choose from the following Warlock specializations:
+- Hexblade, a user of both magic and a weapon infused with the power of their master
+- Summoner, specialized in calling for aid from familiars and other worldly beings
+- Waverer, whose master's magic is far beyond its control: one who should expect the unexpected
+	
+
+
+#Spec#
+	Hexblade	~ 4.25 Charges
+Lorem ipsum snitel dolor.
+
+[Sentient Weapon] : Passive
+You have a Hexblade Weapon, inside which your patron lies, either possessing the weapon, being trapped inside it or using it as a means of communication with you.
+Pick any weapon type, and it becomes your Hexblade Weapon.
+You can customize your weapon's personality, voice, the way it looks. Talk to your DM about this.
+You are automatically considered trained in your Hexblade Weapon.
+There is no penalty to casting spells while wielding the Hexblade Weapon.
+
+[Hexblade] : Passive	~ 1 Charge
+After you cast an offensive spell, your next weapon attack deals +1 (1-Handed) or +2 damage (2-Handed) if it hits.
+
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Shapeshifting Weapon} : 0 Actions
+You can instantly change the type of weapon of your Hexblade.
+
+{Hexstaff} : Passive
+Your [Hexblade] Ability is changed and now has the following effect:
+After you attack with a weapon, your next spell has +1 DC, +1 to hit and deals +1d4 damage.
+
+{Doublehex} : Passive
+You now have 1 more Hexblade Weapon, of any kind. The same patron or another one is possessing your second weapon.
+At any time, you can vanish or resummon either weapon.
+You must wait at least 5 minutes (for each weapon separately) after resummoning a weapon to vanish it again.
+
+	// Invoke weapon or draw it
+	// change hexblade to be weapon-specific or only spell-specific
+
+
+
+
+
+#Spec#
+	Summoner //	~ 4.5 Charges
+Lorem ipsum snitel dolor.
+
+[Summon Familiar] : 1 Hour	 //	~ 1 Charge
+You conjure a ritual using various magical materials worth 25 Gold.
+The first time you cast this ritual, you summon a familiar which becomes yours.
+You can choose which type of familiar you want:
+- It can take the shape of a small creature.
+- It can look spectral or look as a normal animal with a slight glow (does not radiate light).
+- You can choose what color it is if it's spectral or what color its glow is.
+Also, choose an element which is bound to it: Fire, Water, Frost, Arcane, Thunder, Earth, Wind, Light or Darkness.
+That becomes your Familiar Element.
+Your familiar comes with a name. Roll for your familiar name on the Familiar Name Table (or your DM will choose one for you).
+You can communicate with your Familiar telepathically.
+The familiar doesn't take turns on its own, but at the same time as you.
+On your turn, your familiar can use its own movement to move, but you must spend your actions for it to take actions.
+If your familiar goes more than 20 meters away from you, it becomes unsummoned.
+If it dies, it becomes unsummoned.
+You can always summon it back with this Ability.
+After your familiar is unsummoned, it needs 24 hours to be summonable back.
+
+Your familiar has the following stats:
+- Health: 10 + Your Fortitude + 2 per level after level 1.
+- Armor: 10 + Your Dexterity
+- Stats and Saves: Same as yours
+- Movement: Same as yours, can't fly, but it can swim
+- Attack Bonus: +3
+	[Pet Attack] : 0.5 Actions
+	The pet melee attacks a target.
+	The attack deals 1d8 + 1 damage (of your pet's elemental type).
+	You can do this once per turn.
+	
+As a summoner, you have access to special Familiar feats.
+These feats give you extra abilities for your Familiar.
+When creating your character, you also get one of these feats for free.
+
+	[Element Lash] : 1 Action
+	The closest creature (you choose if tie) to the familiar makes a Dexterity save.
+	If it fails, it takes 2d8 + 2 damage (of your Familiar Element).
+	3 meter range.
+	
+	[Soul Attack] : 1 Action
+	Spend 1 Charge.
+	Your familiar makes a melee attack against a creature.
+	If it hits, it deals 4d8 - 2 damage (of your Familiar Element).
+	After that, your familiar briefly disappears.
+	It appears back near you at the start of your next-next turn.
+	
+	[Meat Shield] : Reaction
+	Passively, your pet doubles its maximum health and its size becomes Large.
+	When you are attacked, before the attack roll, you can activate this to make your pet dash to your position and the attack will be redirected to your pet.
+	1 use / Long Rest.
+	
+	[Sentience] : Passive
+	Your familiar can speak and communicate in all languages you know.
+	Your Spell DC also increases by 1.
+	
+	[Seduce] : 0.5 Actions
+	Spend 1 Charge and choose a target within 6 feet of the familiar.
+	The target rolls a Wisdom save. If it fails, it is Charmed by your familiar, and your familiar is also Charmed by that creature.
+	(Nothing happens if the target is immune to being Charmed).
+	
+	[Devour Magic] : 1 Action
+	Spend 1 Charge.
+	Cure a debuff or curse on an ally.
+	Also, choose a target near the familiar.
+	That target rolls an Intelligence save.
+	If it fails, it is Silenced and takes 1d10 damage (of your Familiar Element).
+
+	[Health Funnel] : 1 Action
+	Deal 6 damage to your Familiar, and you gain 3 Health.
+	Or..
+	Deal 6 damage to yourself, and your Familiar gains 3 Health.
+	
+	[Camouflage Master] : 1 Action
+	Spend 1 Charge.
+	You and your familiar gain +5 Stealth for 10 minutes.
+
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Tongues} : Passive
+You can speak all common languages.
+
+{Drain Soul} : 1 Action
+Choose a target within 3 meters.
+Deal 3 Necrotic damage to that target.
+If it dies until the start of your next turn, you gain 1 Charge.
+
+{Dream Walk} : Channeled
+Spend 1 Charge.
+Choose a sleeping target you can see within 6 meters.
+It makes a Wisdom save with Disadvantage.
+If it fails, you can alter their dream to your liking.
+The target wakes up if they die, or the DM might have the target make another save for waking up later.
+
+	// Talent: speak all languages
+	// summons either one loyal demon or multiple familiars
+	// Soul Shards?
+	
+#Spec#	
+	Waverer	~ 3.85 Charges
+Lorem ipsum snitel dolor.
+
+[Natural Resister] : Passive
+Due to your magical instability, you gain 50% resistance to an elemental damage type of your choice.
+(Fire/Cold/Thunder/Force/True/Necrotic)
+	
+[Chaos Magic] : 1 Action
+Spend 1 Charge and roll 1d6 to see which effect happens.
+All of these effects have 6 meters range if not specified otherwise.
+1. Aftermath
+Heal the closest 2 other allies for 4 Health.
+2. Blast Burst
+You and all creatures directly around you take 3d6 Fire damage.
+3. Chaos Bolt
+Make a spell attack against a target. If it hits, deals 3d6 + 6 Thunder/Fire/Cold damage (you choose).
+4. Deafening Rend
+All creatures in front of you in a 4 meter line make a Wisdom save.
+If they fail, they are Silenced.
+5. Eldritch Incantation
+An enemy makes a save. You choose what stat it uses for the save.
+If it fails, it takes 6 damage, it is pushed up to 3 meters in any direction you choose and it is Crippled.
+6. A creature you choose makes an Intelligence save. If it fails, it is Paralyzed for 1 minute.
+
+[Controlled Magic] : Reaction
+Spend 1 Charge.
+Instead of rolling 1d6, choose the effect of the Chaos Magic you just cast (before you roll).
+
+	At Level 1:
+{Drain Soul} : 1 Action
+Choose a target within 3 meters.
+Deal 3 Necrotic damage to that target.
+If it dies until the start of your next turn, you gain 1 Charge.
+
+{Tribute of Power} : Passive
+Permanently remove 2 of the effects of Chaos Magic.
+If you roll those numbers on the d6 for Chaos Magic, reroll the die.
+
+{Dream Walk} : Channeled
+Spend 1 Charge.
+Choose a sleeping target you can see within 6 meters.
+It makes a Wisdom save with Disadvantage.
+If it fails, you can alter their dream to your liking.
+The target wakes up if they die, or the DM might have the target make another save for waking up later.
+
+#PageEnd#
+
+	// chaos 3 orbs mechanic
+	// Talent: Soul drain - gives you a charge if the target dies
+	// Some abilities are not considered spells
+	// Talent: spell book, duh
+	
+		Trap			
+		Elemental Damage
+		Buffs
+		Choose between
+		Damage
+		Mobility
+		Pro and Con
+		On kill		
+		Zoning		
+		Swap Position
+		Return on investment
+		AoE
+
+
+
+
+
+
+
+
+
+
+

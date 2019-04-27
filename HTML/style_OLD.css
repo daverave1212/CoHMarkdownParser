@@ -1,0 +1,191 @@
+
+@font-face{
+	font-family: Dum;
+	src: url(Fonts/dum1.ttf);
+}
+
+@font-face{
+	font-family: Isk;
+	src: url(Fonts/iskpotab.ttf);
+}
+
+body{
+	width: 60%;
+	margin: auto;
+	font-family: Isk;
+	font-size: 1.2em;
+	background-color: #fffcf7;
+	//-webkit-transform:scale(0.95,1); /* Safari and Chrome */
+    //-moz-transform:scale(0.95,1); /* Firefox */
+    //-ms-transform:scale(0.95,1); /* IE 9 */
+    //-o-transform:scale(0.95,1); /* Opera */
+    //transform:scale(0.95,1); /* W3C */
+}
+div{
+	padding-left: 10px;
+}
+
+h1{
+	font-size: 2.8em;
+}
+h2{
+	font-size: 2.8em;
+	text-align: center;
+}
+h3{
+	font-size: 1.85em;
+}
+h4{
+	font-size: 1.7em;
+}
+
+h1, h2, h3, h4{
+	font-family: Dum;
+	margin: 0px;
+	text-decoration: underline;
+	letter-spacing: 0.05em;
+	margin-bottom: 10px;
+	margin-left: -5px;
+}
+
+p{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+
+
+
+.Class{
+	margin-top: 5vh;
+	margin-bottom: 1vw;
+}
+
+.ChoicePar{
+	border-left: solid #c760ff 4px;
+	padding-left: 10px;
+}
+
+.SkillsPar{
+	border-left: solid #8fe258 4px;
+	padding-left: 10px;
+}
+
+.LanguagePar{
+	border-left: solid #CCCCFF 4px;
+	padding-left: 10px;
+}
+
+.StatsPar{
+	border-left: solid #f48642 4px;
+	padding-left: 10px;
+}
+
+.MainStatPart{
+	margin-bottom: 15px;
+	border-left: solid #5194f0 4px;
+}
+
+.Spec{
+	padding: 5px;
+	border-top: solid #BB5555 6px;
+	border-radius: 3px;
+	margin-top: 35px;
+}
+
+
+.Spell{
+	max-width: 550px;
+	border: solid #CCCCDD 2px;
+	border-radius: 8px;
+	padding: 5px;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #F5F5F5;
+}
+
+.SpellContentWrapper{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+	.SpellIconWrapper{
+		flex: 2;
+		padding: 0px;
+		justify-content: center;
+		display: flex;
+	}
+	.SpellIconWrapper img{
+		width: 64px;
+		height: 64px;
+		margin-top: 10px;
+		border: solid #CCCCDD 2px;
+		border-radius: 8px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+	.SpellText{
+		flex: 7;
+	}
+		.SpellTitle{
+			font-family: Isk;
+			text-decoration: none;
+			line-height: 1em;
+			font-size: 1.2em;
+			margin-bottom: 8px;
+			margin-top: 5px;
+			letter-spacing: 0em;
+		}
+		
+		.SpellTitleAbility{
+			color: #333333;
+		}
+		
+		.SpellTitleTalent{
+			color: #CC0077;
+		}
+		
+		.SpellTitleCreature{
+			color: #00AA00;
+		}
+		
+		.SpellTitleSubSpell{
+			color: #AAAA00;
+		}
+
+			.SpellActionsNormal{
+				color: #5194f0;
+			}
+			
+			.SpellActionsPassive{
+				color: #bca549;
+			}
+		.SpellDescription{
+			margin-bottom: 8px;
+		}
+
+
+
+
+
+
+
+
+.Tag_Loyalty{
+	color: #AA8800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

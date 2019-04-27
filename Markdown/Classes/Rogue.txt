@@ -1,0 +1,251 @@
+#Class#
+
+		Rogue
+Rogues are masters of stealth and deception.
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Charisma, Wisdom, Dexterity, Intelligence
+	Choose one: +1 Weapon Effect or +1 Fortitude
+	Choose one: +2 Fortitude Save or +2 Intelligence Save or +2 Spell DC
+	
+#Skills#
+You have +1 Stealth, +1 Acrobatics and +1 Sleight of Hand
+You have -1 Religion, -1 Persuasion, -1 History
+
+#Stats#
+Base Health: 5 + (Fortitude x 2)
+Bonus Health when leveling up: +5
+
+#Language#
+If your Inteligence is at least 1, you know Thieves' Cant.
+Thieves' Cant is not a spoken language, but rather a set of symbols, sign language and code names for various objects, places or people.
+Use Thieves' Cant wisely!
+
+#MainStat#
+Choose between Intelligence or Charisma. This is your Main Stat.
+
+Your Spell DC is 8 + (Main Stat).
+Your Spell Hit Bonus is (Main Stat).
+
+You have 3 Charges: O O O
+Certain Abilities require you to spend Charges.
+You regain all Charges back when you Long Rest.
+
+#SpellList#
+You know a total number of maneuvers equal to 2 + Half of Your Level + Your Intelligence.
+You can reasign your maneuvers whenever you level up.
+You do not cast spells.
+
+#ClassAbilities#
+You start with the following class abilities:
+
+[Ambush] : Passive
+If you are hiding, your next attack has +1 to hit and deals + 1d6 damage.
+When doing this, you can also spend as many charges as you want (and can).
+That attack gains +1 to hit and + 1d6 damage more for each Charge spent.
+This can only happen once per turn.
+
+Now that your character is almost complete, choose a specialization:
+
+	//~ 3.60 Charges
+	//~ Nerf: Lowered health by 2
+
+#Specialization#
+At Level 1, you can choose your specialization.
+Every Rogue can choose from the following Rogue specializations:
+- Thief, an agile-handed individual, crafty and stealthy, dexterous and silent
+- Assassin, a person specialized in taking targets out one-on-one, through whatever means
+- Skirmisher, an outlaw who is not afraid to engage in direct combat and apply whatever tricks necessary to get the job done
+	
+
+#Spec#
+Thief	~ 4.5 Charges
+Lorem ipsum snitel dolor.
+
+[Agile Hand] : Passive
+You can pick locks.
+You have +2 Sleight of Hand and +2 Stealth.
+You can do the Disengage maneuver even if you don't have it and it uses 0 Actions.
+
+[Fool's Coin] : Passive
+Whenever you deal damage to a worthy enemy, you can spend 1 Charge.
+If you do, you gain Gold Tokens, an imaginary currency, equal to one of the rolled dice (you choose).
+When in a town or city, you can convert all Gold Tokens to actual gold coins (1 for 1) (this is done on a Long Rest).
+
+[Backstab] : Passive
+When you flank an enemy, Ambush is applied.
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Smuggler's Skill} : Passive
+Each Gold Token is now worth 3 gold coins.
+
+{Arcane Trickster} : Passive
+You are now trained in spells.
+You permanently know 2 spells from the following spell list:
+	Acid Burst  : 0.5 Actions
+	Burning Breath  : 0.5 Actions
+	Conjure Ammo  : 1 Action
+	Control Flames  : 1 Action
+	Control Water  : 1 Action
+	Flameblade  : 0 Actions
+	Light  : 1 Action
+	Magic Missiles  : 1 Action
+	Mastery  : 1 Action
+	Prestidigitation  : 1 Action
+	Chaining Grasp  : 0 Actions
+	Charming Word  : 1 Action
+	Cure Poison  : 1 Action
+	Distort Vision  : 1 Action
+	Fake Sound  : 0.5 Action
+	Mage Hand  : 0 Actions
+	Unlock  : 1 Action
+	Shadow Clone  : 0 Actions
+	Encode Thoughts  : 1 Action (Level 4)
+	Invisibility  : 1 Action (Level 4)
+	Levitate  : 1 Action (Level 4)
+	Sense Magic  : 0 Actions (Level 4)
+	Spider Climb  : 1 Action (Level 4)
+When you level up, you can change one of these abilities with another from the same list.
+You learn 1 additional ability at Level 4, and another one at Level 8.
+	
+{Way of Fooling} : Passive
+Your Charisma is increased by 2, (up to a maximum of 4).
+
+	// talent: heavily increase agile hand gold tokens gained (to like all dice or idk)
+
+
+#Spec#
+Assassin
+Lorem ipsum snitel dolor.
+
+[Assassin's Very Special Perk] : Passive
+You can pick locks.
+	
+[Isolated] : Passive
+When you attack an enemy, and there is no other creature near that enemy (except you), the attack gains Ambush.
+If you are already Ambushing the target, the attack gains an additional +1 to hit and + 1d6 damage.
+
+[Planned Assassination] : 1 Action
+Spend 1 Charge and declare a target you can see.
+Your next attack on that target has +1 to hit and deals + 1d10 Poison damage if it hits.
+Planned Assassination fails if your Line of Sight to the target is broken.
+
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Take Out} : 1 Action
+Spend 1 Charge.
+A target near you rolls a Dexterity save.
+If it fails, it is put to Sleep for 1 minute and you gain the Action back.
+You must be hiding to use Take Out, and the target must be Isolated.
+This ability unhides you!
+
+{Poison Master} : 1 hour
+Spend 1 Charge.
+Using ingredients costing 35 Gold, you are able to create a few drops of Drinkable Poison.
+Someone ingesting them takes 1d12 Poison damage instantly.
+Combining multiple instances of Drinkable Poison increases its damage by 1d12 for each Drinkable Poison combined.
+The poison loses its effect after 48 hours.
+
+{Shadowstep} : 0.5 Actions
+Spend 1 Charge.
+If you are covered in shadow, choose another point covered in shadow up to 6 meters away.
+Instantly teleport to that place.
+This is considered a Spell.
+
+
+
+#Spec#
+Skirmisher	~ 4.5 Charges
+Lorem ipsum snitel dolor.
+
+[10% Luck] : Passive
+Your attacks crit on natural 19 rolls.
+
+[Savagery] : Passive
+Attacks on creatures which have 50% or less health gain Ambush.
+
+[Parry] : Reaction
+Spend 1 Charge.
+Halve the damage of a weapon attack you receive.
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Cheap Tricks} : 1 Action
+Spend 2 Charges.
+A target within 3 meters rolls a Dexterity save.
+If it fails, it is Blinded for 2 turns.
+
+{Whiplash} : 0 Actions
+Spend 1 Charge.
+Throw a whiplash at a grabbable point within 6 meters.
+Pull yourself to a target point.
+_Requires a Whiplash item, which can be bought for 100 gold._
+
+{Quickfire} : 0 Actions
+Spend 1 Charge.
+Perform an attack with a (loaded) 1-Handed Gun or Crossbow.
+This attack does not trigger attacks of oportunity and can be used in melee range without penalty.
+
+#PageEnd#
+
+	// pistol shot shit
+
+Traps
+	Pick Lock
+	Poisons
+	Deception Master
+
+// Assassin: 2 turns from now, evelyn's charm
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 Action = 7 + (2.5 to 13) =~ 11
+0.5 Actions =~ 5.5 
+1 Charge =~ 0.5 Actions advantage
+Classes have: 3 Charges worth/Rest and 3 Charges
+1d10 Heal = 1 Charge, 0 Actions
+
+Self Heal
+Stun, Slow, Snare
+AoE
+Defense vs spells
+Defense vs melee
+Buff
+
+
+
+Base Weapons: (~7.0 damage/turn)	CC			Druid		Shaman
+	2d6								Trap			Mage		Warlock
+	1d12							Elemental Damage	Monk		Warrior
+	1d10 + 1						Buffs			Necromancer
+	1d8  + 2						Choose between		Priest
+	2d4  + 2						Damage			Ranger
+	1d8  + 1d4						Mobility		Rogue
+	3d4								Pro and Con
+Arcanist	Outlaw					On kill
+									Cone/Around u/Target aoe/line
+									Zoning
+									Swap Position
+									
+Champion	Inquisitor					
+Jester		Necromancer		
+					Living? Type of Enemy
+					Return on investment
+
+
+
+
+

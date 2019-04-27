@@ -1,0 +1,273 @@
+#Class#
+
+		Warrior
+Warriors are highly trained combat experts
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Charisma, Wisdom, Dexterity, Fortitude
+	Choose one: +1 Weapon Effect or +5 Health
+	Choose one: +2 Intelligence Save or +2 Charisma Save or +2 Wisdom Save
+	
+#Skills#
+You have +1 Athletics, +1 Acrobatics and +1 Survival
+You have -1 Investigation, -1 Deception, -1 Luck
+
+#Stats#
+Base Health: 7 + (Fortitude x 2)
+Bonus Health when leveling up: +6
+
+#Language#
+A true warrior speaks the language of battle!
+(Being a warrior does not grant you other languages, except the ones you already speak.)
+
+#MainStat#
+Choose between Strength, Dexterity or Wisdom. This is your Main Stat.
+
+Your Spell DC is 8 + (Main Stat).
+Your Spell Hit Bonus is (Main Stat).
+
+You have 3 Charges: O O O
+Certain Abilities require you to spend one Charge.
+You regain all Charges back when you Long Rest.
+
+#Other#
+All Abilities given by any below Specialization are considered Maneuvers, unless specified otherwise.
+
+// give him special intelligence bonuses >:)
+
+#ClassAbilities#
+You start with the following class abilities:
+
+[Advanced Flank] : Passive
+When you flank an enemy, or an ally flanks an enemy with you, add a bonus +1 to the roll.
+
+Now that your character is almost complete, choose a specialization:
+
+#Specialization#
+At Level 1, you can choose your specialization.
+Every Warrior can choose from the following Warrior specializations:
+- Fighter, a person specialized in weapon fighting and body-to-body combat
+- Battlemaster, a heavily trained and armed warrior; master yourself - master the enemy
+- Barbarian, a crude and battle thirsty warrior, who seeks to shed blood and lives for the fight
+- Marksman, a precise and mechanical soldier, always finding the best tactic and position; he wins the battle before it began
+	
+
+
+#Spec#
+	Fighter //~ 3.75 Charges
+Lorem ipsum snitel dolor.
+
+[Overpower] : 0 Actions
+Spend 1 Charge.
+Gain 0.5 Actions more this turn.
+You can do this once per turn.
+You can't cast spells this turn after using Overpower.
+
+[Upper Hand] : Passive
+All attacks you make before you move in a turn count as if they are flanking.
+If you are wielding a 1-Handed weapon, when you make an attack of opportunity, you can do 2 attacks of opportunity instead (with that weapon).
+You have +2 in Athletics, Acrobatics and Survival.
+
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Master Positioner} : Passive
+Your melee attacks have 2 meter range (instead of 1).
+_Notice: Your attacks of oportunity still require the enemy to exit your adjacency._
+
+{Weaponmaster} : Passive
+When you get this, choose one weapon type.
+You have that weapon effect too, no matter what weapon you are using.
+
+{Melee Pile} : 0 Actions
+Spend 1 Charge.
+All Medium or smaller creatures within 2 meters of you are pulled to their closest points to you.
+
+#Spec#
+	Battlemaster //	~ 4 Charges ?
+Lorem ipsum snitel dolor.
+
+[Solid Defense] : Passive
+You have some special points called Defense points.
+After every Long Rest, you have 2 + (Your Level / 2) Defense points on top of your regular Health.
+You can't have more Defense points than (Your Level) at a time.
+When you take damage, your Defense points absorb some of that damage, 1 for 1, but...
+You have 50% resistance to Pierce, Slash and Smash damage while you have at least 1 Defense point.
+(Ex: If you have 3 Defense Points and you would take 8 Damage from a Slash attack, you take 1 damage and you lose all those 3 Defense Points)
+
+[Defense Up] : 1 Action
+Spend 1 Charge.
+Gain Defense points equal to 2 + (Your Level / 2).
+
+[Obliterate] : Depends on weapon
+Perform an attack.
+This attack deals bonus damage equal to your current Defense points if it hits.
+Lose all Defense points after this attack, even if it misses.
+
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Protect the Meek} : 1 Action
+Transfer all your Defense Points to an ally near you.
+
+{Master Positioner} : Passive
+Your melee attacks have 2 meter range (instead of 1).
+
+{Bashing Charge} : 1 Action
+Spend 1 Charge.
+Move 3 meters in a straight line, then choose a target near you.
+That target takes 1d6 damage and rolls a Fortitude save.
+If it fails, it is Stunned.
+
+
+	Talents:
+		Move Defense to ally
+		All allies around you gain defense
+		Stances
+		Reach (and flank)
+		Ralying Cry : Clear all allies of Stun and healt hem for 1
+		Every x spells cast, heal all allies for 1
+
+	
+#Spec#
+	Barbarian : //~ 4 Charges ?
+Lorem ipsum snitel dolor.
+
+[Onslaught] : Passive
+Whenever YOU kill a worthy enemy, heal for 1d8.
+
+[Reckless Attack] : Depends
+Spend 1 Charge.
+Perform an attack with a weapon.
+This attack deals 2d6 bonus damage to both you and the target, regardless if it hits.
+
+[Undying Rage] : Reaction
+Spend 2 Charges.
+Taking damage that would kill you leaves you at 1 Health instead.
+
+[Blood Boil] : 0 Actions
+Spend 1 Charge.
+Heal for 2d6 health.
+
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Heart Trance} : 0 Actions
+Spend 1 Charge.
+Take 2d6 damage.
+Enter a Heart Trance until the end of your next turn.
+While in Heart Trance, you take 50% less damage from Fire, Frost, Necrotic and Thunder damage and you have +3 on Acrobatics and Intimidation rolls.
+When Heart Trance ends, heal for 2d6.
+
+{Rage Trance} : 0 Actions
+Spend 1 Charge.
+Take 2d6 damage.
+Until the end of your next turn, you are immune to stuns, slows, snares, cripples and being knocked prone.
+Your attacks while in Rage Trance have an extra +1 to hit and you have +3 on Athletics.
+When Rage Trance ends, heal for 2d6.
+
+{Battle Trance} : 0 Actions
+Spend 1 Charge.
+Take 2d6 damage.
+Enter a Battle Trance that lasts until the end of your next turn.
+You gain a protective shield around you which absorbs up to 4 + Your Level physical damage.
+When Rage Trance ends, heal for 2d6, and the shield fades.
+
+
+	Talents:
+		Stances
+		Lower health = more damage
+		Permanently increase health by 1 for each enemy killed
+
+
+	Marksman
+	~ 4.25 Charges
+[Marksmanship] : Passive
+YOU can flank a target from up to 6 meters away (if you, the target and the ally are on the same line).
+(As usual, that ally must right behind the target)
+
+[Reload] : Passive
+Your first regular weapon attack in an encounter deals +1d10 damage if it hits.
+Your second regular weapon attack in the encounter has +2 to hit.
+Your third regular weapon attack and all upcoming ones in the encounter have -5 to hit.
+You can spend 1 Charge to 'reset' this Ability to its original state.
+
+[Point Mark] : 0 Actions
+Mark a point on the ground, up to 15 meters away.
+Allies and you can use the mark to flank targets.
+Those attacks do benefit from Advanced Flank.
+You can do this once per Long Rest.
+
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Recoil Shot} : 0 Actions
+Spend 1 Charge and choose a target within 3 meters.
+Dash up to 2 meters away from the target.
+The target rolls a Fortitude. If it fails, it is pushed 2 meters away from you.
+
+{Harpoon} : 1 Action
+Spend 1 Charge and choose a target within 6 meters.
+Roll a ranged weapon attack on it, and the target rolls a Dexterity save.
+The following things happen, depending on the outcome of the rolls:
+ You hit, target fails: Target takes 2d8 + 1 damage, and both are pulled towards eachother, meeting at the middle of the range.
+ You hit, target succeeds: Target takes 2d8 + 1 damage, and you are pulled to the closest point near the target.
+ You miss, target fails: Target is pulled to the closest point near you.
+ You miss, target succeeds: Nothing happens.
+Requires you to have at least 6 meters of rope (and you can take it back after you cast this).
+
+{Precise Weapon} : 1 hour
+Choose any weapon you have and make it Precise.
+That weapon's total default hit bonus becomes +4 (doesn't scale with Dexterity or Fortitude anymore) and anyone can use it, regardless if they are trained in it or not.
+The wielder of the weapon is also immune to Cripple effects and has Advantage against being disarmed.
+Making another weapon Precise makes the previous Precised weapon not Precise.
+Requires to be at a forge.
+
+#PageEnd#
+
+	//
+	// Take 5 damage. Break any stun, snare, slow, trap or fear.
+	// Lock in position and keep your Reload states
+
+
+
+
+
+1 Action = 7 + (2.5 to 13) =~ 11
+0.5 Actions =~ 5.5 
+1 Charge =~ 0.5 Actions advantage
+Classes have: 3 Charges worth/Rest and 3 Charges
+1d10 Heal = 1 Charge, 0 Actions
+
+Self Heal
+Stun, Slow, Snare
+AoE
+Defense vs spells
+Defense vs melee
+Buff
+
+
+
+Base Weapons: (~7.0 damage/turn)	CC			Druid		Shaman
+	2d6								Trap			Mage		Warlock
+	1d12							Elemental Damage	Monk		Warrior
+	1d10 + 1						Buffs			Necromancer
+	1d8  + 2						Choose between		Priest
+	2d4  + 2						Damage			Ranger
+	1d8  + 1d4						Mobility		Rogue
+	3d4								Pro and Con
+Arcanist	Outlaw					On kill
+									Cone/Around u/Target aoe/line
+									Zoning
+									Swap Position
+									
+Champion	Inquisitor					
+Jester		Necromancer		
+					Living? Type of Enemy
+					Return on investment
+
+
+
+
+

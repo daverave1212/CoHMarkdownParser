@@ -1,0 +1,568 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <title></title>
+</head>
+<body>
+<div class = "Navigation bordered">
+	<div class = "NavigationItem">
+		Classes
+		<div class = "NavigationDropdownContent bordered">
+			<div class = "NavAWrapper bordered">
+				<a href="Cleric.html">Cleric</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Druid.html">Druid</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Hunter.html">Hunter</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Mage.html">Mage</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Paladin.html">Paladin</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Rogue.html">Rogue</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Shaman.html">Shaman</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Warlock.html">Warlock</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Warrior.html">Warrior</a>
+			</div>
+			<div class = "NavAWrapper bordered locked">
+				<a href="#">Bard</a>
+			</div>
+			<div class = "NavAWrapper bordered locked">
+				<a href="#">Monk</a>
+			</div>
+			<div class = "NavAWrapper bordered locked">
+				<a href="#">Necromancer</a>
+			</div>
+		</div>
+	</div>
+	<div class = "NavigationItem">
+		Races
+		<div class = "NavigationDropdownContent bordered">
+			<div class = "NavAWrapper bordered">
+				<a href="Bertle.html">Bertle</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Dragonborn.html">Dragonborn</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Dwarf.html">Dwarf</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Gnome.html">Gnome</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Hollow.html">Hollow</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Human.html">Human</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Elf.html">Elf</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Orc.html">Orc</a>
+			</div>
+		</div>
+	</div>
+	<div class = "NavigationItem">
+		<a href = "Prices.html">Items</a>
+	</div>
+</div>
+<div class = "Window bordered-full">
+
+
+<div class="Class bordered">
+	<h2 class="Name golden-text">Ranger</h2>
+	<p class="DescriptionPar">You are a hunter, tracker, always on your toes. No matter your foe, be it a beast, a vampire or a dragon, you know best how to deal with it.</p>
+</div>
+<div class="split">
+<div class="Options bordered split-box">
+	<h3 class="OptionsHeader golden-text">When creating your character:</h3>
+	<p class="ChoicePar">Choose 2 of these, and increase them by 1: Fortitude, Dexterity, Wisdom</p>
+	<p class="ChoicePar">Choose one: +1 Weapon Effect or +2 Spell DC</p>
+	<p class="ChoicePar">Choose any 2 stats (Fortitude, Dexterity, ...) and increase their Save Bonuses by 1.</p>
+</div>
+<div class="Skills split-box">
+	<h3 class="SkilsHeader golden-text">Skills</h3>
+	<p class="SkillsPar">You have +1 Nature, +1 Stealth, +1 Perception</p>
+	<p class="SkillsPar">You have -1 Religion, -1 History, -1 Performance</p>
+</div>
+</div>
+<div class="split">
+<div class="Stats bordered split-box">
+	<h3 class="StatsHeader golden-text">Starting Stats:</h3>
+	<p class="StatsPar">Base Health: 7 + (Fortitude * 2)</p>
+	<p class="StatsPar">Bonus Health when leveling up: +5</p>
+</div>
+<div class="Language bordered split-box">
+	<h3 class="LanguageHeader golden-text">Languages</h3>
+	<p class="LanguagePar">If your Intelligence is at least 2, choose one Common or Wild language you can speak.</p>
+</div>
+</div>
+<div class="split">
+<div class="MainStat bordered split-box">
+	<h3 class="MainStatHeader golden-text">Spellcasting and Main Stat</h3>
+	<div class="MainStatPart bordered">
+		<p class="MainStatParagraph">Choose between Wisdom or Charisma. This is your Main Stat.</p>
+	</div>
+	<div class="MainStatPart bordered">
+		<p class="MainStatParagraph">Your Spell DC is 8 + (Main Stat).</p>
+		<p class="MainStatParagraph">Your Spell Hit Bonus is (Main Stat).</p>
+	</div>
+	<div class="MainStatPart bordered">
+		<p class="MainStatParagraph">You are Trained in Spells.</p>
+		<p class="MainStatParagraph">Some spells will tell you to add your Power to the damage dice.</p>
+		<p class="MainStatParagraph">Your Race tells you what your Power is.</p>
+	</div>
+	<div class="MainStatPart bordered">
+		<p class="MainStatParagraph">You have 3 Charges: O O O</p>
+		<p class="MainStatParagraph">Certain Abilities require you to spend one Charge.</p>
+		<p class="MainStatParagraph">You regain all Charges back when you Long Rest.</p>
+	</div>
+</div>
+<div class="ClassAbilities split-box">
+	<h3 class="AbilitiesTitle golden-text">Abilities</h3>
+	<div class="AbilitiesPart">
+		<p class="AbilitiesParagraph">You start with the following class abilities:</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Slay</span> : <span class="SpellActionsNormal">0 Actions</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Your next attack has the following effect:<br>If the target is below (or equal to) 50% Health, it does <span style="color: #FF5500">1d12</span> bonus damage if it hits.<br>Otherwise, heal deal <span style="color: #FF5500">1d6</span> damage to the target and to all creatures around the target if it hits.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Tumble</span> : <span class="SpellActionsNormal">0 Actions</span></h4>
+				<p class="SpellDescription">Move 1 meter in any direction, without triggering attacks of oportunity.<br>You can do this once per Long Rest.</p>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="Other">
+	<h3 class="OtherHeader golden-text">Other Notices</h3>
+	<div class="OtherPart">
+		<p>When creating your character, choose one of these abilities:</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Wicked Slayer</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">Your attacks against Monstrosities, Celestials and Unholy creatures have +1 to hit.<br>Your attacks are always treated as Magical or Silver for the purpose of some effects.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Mage Slayer</span> : <span class="SpellActionsPassive">Reaction</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Use when an enemy casts a spell.<br>That enemy rolls a Wisdom save.<br>If it fails, the spell is negated.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Giant Slayer</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">Weapon attacks and thrown spells deal +<span style="color: #FF5500">1d4</span> damage against Large or larger targets.<br>Enemies don't gain flanking bonus when attacking you.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Mankind Slayer</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">Against Humanoids, your attacks crit on natural 19 rolls.<br>If a Slay attack crits, all the Slay bonus damage crits too (double it).</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="SpellList bordered">
+	<h3 class="Spells golden-text">Casting Spells and Maneuvers</h3>
+	<p>You know a total number of spells and maneuvers equal to 2 + Half of Your Level + Your Intelligence.</p>
+	<p>You can reasign your spells whenever you level up.</p>
+	<p>This is your spell list:</p>
+	<ul class="ListOfSpells">
+		<li class="ListOfSpellsHeader">Maneuvers: All</li>
+		<li class="ListOfSpellsHeader">Basic Spells:</li>
+		<li class="ListOfSpellsElement">Conjure Ammo</li>
+		<li class="ListOfSpellsElement">Detect Poison and Disease</li>
+		<li class="ListOfSpellsElement">Land Breach</li>
+		<li class="ListOfSpellsElement">Flameblade</li>
+		<li class="ListOfSpellsElement">Light</li>
+		<li class="ListOfSpellsElement">Purify Food and Drink</li>
+	</ul>
+	<ul class="ListOfSpells">
+		<li class="ListOfSpellsHeader">Normal Spells:</li>
+		<li class="ListOfSpellsElement">Chaining Grasp</li>
+		<li class="ListOfSpellsElement">Absorb Element</li>
+		<li class="ListOfSpellsElement">Alarm</li>
+		<li class="ListOfSpellsElement">Charming Word</li>
+		<li class="ListOfSpellsElement">Cure Poison</li>
+		<li class="ListOfSpellsElement">Fairy Fire</li>
+		<li class="ListOfSpellsElement">Fake Sound</li>
+		<li class="ListOfSpellsElement">Influence Beast</li>
+		<li class="ListOfSpellsElement">Barkskin</li>
+		<li class="ListOfSpellsElement">Sense Magic</li>
+		<li class="ListOfSpellsElement">Speak With Animals</li>
+		<li class="ListOfSpellsElement">Wild Heart</li>
+	</ul>
+	<ul class="ListOfSpells">
+		<li class="ListOfSpellsHeader">Higher Level Spells:</li>
+		<li class="ListOfSpellsElement">Magic Prison</li>
+	</ul>
+</div>
+<div class="Specialization bordered">
+	<h3 class="SpecializationTitle golden-text">Choosing Your Specialization...</h3>
+	<p class="SpecializationPar">At Level 1, you can choose your specialization.</p>
+	<p class="SpecializationPar">Every Hunter can choose from the following Hunter specializations:</p>
+	<ul class="SpecializationsList">
+		<li class="SpecializationsListItem">Draven, a tracker and hunter of beats and men, never lost and never without purpose</li>
+		<li class="SpecializationsListItem">Warden, a potent user of fast and practical magic to use against foes, and with allies</li>
+		<li class="SpecializationsListItem">Beastmaster, a pack hunter, who finds friends in even the most ruthless of beasts</li>
+	</ul>
+</div>
+<div class="Spec bordered">
+	<h2 class="SpecTitle golden-text">Draven</h2>
+	<div class="SpecPart">
+		<p>Lorem ipsum snitel dolor.</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Tracker</span> : <span class="SpellActionsPassive">Passive		~~0.5 Chargess</span></h4>
+				<p class="SpellDescription">o You can more easily track creatures.<br>When you try to track a creature, your roll for that try gains +3.<br>If you succeed, you may learn about its size, how many of them there are, if it's injured or roughly how far away it is.<br>o Your party can't get lost in the wild except by magical means<br>o You (and your pets) are unaffected by Rough Terrain.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Hunter's Mark</span> : <span class="SpellActionsNormal">0 Actions</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Choose and mark a target within 12 meters.<br>Your single target attacks and thrown spells against the marked target have the damage dice increased by 1 tier.<br>(Ex: instead of <span style="color: #FF5500">2d6</span>, an attack would be <span style="color: #FF5500">2d8</span>.)<br>(d12's don't increase, they stay d12.)<br>When the target with the mark dies, you can use your Reaction to freely move the mark to another target.<br>You can do this only once per Long Rest.</p>
+			</div>
+		</div>
+	</div>
+	<div class="SpecPart">
+		<p>At Level 2, pick one of the following Talents and learn it permanently:</p>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Animal Companion</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">You have an animal pet that can fight alongside you!<br>Your animal has stats depending on its species.<br>By default, apply the following stats to your pet (these will get modified by your pet's species):<br>- Health: Half of yours<br>- Movement: 6 meters<br>Your pet takes its turn at the same time as you do, and always has the same initiative as yours.<br>Your pet can make normal Skill Checks using your Skill bonuses, or its own, using its special Stats.<br>Your pet will not stray more than 30 meters away from you in hostile territory.<br>On your turn, you can command it to move, but it can't take its own Actions.<br>You and your pet share the same Actions on a turn.<br>(ex: If you have 1 Action, your pet can use 0.5 Actions to attack and you can use 0.5 Actions to attack too, or your pet spends 1 Action and you skip your Actions, etc.)<br>All pets have the Pet Attack ability:</p>
+			</div>
+		</div>
+		<div class="Spell">
+			<div class="SpellContentWrapper">
+				<div class="SpellIconWrapper">
+					<img class="SpellIcon" src="None.png">
+				</div>
+				<div class="SpellText">
+					<h4 class="SpellTitle SpellTitleSubSpell"><span class="SpellName">Pet Attack</span> : <span class="SpellActionsNormal">0.5 Actions</span></h4>
+					<p class="SpellDescription">The pet melee attacks a target.<br>The attack has + your Main Stat.<br>The attack deals <span style="color: #FF5500">1d6</span> + your Main Stat - 1 (can't be lower than <span style="color: #FF5500">1d6</span> - 1).<br>You can do this once per turn.<br>Some abilities may say 'Perform a Pet Attack'. In that case, ignore the once-per-turn.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Flare Shot</span> : <span class="SpellActionsNormal">0.5 Actions</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Shoot a flare at a target point within 15 meters.<br>The area around the flare lights up in a 6 meter radius, creating normal light.<br>When cast, all allies in the area are cleared of Stun, Fear or Cripple.<br>Allies in the area have Advantage on rolls against Fear.<br>The flare lasts 1 minute.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Night Senses</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>For 1 Hour, you gain the following:<br>Your party has Dark Vision (15 meter range).<br>Your party has Advantage on rolls against Blinding.<br>Your party has +2 meter movement speed.</p>
+			</div>
+		</div>
+	</div>
+	<div class="SpecPart">
+		<p>At Level 4</p>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Multishot</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription"></p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Explosive Shot</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Perform a ranged attack.<br>If it hits, the target takes <span style="color: #FF5500">2d10</span> damage, and all adjacent creatures must make a Dexterity save.<br>If they fail, they take half of the damage of the primary target.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="Spec bordered">
+	<h2 class="SpecTitle golden-text">Warden</h2>
+	<div class="SpecPart">
+		<p>Lorem ipsum snitel dolor.</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Warden</span> : <span class="SpellActionsPassive">Passive	~0.50</span></h4>
+				<p class="SpellDescription">When creating your character, you can choose 2 more spells to know permanently from the Mage or Cleric spells list.<br>You also gain +1 in Arcana, Luck and Knowledge, and your Spell DC is increased by 2.<br>Slay is replaced by Quick Magic. Quick Magic is considered a Spell.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Quick Magic</span> : <span class="SpellActionsNormal">0 Actions		~0.25</span></h4>
+				<p class="SpellDescription">Spend any number of Charges.<br>Choose one of the following effects, then apply the exact same effect for each Charge spent (on the same target):<br>- Instantly deal <span style="color: #FF5500">1d6</span> Fire, Frost or Shock damage to a target, and permanently reduce its Armor by 1.<br>- Instantly heal a target for <span style="color: #FF5500">1d6</span>.<br>- Instantly dash 3 meters, ignoring attacks of oportunity, and going through enemies and small obstacles or medium gaps.<br>You can do this once per turn.<br>3 meters range for the damage effects.<br>Note: If you see Quick Magic +1, it means a Quick Magic worth 1 Charge, +2 means worth 2 Charges, etc.</p>
+			</div>
+		</div>
+	</div>
+	<div class="SpecPart">
+		<p>At Level 2, pick one of the following Talents and learn it permanently:</p>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Animal Companion</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">You have an animal pet that can fight alongside you!<br>Your animal has stats depending on its species.<br>By default, apply the following stats to your pet (these will get modified by your pet's species):<br>- Health: Half of yours<br>- Movement: 6 meters<br>Your pet takes its turn at the same time as you do, and always has the same initiative as yours.<br>Your pet can make normal Skill Checks using your Skill bonuses, or its own, using its special Stats.<br>Your pet will not stray more than 30 meters away from you in hostile territory.<br>On your turn, you can command it to move, but it can't take its own Actions.<br>You and your pet share the same Actions on a turn.<br>(ex: If you have 1 Action, your pet can use 0.5 Actions to attack and you can use 0.5 Actions to attack too, or your pet spends 1 Action and you skip your Actions, etc.)<br>All pets have the Pet Attack ability:</p>
+			</div>
+		</div>
+		<div class="Spell">
+			<div class="SpellContentWrapper">
+				<div class="SpellIconWrapper">
+					<img class="SpellIcon" src="None.png">
+				</div>
+				<div class="SpellText">
+					<h4 class="SpellTitle SpellTitleSubSpell"><span class="SpellName">Pet Attack</span> : <span class="SpellActionsNormal">0.5 Actions</span></h4>
+					<p class="SpellDescription">The pet melee attacks a target.<br>The attack has + your Main Stat.<br>The attack deals <span style="color: #FF5500">1d6</span> + your Main Stat - 1 (can't be lower than <span style="color: #FF5500">1d6</span> - 1).<br>You can do this once per turn.<br>Some abilities may say 'Perform a Pet Attack'. In that case, ignore the once-per-turn.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Combo Breaker</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">After using Tumble, you can instantly cast Quick Magic +1 once without spending Charges.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Watcher Form</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>You take on a special form, called a Watcher Form.<br>Your body becomes engulfed in a magical aura (you choose its color), your eyes glow, and you can gain other aesthetics-only body transformations (customize it with your DM).<br>While in this form, your attacks have +2 to hit to all attacks, you gain +2 to all saves and +2 to your Save DC and +3 to Intimidation and Arcana.<br>Also, when you cast a spell (before you do), you can instantly dash 3 meters, ignoring attacks of oportunity, and going through enemies and small obstacles or medium gaps.<br>Lasts up to 1 minute.<br>Can be used only once per Long Rest.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Guard Breaker</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">Your Slash, Smash and Pierce attacks ignore target's resistances to that damage type (not immunity, however).</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Quickfire</span> : <span class="SpellActionsNormal">0 Actions</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Perform an attack with a (loaded) 1-Handed ranged weapon.<br>This attack does not trigger attacks of oportunity and can be used in melee range without penalty.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="Spec bordered">
+	<h2 class="SpecTitle golden-text">Beastmaster</h2>
+	<div class="SpecPart">
+		<p>Lorem ipsum snitel dolor.</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Beastmaster Companion</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">You have an animal pet that can fight alongside you!<br>Your animal has stats depending on its species.<br>By default, apply the following stats to your pet (these will get modified by your pet's species):<br>- Health: Half of yours<br>- Movement: 6 meters<br>Your pet takes its turn at the same time as you do, and always has the same initiative as yours.<br>Your pet can make normal Skill Checks using your Skill bonuses, or its own, using its special Stats.<br>Your pet will not stray more than 30 meters away from you in hostile territory.<br>On your turn, you can command it to move, but it can't take its own Actions.<br>You and your pet share the same Actions on a turn.<br>(ex: If you have 1 Action, your pet can use 0.5 Actions to attack and you can use 0.5 Actions to attack too, or your pet spends 1 Action and you skip your Actions, etc.)<br>All pets have the Pet Attack ability:</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Pet Attack</span> : <span class="SpellActionsNormal">0.5 Actions</span></h4>
+				<p class="SpellDescription">The pet melee attacks a target.<br>The attack has + your Main Stat.<br>The attack deals <span style="color: #FF5500">1d6</span> + your Main Stat - 1 (can't be lower than <span style="color: #FF5500">1d6</span> - 1).<br>You can do this once per turn per pet.<br>Some abilities may say 'Perform a Pet Attack'. In that case, ignore the once-per-turn.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Tag Team</span> : <span class="SpellActionsNormal">0 Actions</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Gain 0.5 Actions this turn which you can only use on pet attacks or abilities.<br>Your pet also gains +3 meter movement this turn.</p>
+			</div>
+		</div>
+	</div>
+	<div class="SpecPart">
+		<p>At Level 2, pick one of the following Talents and learn it permanently:</p>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Second Animal Companion</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">You have one more Animal Companion, aside from the one you get from your Beastmaster Companion.<br>This Animal Companion obeys the same rules as the regular one.<br>On a turn, you can do one Pet Attack for each pet.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Exotic Trainer</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">Instead of your normal pets, you can choose from the following list of pets:</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Dragon Wyrm</span> : <span class="SpellActionsPassive">Pet</span></h4>
+				<p class="SpellDescription">This small to medium sized dragon has a color and an element specific to it (Fire/Cold/Lightning/Acid).<br>That element is called the Dragon Wyrm Element.<br>Stats: 2/2/3/2/2</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Arcane Blood</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">You and your pet have +2 Arcana.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Element Resistance</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">You and your pet have 50% resistance to the Dragon Wyrm Element.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Dragon's Breath</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">The pet breathes its Dragon Wyrm Element in a 3x1 meter line.<br>All creatures caught in the breath must succeed a DC10 Dexterity save or take <span style="color: #FF5500">2d6</span>8, you can transform into innately flying animals.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<style>body{background-image: url("Backgrounds/Hunter.jpg");}</style>
+﻿</div>
+</body>
+</html>

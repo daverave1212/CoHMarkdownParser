@@ -1,0 +1,516 @@
+
+@font-face{
+	font-family: Dum;
+	src: url(Fonts/dum1.ttf);
+}
+
+@font-face{
+	font-family: Isk;
+	src: url(Fonts/iskpota.ttf);
+}
+
+@font-face{
+	font-family: Iskb;
+	src: url(Fonts/iskpotab.ttf);
+}
+
+body{
+	width: 100vw;
+	margin: auto;
+	padding: 0px;
+	font-family: Isk;
+	background-image: url("background.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+}
+
+h1{
+	font-size: 2.8em;
+	font-family: Iskb;
+}
+h2{
+	font-size: 2.8em;
+	font-family: Iskb;
+	border-bottom: 3px solid transparent;
+}
+h3{
+	font-size: 1.85em;
+	font-family: Iskb;
+	border-bottom: 3px solid transparent;
+	margin-bottom: 10px;
+}
+h4{
+	font-size: 1.7em;
+	font-family: Iskb;
+	border-bottom: 3px solid transparent;
+	margin-bottom: 10px;
+}
+
+.bordered{
+	-webkit-border-image:	url(border.png) 3 ; /* Safari 3.1-5 */
+	-o-border-image: 		url(border.png) 3 ; /* Opera 11-12.1 */
+	border-image: 			url(border.png) 3 ;
+}
+.bordered-full{
+	-webkit-border-image:	url(border.png) 3 ; /* Safari 3.1-5 */
+	-o-border-image: 		url(border.png) 3 ; /* Opera 11-12.1 */
+	border-image: 			url(border.png) 3 ;
+	border-top: 3px solid transparent;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+}
+.golden-text{
+	background: -webkit-linear-gradient(#EEC700, #AA7700);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.split{
+	margin: auto;
+	margin-top: 15px;
+	display: flex;
+	width: 95%;
+}
+.split-box{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	flex: 1;
+}
+.underlined{
+	border-right: 3px solid transparent;
+	-webkit-border-image:	url(border.png) 3 ; /* Safari 3.1-5 */
+	-o-border-image: 		url(border.png) 3 ; /* Opera 11-12.1 */
+	border-image: 			url(border.png) 3 ;
+}
+
+
+.Navigation{
+	height: 50px;
+	width: 100%;
+	background-color: #111111;
+	border-bottom: 3px solid transparent;
+	display: flex;
+	position: relative;
+	z-index: 9999;
+}
+.NavigationItem{
+	height: 100%;
+	color: #e2c122;
+	font-size: 2em;
+	line-height: 1.5em;
+	vertical-align: middle;
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+	width: 175px;
+	
+}
+.NavigationItem:hover{
+	background-color: #333333;
+}
+.NavigationItem:hover .NavigationDropdownContent{
+	display: block;
+}
+.NavigationItem p:hover{
+	background-color: #333333;
+}
+.NavigationDropdownContent{
+	display: none;
+	position: absolute;
+}
+.NavAWrapper{
+	width: 175px;
+	height: 50px;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	border: 1px solid #d2b122;
+	border-top: none;
+	background-color: #111111;
+	z-index: 9999;
+}
+.NavAWrapper:first-child{
+	margin-top: 3px;
+}
+.NavAWrapper:hover{
+	background-color: #333333;
+}
+.Navigation a{
+	color: #e2c122;
+	text-decoration: none;
+}
+.locked{
+	color: gray;
+	cursor: not-allowed;
+}
+.locked a{
+	color: gray;
+	cursor: not-allowed;
+}
+
+
+.Window{
+	opacity: 0.9;
+	width: 70%;
+	margin: auto;
+	margin-top: 15px;
+	background-color: #111111;
+	color: white;
+	z-index: 0;
+	position: relative;
+}
+
+p{
+	font-size: 1.3em;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.PageTitle{
+	width: 100%;
+}
+.Title{
+	text-align: center;
+}
+.DescriptionParagraph{
+	text-align: center;
+}
+
+.ItemPageWrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 100%;
+}
+.ItemTableWrapper{
+	padding: 10px;
+}
+.ItemTable{
+	font-size: 1.35em;
+	background-color: #FFFFEE;
+	color: black;
+	border-collapse: collapse;
+	margin: auto;
+}
+.ItemTable th, .ItemTable td{
+	padding: 3px;
+	padding-right: 6px;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	border: 1px solid #000000;
+	border-radius: 2px;
+}
+.TableName{
+	text-align: center;
+}
+.ItemDescription{
+	padding: 0px;
+	margin: 0px;
+	font-style: italic;
+	font-size: 0.7em;
+	color: gray;
+}
+
+.Class, .Race{}
+.Class h2, .Race h2{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 25px;
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+	border-bottom: 3px solid transparent;
+}
+.Class p, .Race p{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+}
+
+.Background{
+	width: 100%;
+}
+.BackgroundBreak{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+	margin-bottom: 5px;
+	height: 20px;
+	display: block;
+}
+.Background h3{
+	font-size: 2.45em;
+	margin-bottom: 0px;
+	padding-left: 40px;
+}
+.Background h4{
+	font-size: 1.3em;
+	margin-top: 0px;
+	padding-left: 40px;
+}
+.BackgroundDescription{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.Options, .Stats, .MainStat, .StartingItems{
+	border-right: 3px solid transparent;
+}
+.Options h3, .Stats h3{
+	text-decoration: underline;
+}
+.Skills, .Language, .Weapons, .WeaponsLanguage{
+	padding-left: 20px;
+}
+
+.MainStat p{
+	margin-bottom: 2px;
+	margin-top: 0px;
+}
+.MainStatPart{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	margin-right: 45px;
+	border-bottom: 3px solid transparent;
+}
+.MainStat div.MainStatPart:last-child{
+	border-bottom: none;
+}
+
+.ClassAbilities{
+	padding-left: 20px;
+}
+
+.Abilities{
+	margin-left: 40px;
+}
+
+.SpellList{
+	margin-left: 40px;
+}
+
+.SpellList ul{
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: top;
+}
+.ListOfSpellsElement{
+	width: 200px;
+	padding: 4px;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	border: 1px solid #AA9900;
+	border-radius: 2px;
+	border-bottom: none;
+	font-size: 135%;
+	background-color: #FFFFEE;
+	color: black;
+}
+.ListOfSpellsHeader{
+	width: 200px;
+	padding: 4px;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	border: 1px solid #AA9900;
+	border-radius: 2px;
+	border-bottom: none;
+	font-size: 135%;
+	background-color: #9999FF;
+	border-bottom: 1px solid #0000FF;
+	color: black;
+}
+.SpellList li:last-child{
+	border-bottom: 1px solid #AA9900;
+}
+
+.Specialization{
+	margin-left: 40px;
+}
+
+.SpecializationsList li{
+	font-size: 125%;
+}
+
+.Other{
+	margin-left: 40px;
+}
+.Spec, .LevelBonus{
+	width: 60%;
+	margin: auto;
+}
+.Spec h2, .LevelBonus h2{
+	text-align: center;
+}
+.SpecPart p, .LevelBonusPart p{
+	text-align: center;
+	font-size: 150%;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.Spec .Spell, .LevelBonus .Spell .Gear{
+	margin: auto;
+}
+
+.LevelBonus{
+	margin-top: 25px;
+}
+
+.Spell{
+	margin-top: 20px;
+}
+
+
+.SpellContentWrapper, .Gear{
+	display: flex;
+	flex-wrap: nowrap;
+	border: solid 2px gray;
+	border-radius: 4px;
+	color: black;
+	max-width: 500px;
+}
+.SpellContentWrapper{
+	background-color: #F0F0F0;
+}
+.Talent .SpellContentWrapper{
+	-webkit-border-image:	url(border.png) 3 ; /* Safari 3.1-5 */
+	-o-border-image: 		url(border.png) 3 ; /* Opera 11-12.1 */
+	border-image: 			url(border.png) 3 ;
+	border-top: 4px solid transparent;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+}
+
+	.SpellIconWrapper{
+		flex: 2;
+		padding: 0px;
+		justify-content: center;
+		display: flex;
+	}
+	.SpellIconWrapper img{
+		width: 64px;
+		height: 64px;
+		margin-top: 10px;
+		border: solid #CCCCDD 2px;
+		border-radius: 8px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+	.SpellText{
+		flex: 8;
+	}
+		.SpellTitle{
+			font-family: Isk;
+			text-decoration: none;
+			font-size: 1.7em;
+			margin-top: 5px;
+			letter-spacing: 0em;
+			margin-bottom: 5px;
+		}
+		.SpellDescription{
+			margin-bottom: 8px;
+			margin-top: 5px;
+			text-align: left;
+		}
+		
+		.SpellTitleAbility{
+			color: #333333;
+		}
+		
+		.SpellTitleTalent{
+			color: #333333;
+		}
+		
+		.SpellTitleCreature{
+			color: #00AA00;
+		}
+		
+		.SpellTitleSubSpell{
+			color: #AAAA00;
+		}
+
+			.SpellActionsNormal{
+				color: #5194f0;
+			}
+			
+			.SpellActionsPassive{
+				color: #bca549;
+			}
+
+.Spec div.SpellContentWrapper{
+	margin: auto;
+	margin-top: 20px;
+}
+.LevelBonus div.SpellContentWrapper{
+	margin: auto;
+	margin-top: 10px;
+}
+
+.Gear p{
+	margin-top: 5px;
+	padding-bottom: 5px;
+}
+.GearTitle{
+	background: -webkit-linear-gradient(#EEC700, #AA7700);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.GearGreenText{
+	color: #44FF77;
+}
+.GearRedText{
+	color: #FF4477;
+}
+.GearWhiteText{
+	color: white;
+}
+.GearTitleWhiteText{
+	color: white;
+	background: -webkit-linear-gradient(#FFFFFF, #FFFFFF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.GearGrayText{
+	color: gray;
+}
+.GearOtherText{
+	color: gray;
+	font-style: italic;
+	font-size: 110%;
+}
+.Gear{
+	margin: auto;
+	margin-top: 10px;
+}
+
+
+
+.Tag_Loyalty{
+	color: #AA8800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

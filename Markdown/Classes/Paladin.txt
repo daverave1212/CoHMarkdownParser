@@ -1,0 +1,244 @@
+#Class#
+
+		Paladin
+Paladins are knights in shiny armor who fight for their god
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Charisma, Wisdom, Fortitude
+	Choose one: +1 Weapon Effect or +1 Dexterity or +5 Health
+	Choose one: +2 Intelligence Save or +2 Dexterity Save or +2 Wisdom Save
+
+#Skills#	
+You have +1 Athletics, +1 Religion and +1 Persuasion
+You have -1 Acrobatis, -1 Deception, -1 Sleight of Hand
+
+#Stats#
+Base Health: 11 + (Fortitude x 2)
+Bonus Health when leveling up: +5
+
+#Language#
+If your Intelligence is at least 2, you can speak either Celestial or Abyssal.
+
+#MainStat#
+Choose between Charisma or Wisdom. This is your Main Stat.
+
+Your Spell DC is 8 + (Main Stat).
+Your Spell Hit Bonus is (Main Stat).
+
+You have 3 Charges: O O O
+Certain Abilities require you to spend Charges.
+You regain all Charges back when you Long Rest.
+
+
+	
+	
+	
+
+#ClassAbilities#
+You start with the following class abilities:
+
+[Divine Sense] : 1 Action
+Spend 1 Charge.
+You know the locations and types of all Holy, Unholy and Celestial creatures or things within 15 meters, unless the path to them is obstructed by thick or dense walls or magic.
+You can do this once per rest without using a Charge.
+
+[Lay on Hands] : 1 Action
+You have a pool of 8 points.
+Using an action, you can expend up to 8 points to heal a creature for the same amount.
+Your pool resets to 8 points on Long Rests.
+
+[Divine Smite] : 0 Actions
+Spend 2 Charges.
+Add 2d8 True damage to a melee damage roll.
+You can only use Divine Smite once per turn.
+
+// ---- 4.25 charges per long rest 
+
+#SpellList#
+You know a total number of spells and maneuvers equal to 2 + Half of Your Level + Your Intelligence.
+You can reasign your spells whenever you level up.
+This is your spell list:
+
+Maneuvers: All
+Basic Spells:
+	[Burning Breath] : 0.5 Actions
+	[Cleansing Flames] : 0 Actions
+	[Detect Poison and Disease] : 1 Action
+	[Light] : 1 Action
+	[Purify Food and Drink] : 1 Action
+	[Thunder Clap] : 1 Action
+Normal Spells:
+	[Charming Word] : 1 Action
+	[Cure Wounds] : 1 Action
+	[Cure Disease] : 10 minutes
+	[Radiant Smite] : 0 Actions
+	[Blinding Smite] : 0 Actions
+	[Cleansing Smite] : 0 Actions
+	[Scorching Rays] : 1 Action
+	[Turn Undead] : 0 Actions
+	[Wild Heart] : 1 Action
+Higher Level Spells:
+	[Spare the Dying] : 1 Action (Level 4)
+	
+
+
+#Specialization#
+At Level 1, you can choose your oath (Specialization).
+By choosing your oath, you dedicate yourself to a purpose; an oath is a lifestyle, not a mere choice!
+Every Paladin can choose from the following oaths:
+- Oath of Conquest, which inspires a strong personality and desire to achieve greatness, through whatever means
+- Oath of Devotion, dedicated to helping the unfortunate and being someone to look up to
+- Oath of Protection, chosen by those who vow to protect and wish to become a paragon of the people
+- Oath of the Crusade, which vows upon fighting for your god and religion, protecting its allies and slaying its foes
+	
+
+#Spec#
+
+	Conquest (Charisma heavy build?)
+		~ 4.5 Charges per long rest
+[Oath of Conquest] : Passive
+Every worthy enemy YOU drop to 0 Health grants you 2 points of Lay on Hands.
+
+[Impose] : 0.5 Actions
+Spend 1 Charge.
+Force a creature that can see you within 3 meters to make a Wisdom save.
+If it fails, it is Feared.
+
+[Indomitable Presence] : 0 Actions
+Spend 1 Charge.
+Gain +3 on the next Intimidation roll.
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+
+{Be Gone!} : 0.5 Actions
+Spend 1 Charge.
+A creature within 6 meters rolls a Wisdom save.
+If it fails, it must willingly move right now to any position it can reach with its movement speed (does not consume movement).
+The creature chooses where it moves.
+
+{Retribution} : Passive
+You permanently lose Lay on Hands, but your maximum number of Charges you can have is increased by 1.
+
+{Unleash Fury} : 0 Actions
+Spend 5 points of Lay on Hands.
+Your next weapon attack will deal 50% of its base damage to all creatures around the primary target (except you) if it hits.
+
+#Spec#
+Devotion (Healer Build) //~ 4.25 Charges
+Lorem ipsum snitel dolor.
+
+[Oath of Devotion] : Passive
+You are immune to diseases and curses.
+When using Lay on Hands, instead of healing, you can expend 5 points to cure a minor disease or the effect of a poison.
+
+[Divine Power] : 0 Actions
+Spend 1 Charge.
+Gain 6 points of Lay on Hands.
+
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Divine Blast} : 1 Action
+Make a spell attack against a target within 12 meters.
+If you hit, consume all your Lay on Hands points and deal half as much + Your Main Stat as True damage.
+
+{Shielding Hand} : Reaction
+Spend 1 Charge.
+Choose an ally.
+After that ally takes damage, it gains a shield of Temporary Health equal to half of the damage taken.
+The shield lasts up to 1 minute.
+12 meters range.
+
+{Focused Smites} : 0 Actions
+Spend 1 Charge.
+For 1 minute, your weapon attacks deal extra True damage and whenever you hit with a weapon attack, heal an ally within 6 meters.
+Bonus Damage and Heal: 1 for 1-Handed weapons, 2 for 2-Handed weapons.
+
+
+
+#Spec#
+Protection //		~ 4.5 Charges
+Lorem ipsum snitel dolor.
+
+[Oath of Protection] : Reaction
+When an ally is attacked and the attack hits, dash next to that ally.
+You will take the damage from that attack instead of the ally.
+You can do this twice per Long Rest.
+3 meter range.
+
+[Stand Behind]	: Passive
+You block the enemies' ranged attacks line of sight to other allies in a 3x3x3 meter cube around you.
+So, if an ally is within 1 meter of you, it counts as if the enemy doesn't have ranged line of sight to them.
+(Enemies can still target points or areas within that zone).
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Divine Rain} : 0.5 Actions
+Spend 1 Charge.
+If you would drop to 0 Health until the start of your next turn, you remain instead at 1 Health.
+When this happens, divine rays smite all enemies within 2 meters of you, and they all take 1d6 True damage.
+
+{Reckoning} : 1 Action
+Spend 1 Charge and choose a target within 6 meters.
+That target takes 2d8 - 2 damage and rolls a Fortitude save.
+If it fails, it is pushed away from you until the distance between you and the target is up to 6 meters.
+
+{Consacrated Zone} : 1 Action
+Spend 1 Charge.
+The area in a 5 meter diameter circle around you becomes Consacrated.
+If an enemy attempts to leave the area, it must succeed a Charisma save.
+If it fails, it takes 1d10 True damage and loses 1 meter of movement (as if it stepped outside).
+The enemy can attempt to escape as many times on the same turn.
+_The zone lasts up to 1 minute and can be cancelled for 0 Actions._
+
+#Spec#
+Crusader //: 4.5 Charges?
+Lorem ipsum snitel dolor.
+
+[Oath of the Crusade] : Passive
+You permanently know Radiant Smite, Blinding Smite and Cleansing Smite, aside from your known spells.
+After an attack which had a Smite on it kills at least 1 enemy, your next attack within 5 minutes deals 1d6 bonus True damage if it hits.
+
+[Reckoning] : 1 Action
+Spend 1 Charge.
+Make an attack roll on a creature within 3 meters and that creature also rolls a Charisma save.
+The attack deals 1d4 + 3 damage if it hits, and the target is stunned if it fails the Save.
+
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Retribution} : Passive
+You permanently lose Lay on Hands, but your maximum number of Charges you can have is increased by 1.
+
+{Wrathful Smite} : 0.5 Actions
+Spend 1 Charge.
+Make a ranged spell attack against a target within 6 meters.
+If you hit, deal 2d8 True damage.
+
+{Divine Reach} : 1 Action
+You empower yourself to make your weapon send fiery waves.
+For the next 1 minute, your melee attacks have exactly 2 meters range and can deal Fire damage instead.
+You can do this once per Long Rest.
+Also, passively, you can always apply smites to ranged attacks, no matter if Divine Reach is active or not.
+
+#PageEnd#
+
+{Zeal} : Passive
+Moving does not provoke attacks of oportunity.
+Choose any Skill and increase it by +2.
+
+	At Level X
+{Ravaging Smite} : 1 Action
+Spend 4 Charges.
+Your next landed melee attack within 1 minute deals 8d6 extra True damage.
+
+	Talents
+Smite is not limited to melee attacks
+Kayle's E
+Divine Shield
+Renounce Lay on Hands for 1 Charge
+
+
+

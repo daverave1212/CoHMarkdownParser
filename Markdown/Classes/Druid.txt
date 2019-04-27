@@ -1,0 +1,579 @@
+#Class#
+		Druid
+Druids are protectors of the nature and master shapeshifters.
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Wisdom, Dexterity, Fortitude and Intelligence
+	Choose one: +1 Weapon Effect or +2 Spell DC
+	Choose one: +2 Intelligence Save or +2 Fortitude Save or +2 Charisma Save
+
+#Skills#
+You have +1 Nature, +1 Survival, +1 Animal Handling
+You have -1 Persuasion, -1 History, -1 Deception
+
+#Stats#
+Base Health: 1 + (Fortitude x 3)
+Bonus Health when leveling up: +5
+
+#Language#
+If your Intelligence is at least 1, you know Druidic, the secret and ancient language of Druids.
+//Otherwise, you know ...
+If your Intelligence is at least 2, choose one Common, Wild or Elemental language you can speak.
+
+#MainStat#
+Wisdom is your Main Stat.
+
+Your Spell DC is 8 + (Main Stat).
+Your Spell Hit Bonus is (Main Stat).
+
+You are Trained in Spells.
+Some spells will tell you to add your Power to the damage dice.
+Your Race tells you what your Power is.
+
+You have 3 Charges: O O O
+Certain Abilities require you to spend one Charge.
+You regain all Charges back when you Long Rest.
+
+
+#ClassAbilities#
+You start with the following class abilities:
+
+[Druidcraft] : Depends
+You can create harmless sensory effects or tiny weather effects.
+You can massively speed up the growth of small plants.
+You can slightly soothe physical pains (with no combat effect).
+You can attempt to communicate simple ideas with animals and plants.
+You have +3 on rolls for identifying plants.
+You can do these even while Shapeshifted.
+3 meters range.
+
+[Shapeshift] : 1 Action
+Spend 1 Charge.
+Pick an animal from the Animal Pets and Shapeshift Animals list and instantly transform into it.
+You gain that animal's Fortitude and Dexterity saves.
+Apply any other modifiers (except for base Stats) from that animal.
+You also gain its exact abilities.
+Attacking while Shapeshifted has the same attack bonus, damage, weapon effect, etc as your normal attacking weapon.
+So, while Shapeshifted, you can perform normal *melee* weapon attacks as if you were not Shapeshifted.
+You can't make attacks with ranged weapons while Shapeshifted, obviously.
+While Shapeshifted, you can do any maneuvers you know. You can't cast spells.
+Health: When you Shapeshift, if the animal has more total health than you, add the difference to your health.
+If it has less, subtract the difference.
+When Shapeshift ends, subtract back whatever health you added, or add back whatever health you subtracted.
+When you end Shapeshift, if your health would be 0 or less, it stays at 1.
+Shapeshift ends if you drop to 0 Health, and you go Unconscious.
+You choose what items you keep on you when Shapeshifting, and those items are 'merged' into your new form.
+At first, you can't choose innately swimming or flying animals.
+From level 4, you can transform into innately swimming animals.
+From level 8, you can transform into innately flying animals.
+	Optional Rules:
+By default, choose to know 3 of the following animals: _________________
+
+	// Talent: animal type, like dark, idk
+	// Talent: shapeshift ally xdddd
+	// You have forest friends
+	// Choose your ancestry: leprechaun/dryad/normal omg
+	// Tell what an enemy will do on its next turn
+
+//--- 4 Power / Long Rest (counting Shapeshift as 1, because its very powerful)
+//
+//Calendars
+//Solstices and Equinox, Full Moon
+//Reincarnation
+
+#SpellList#
+You know a total number of spells and maneuvers equal to 2 + Your Level + Your Intelligence.
+You can reasign your spells whenever you level up.
+This is your spell list:
+
+Maneuvers: All
+Basic Spells:
+	[Acid Burst] : 0.5 Actions
+	[Burning Breath] : 0.5 Actions
+	[Bonfire] : 1 Action
+	[Cleansing Flames] : 0 Actions
+	[Control Flames] : 1 Action
+	[Control Water] : 1 Action
+	[Control Earth] : 1 Action
+	[Detect Poison and Disease] : 1 Action
+	[Fire Bolt] : 1 Action
+	[Guidance] : Reaction
+	[Land Breach] : 1 Actions
+	[Mastery] : 1 Action
+	[Purify Food and Drink] : 1 Action
+	[Resistance] : 1 Action
+	[Quicksand] : 0.5 Actions
+Normal Spells:
+	[Absorb Element] : Reaction
+	[Alarm] : 10 minutes
+	[Charming Word] : 1 Action
+	[Cure Wounds] : 1 Action
+	[Cure Poison] : 1 Action
+	[Cure Disease] : 10 minutes
+	[Fog Cloud] : 1 Action
+	[Distort Vision] : 1 Action
+	[Fairy Fire] : 1 Action
+	[Fake Sound] : 0.5 Action
+	[Influence Beast] : 1 Action
+	[Barkskin] : Reaction
+	[Shield Element] : 0.5 Actions
+	[Shadow Clone] : 0 Actions
+	[Speak With Animals] : 1 Action
+	[Speak With Plants] : 1 Action
+	[Water Sphere] : 1 Action
+	[Wild Heart] : 1 Action
+	[Wild Roots] : 1 Action
+Higher Level Spells:
+	[Fire Ball] : 1 Action (Level 4)
+	[Invisibility] : 1 Action (Level 4)
+	[Spider Climb] : 1 Action (Level 4)
+	[Spare the Dying] : 1 Action (Level 4)
+	
+	
+
+#Specialization#
+At Level 1, you can choose your coven (Specialization).
+A coven is a spiritual path you adhere to, and whose culture you represent.
+Every Druid can choose from the following Druid covens:
+- Coven of the Old Ways, using the old magic, worshipping old gods and drawing power from the sun, the moon and the stars
+- Coven of the Wild, where your true fey or animalistic nature takes shape!
+- Coven of the Wicked, where nature-infused eldritch magic overcomes your mind, body and soul
+- Coven of the Land, a protector of the flora and fauna specific to your chosen domain
+	
+
+#Spec#
+	Coven of the Old Ways
+You worship the sun, the moon and the stars, for only they can truly guide your path.
+	//~ 4.75 Charges
+Pagan Druids believe no one has the right to dictate someone else's spiritual path.
+As a Pagan Druid, you oppose fanaticism, opressors and stupidity.
+Pagan Druids worship no god, but they do acknowledge their power and they heavily respect nature and the earth.
+A Pagan Druid gains the power through not black, nor white eldritch magic.
+The suggested alignment for Pagan Druids is True Neutral.
+//- Skulls
+//- Runes and Symbols
+//- Elements
+//- choose a symbol for yourself
+//- Coven (not only ofr duirds, but yk witchcraft n shit)
+//- Rely on components, scrying
+
+You have the following abilities:
+
+[Druid Rituals] : Passive
+Some of your spells might have a '10 minutes' cast time.
+Those spells are rituals and must be performed outdoors, in a safe, uncorrupted place untouched by regular folk.
+
+[Day Night Cycle] : Passive
+Instead of knowing one set of spells, as normal, you know two: one for the moon, and one for the sun.
+So, in total, you know twice as many spells.
+The Moon spells can only be used at night (from end of dusk until start of dawn).
+The Sun spells can only be used at day (from start of dawn until end of dusk).
+The Sun spell set and the Moon spell set can not contain any of the same spell.
+Whenever you learn a new spell, choose to put it either in the Sun spell set or the Moon spell set.
+These Spell sets don't change.
+
+[Moonfire/Sunfire] : 0.5 Actions
+Spend 1 Charge.
+A target within 6 meters makes a Wisdom save.
+If it fails, it takes 1d8 + 1 Fire and is Crippled (if day) or Force damage and is Silenced (if night).
+If you use this at night, you can't use it until day, and vice versa.
+
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Old Ritualist} : Special
+You permanently lose the Shapeshift ability, and you can never choose Talents that improve Shapeshift.
+Once per Long Rest, you can spend 10 minutes to perform an Old Ritual, which gives you 1 Charge.
+The Old Ritual must be performed outdoors, in a safe, uncorrupted place untouched by regular folk.
+
+{Lycanthropy} : Passive
+At 24:00, every night, you transform into a ferocious beast, a Lycanthrope.
+While you are a Lycanthrope, you can't use Shapeshift.
+Your Fortitude and Dexterity skill bonuses and Perception bonus and saves can't be less than 4.
+While a Lycanthrope, you are considered Trained in Unarmed attacks and they can deal Piercing damage instead of smash.
+You also have Dark Vision.
+Lycanthropy ends at the start of dawn.
+
+{Animal Companion} : Passive
+You have an animal pet that can fight alongside you!
+Your animal has stats depending on its species.
+By default, apply the following stats to your pet (these will get modified by your pet's species):
+- Health: Half of yours
+- Movement: 6 meters
+Your pet takes its turn at the same time as you do, and always has the same initiative as yours.
+Your pet can make normal Skill Checks using your Skill bonuses, or its own, using its special Stats.
+Your pet will not stray more than 30 meters away from you in hostile territory.
+On your turn, you can command it to move, but it can't take its own Actions.
+You and your pet share the same Actions on a turn.
+(ex: If you have 1 Action, your pet can use 0.5 Actions to attack and you can use 0.5 Actions to attack too, or your pet spends 1 Action and you skip your Actions, etc.)
+All pets have the Pet Attack ability:
+	<Pet Attack> : 0.5 Actions
+	The pet melee attacks a target.
+	The attack has + your Main Stat.
+	The attack deals 1d6 + your Main Stat - 1 (can't be lower than 1d6 - 1).
+	You can do this once per turn.
+	Some abilities may say 'Perform a Pet Attack'. In that case, ignore the once-per-turn.
+
+
+#Spec#
+Coven of the Wild
+You are heavily in touch with nature and with strange creatures, uncommon to the normal folk.
+
+You have the following ability:
+
+[Wild Shape] : Passive
+When you use Shapeshift, you can transform into a combination of 2 animals.
+You take the highest stat from both animals, and you have access to both of their abilities.
+_For example, you could transform into a combination of Bird of Pray and Bear, resulting in a kind of Owlbear, with a lot of health and a lot of Armor! Be creative!_
+
+	
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Forest Friends} : Passive
+You have a Pixie companion, a very small humanoid with wings.
+The Pixie has 20 Armor and always stays with you.
+If the Pixie goes more than 10 meters away from you, it becomes unsummoned (you can summon it back with a 5 minute ritual).
+You can command the Pixie simple instructions for 0 Actions, like 'go there' or 'pick up that object'.
+The Pixie Charisma, Wisdom and Intelligence equal to yours, but its Dexterity is 0 and its Strength is -10.
+Decide with your DM whether you or the DM controls the Pixie roleplay-wise.
+Have fun!
+
+{Treesposition} : 0 Actions
+Touch a large or larger piece of wood and choose one of the following:
+1. Teleport near another large or larger piece of wood within 6 meters.
+2. Partially enter the piece of wood, becoming camouflaged. You have +5 Stealth until you exit back to your normal space.
+You can stay like that for up to 1 hour.
+You can do this once per day for free, or for 1 Charge.
+
+{Copy Cat} : Passive
+You can now use Shapeshift to also transform into other people.
+When you want to do this, roll a Deception check.
+This check determines how close you get to the form of that person (20 or more means a perfect copy).
+This copy just mimicks the body of the person, not the voice or personality or clothes.
+Your Stats (Fortitude, Dexterity, etc) also change to that person's stats, but not your Health, Armor, Charges, etc.
+Your Fortitude and Dexterity skill bonuses and Saves change to exactly equal to your new stats.
+Your Intelligence, Wisdom and Charisma skill bonuses and Saves stay the same as your normal ones.
+This shapeshift ends if you take damage.
+You can only copy a person once per day.
+	
+
+
+#Spec#
+Coven of the Wicked //~ 4.5 Charges
+Witch druids use eldritch magic of the nature to bend reality in an unseen way, cast curses and dispell magic.
+However, this comes at a price, usually of its own sanity and control over the powers.
+Wiccan Druids believe no one has the right to dictate someone else's spiritual path.
+As a Wiccan Druid, you oppose fanaticism, opressors and stupidity.
+Wiccan Druids worship no god, but they do acknowledge their power and they heavily respect nature and the earth.
+A Wiccan Druid gains the power through not black, nor white eldritch magic.
+The suggested alignment for Wiccan Druids is True Neutral.
+
+You have the following ability:
+
+[Witchcraft] : Passive
+You have 0 Witch points. You can't have less than 0 Witch points. Witch points never reset.
+All Druid-class-abilities (except Druidcraft) generate 1 Witch point.
+All non-Druid-class-abilities that use at least 1 Charge remove 1 Witch point.
+For every extra Witch point you have over 3, you take 1 damage on every short or long rest instead of healing.
+
+[Livid Curse] : 0 Actions
+A creature within 6 meters makes a Wisdom save.
+If it fails, it has -2 on all saves for 1 Hour (does not stack with other similar debuffs).
+You can do this once per turn.
+
+[Dispelling Ritual] : 5 minutes
+Dispells all negative debuffs, poisons, paralyzes, minor curses from allies within 6 meters.
+After that, in the next encounter, after the first time an enemy casts a spell (non-naturally), it rolls a Charisma save.
+If it fails, it is Silenced.
+
+[Black Charm] : 1 Action
+Spend 2 Charges.
+A creature that can see and hear you within 6 meters makes a Wisdom save.
+If it fails it is Charmed for 1 turn.
+When the Charm ends (at the end of its turn), it takes 5d4 psychic damage.
+	
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Old Ritualist} : Special
+You permanently lose the Shapeshift ability, and you can never choose Talents that improve Shapeshift.
+Once per Long Rest, you can spend 10 minutes to perform an Old Ritual, which gives you 1 Charge.
+The Old Ritual must be performed outdoors, in a safe, uncorrupted place untouched by regular folk.
+
+{Stone of Summoning} : 7 days to prepare, 1 hour to cast
+You take a pilgrimage of 7 days alone outdoors, in a safe, uncorrupted place untouched by regular folk.
+After this time, you transform a piece of natural rock into a summoning portal, by aligning it, other natural elements around it and decorating it according to the stars.
+Choose an ally within 100 kilometers of the stone. That ally will know when you are trying to summon them.
+By you spending 3 Charges, you and a willing ally can spend 1 Hour summoning that willing ally to the location of the stone if that ally is within 100 kilometers of the stone.
+You can summon an ally once a week.
+You can take a new pilgrimage once a year.
+_For an ally to be summoned, it must have a clear state of mind and it must focus together with the caster for 1 hour._
+
+{Animal Companion} : Passive
+You have an animal pet that can fight alongside you!
+Your animal has stats depending on its species.
+By default, apply the following stats to your pet (these will get modified by your pet's species):
+- Health: Half of yours
+- Movement: 6 meters
+Your pet takes its turn at the same time as you do, and always has the same initiative as yours.
+Your pet can make normal Skill Checks using your Skill bonuses, or its own, using its special Stats.
+Your pet will not stray more than 30 meters away from you in hostile territory.
+On your turn, you can command it to move, but it can't take its own Actions.
+You and your pet share the same Actions on a turn.
+(ex: If you have 1 Action, your pet can use 0.5 Actions to attack and you can use 0.5 Actions to attack too, or your pet spends 1 Action and you skip your Actions, etc.)
+All pets have the Pet Attack ability:
+	<Pet Attack> : 0.5 Actions
+	The pet melee attacks a target.
+	The attack has + your Main Stat.
+	The attack deals 1d6 + your Main Stat - 1 (can't be lower than 1d6 - 1).
+	You can do this once per turn.
+	Some abilities may say 'Perform a Pet Attack'. In that case, ignore the once-per-turn.
+
+#Spec#
+	Coven of the Land //~ 4.5 Charges
+The Druid of the Land is a guardian of its own domain.
+Be it a lush forest, a snowy mountain or a rocky cave, the Druid of the Land knows its own ways.
+
+Choose your land specialty:
+	[Raise Wall] : 0.5 Actions
+	You raise a wall of stone, dirt or other such material from the ground, 1x2x2 (1 meter thick, 2 wide, 2 tall).
+	You can instantly crumble the wall in your turn by using 0 Actions.
+	6 meter range.
+	You can do this once per Long Rest.
+
+	[Wild Roots] : 1 Action
+	Spend 1 Charge.
+	Roots spawn from your position (next to you).
+	The roots can move up to 5 meters right now, and you control how the roots move.
+	Roots can pass through enemies, and all enemies they pass through must make a Dexterity save.
+	If they fail, they are Snared and take 1d6 damage.
+	
+	[Storm] : 0.5 Actions
+	Spend 1 Charge.
+	Target a 2x2x2 meter area within 6 meters and create a storm of water, air, or any other such material there.
+	Creatures inside the sand storm are Blinded and the sand storm acts as hard terrain.
+	Lasts 1 minute.
+	
+	[Endurance] : Passive
+	You are used to living in harsh environments.
+	You gain +1 on Fortitude, Dexterity and Wisdom saves and +4 to your maximum health.
+	You gain +1 in Survival and Stealth.
+	
+[Circle of the Land] : Passive
+You know 2 more spells permanently from your own spell list.
+When you transform into an animal native to your domain, heal for 1d6 health.
+	
+	At Level 1:
+
+{Old Ritualist} : Special
+You permanently lose the Shapeshift ability, and you can never choose Talents that improve Shapeshift.
+Once per Long Rest, you can spend 10 minutes to perform an Old Ritual, which gives you 1 Charge.
+The Old Ritual must be performed outdoors, in a safe, uncorrupted place untouched by regular folk.
+
+{Innervate} : 0.5 Actions
+Special Passive: When you get this talent, choose one more Land Specialty.
+Spend 1 Charge.
+Heal yourself for 3.
+A non-druid ally within 6 meters gains 1 Charge.
+
+{Animal Companion} : Passive
+You have an animal pet that can fight alongside you!
+Your animal has stats depending on its species.
+By default, apply the following stats to your pet (these will get modified by your pet's species):
+- Health: Half of yours
+- Movement: 6 meters
+Your pet takes its turn at the same time as you do, and always has the same initiative as yours.
+Your pet can make normal Skill Checks using your Skill bonuses, or its own, using its special Stats.
+Your pet will not stray more than 30 meters away from you in hostile territory.
+On your turn, you can command it to move, but it can't take its own Actions.
+You and your pet share the same Actions on a turn.
+(ex: If you have 1 Action, your pet can use 0.5 Actions to attack and you can use 0.5 Actions to attack too, or your pet spends 1 Action and you skip your Actions, etc.)
+All pets have the Pet Attack ability:
+	<Pet Attack> : 0.5 Actions
+	The pet melee attacks a target.
+	The attack has + your Main Stat.
+	The attack deals 1d6 + your Main Stat - 1 (can't be lower than 1d6 - 1).
+	You can do this once per turn.
+	Some abilities may say 'Perform a Pet Attack'. In that case, ignore the once-per-turn.
+
+
+
+#PageEnd#
+
+
+
+
+
+
+
+
+
+	// Talents
+	- Meditation
+
+
+
+	
+Fey Druids are people bound to the Fey and to Fey creatures, a whimsical yet chaotic magic.
+As a Fey Druid, 
+
+A worshipper of the Forgotten Gods praises Mother Earth, the Stars and possibly gods long forgotten by civilization.
+A Druid of the Old Ways 
+
+
+
+	[GIMMICKS]
+
+
+Druid of the Land
+- Choose your land. You gain various benefits from what you choose
+- A very straightforward, gimmickless class
+Druid of the Old Ways
+- Calendar mechanic (by Long Rest or something)
+- Full Moon
+- Stars Align
+Druid of the Fey
+- Choose your fey type. You can shapeshift into those fey creatures
+- You have a bonus to checks with Fey n shit
+- Maybe the last spellslot casted mechanic
+Druid of the Pagan
+- Casts diviner magic
+- Has the 'swap' die roll mechanic
+- Can force die rerolls
+- These are in the form of rituals
+- Ex: name a round. In that round, ...
+Druid of the Occult
+- Sacrifices for power
+- On kill = something
+- Fire and Death and Curses
+- Put tokens on enemies. At 3 tokens, effect of choice
+	
+	// Last spell slot does osmething depending on what your previous spell lsot did
+	
+	
+	
+	
+	
+	
+
+
+[Thorngrow] : 0.5 Actions
+Spend 1 Charge.
+
+[Animal Companion] : Passive
+You have an animal pet that can fight alongside you!
+Your animal has stats depending on its species.
+By default, apply the following stats to your pet (these will get modified by your pet's species):
+- Health: Half of yours
+- Movement: 6 meters
+Your pet takes its turn at the same time as you do, and always has the same initiative as yours.
+Your pet can make normal Skill Checks using your Skill bonuses, or its own, using its special Stats.
+Your pet will not stray more than 30 meters away from you in hostile territory.
+On your turn, you can command it to move, but it can't take its own Actions.
+You and your pet share the same Actions on a turn.
+(ex: If you have 1 Action, your pet can use 0.5 Actions to attack and you can use 0.5 Actions to attack too, or your pet spends 1 Action and you skip your Actions, etc.)
+All pets have the Pet Attack ability:
+	[Pet Attack] : 0.5 Actions
+	The pet melee attacks a target.
+	The attack has + your Main Stat.
+	The attack deals 1d6 + your Main Stat - 1 (can't be lower than 1d6 - 1).
+	You can do this once per turn.
+	Some abilities may say 'Perform a Pet Attack'. In that case, ignore the once-per-turn.
+// Most pets have passive abilities so no worries
+// Also list their native land (for druid of the land)
+
+
+	
+		
+	
+		
+	
+
+
+
+		
+		
+		Trap			
+		Elemental Damage
+		Buffs
+		Choose between
+		Damage
+		Mobility
+		Pro and Con
+		On kill		
+		Zoning		
+		Swap Position
+		Return on investment
+		Specific range requirement
+		Specific position requirement
+
+// BACKUP BELOW:
+
+
+/*
+[Fey Shape] : Passive
+When you use Shapeshift, you can transform into a Fey creature instead.
+You can speak as you normally would while in any of these forms, though your voice might be affected.
+You can choose from the followin Fey creatures, and apply the stat changes listed by them:
+1. {Spright Form} : You assume the form of a forest spirit, dryad or similar creature.
+Health: -5
+Dexterity and Charisma Saves: +2
+	[Spright Casting] : Passive
+	You can cast spells as you normally would.
+	You can't attack with 2-Handed or ranged weapons.
+	[Fey Aura] : Passive
+	Whenever you or an ally brings a creature below 50% health, deal another 1d6 Poison damage to the target.
+	Whenever YOU bring a creature above 50% health, heal it for 1d6 health.
+	[Treesposition] : 0 Actions
+	Touch a large or larger piece of wood. Teleport near another large or larger piece of wood.
+	You can do this twice pe day, no matter if you are a Spright or not. 6 meters range.
+	[Quick Disengage] : 0 Actions
+	You can perform a Disengage maneuver for free. You can do this once per turn.
+2. {Treant Form} : You assume the form of a tree-like being.
+Health: +5
+Fortitude, Wisdom Saves: +2
+Athletics: +3
+Dexterity Saves: -2
+Movement Speed: -2 meters
+	[Treant Casting] : Passive
+	You can only cast spells that require no Charges.
+	You can not use ranged weapons.
+	You are considered Trained in Unarmed attacks and can use your Fortitude for those attacks.
+	[Treantskin] : Passive
+	Your Armor can't be lower than 14.
+	You take 100% more Fire and Acid damage.
+	[Hard Bark] : 1 Action
+	Perform a ranged attack without a weapon (use only Dexterity for hit bonus).
+	This attack deals 1d10 damage if it hits.
+	If it hits, the target rolls a Dexterity save.
+	If it fails the save, it is Snared.
+	6 meters range.
+3. {Ralkin Form} : You assume the form of a sentient, animal-like fey creature.
+Dexterity, Intelligence Saves: +2
+Acrobatics, Stealth: +3
+Movement Speed: +2 meters
+	[Ralkin Casting] : Passive
+	You can only cast spells that use 0.5 Actions, and only once per turn.
+	You can not use any weapons.
+	While you are directly near an enemy, it can't make oportunity attacks.
+	[Tongues] : Passive
+	You can speak all Wild languages.
+	[Bite] : 0.5 Actions
+	Make a special attack with +3 + your 1-Handed hit bonuses from your race.
+	This attack deals 1d6 damage + your 1-Handed damage bonuses from your race.
+	2 meters range ('reach').
+*/
+
+
+
+/*
+	At Level 2
+{Clay Golem} : 1 Day
+You spend 1 entire Day building a Clay Golem and infusing it with your 
+
+	At Level 5?
+{Skulls, Bones and Blood} : Ritual
+Spend 2 charges, idk boil its blood, melt its skin and shatter its bones, higher level talent here.
+*/

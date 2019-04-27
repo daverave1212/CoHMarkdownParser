@@ -1,0 +1,563 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <title></title>
+</head>
+<body>
+<div class = "Navigation bordered">
+	<div class = "NavigationItem">
+		Classes
+		<div class = "NavigationDropdownContent bordered">
+			<div class = "NavAWrapper bordered">
+				<a href="Cleric.html">Cleric</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Druid.html">Druid</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Hunter.html">Hunter</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Mage.html">Mage</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Paladin.html">Paladin</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Rogue.html">Rogue</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Shaman.html">Shaman</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Warlock.html">Warlock</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Warrior.html">Warrior</a>
+			</div>
+			<div class = "NavAWrapper bordered locked">
+				<a href="#">Bard</a>
+			</div>
+			<div class = "NavAWrapper bordered locked">
+				<a href="#">Monk</a>
+			</div>
+			<div class = "NavAWrapper bordered locked">
+				<a href="#">Necromancer</a>
+			</div>
+		</div>
+	</div>
+	<div class = "NavigationItem">
+		Races
+		<div class = "NavigationDropdownContent bordered">
+			<div class = "NavAWrapper bordered">
+				<a href="Bertle.html">Bertle</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Dragonborn.html">Dragonborn</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Dwarf.html">Dwarf</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Gnome.html">Gnome</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Hollow.html">Hollow</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Human.html">Human</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Elf.html">Elf</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Orc.html">Orc</a>
+			</div>
+		</div>
+	</div>
+	<div class = "NavigationItem">
+		<a href = "Prices.html">Items</a>
+	</div>
+</div>
+<div class = "Window bordered-full">
+
+
+<div class="Class bordered">
+	<h2 class="Name golden-text">Warlock</h2>
+	<p class="DescriptionPar">Warlocks are people who made pacts with powerful beings</p>
+</div>
+<div class="split">
+<div class="Options bordered split-box">
+	<h3 class="OptionsHeader golden-text">When creating your character:</h3>
+	<p class="ChoicePar">Choose 2 of these, and increase them by 1: Charisma, Intelligence, Wisdom, Dexterity, Fortitude</p>
+	<p class="ChoicePar">Choose one: +1 Weapon Effect or +2 Spell DC</p>
+	<p class="ChoicePar">Choose one: +5 Health or +2 Fortitude Save or +2 Wisdom Save</p>
+</div>
+<div class="Skills split-box">
+	<h3 class="SkilsHeader golden-text">Skills</h3>
+	<p class="SkillsPar">You have +1 Religion, +1 Knowledge and +1 Perception.</p>
+	<p class="SkillsPar">You have -1 Stealth, -1 Luck and -1 Survival</p>
+</div>
+</div>
+<div class="split">
+<div class="Stats bordered split-box">
+	<h3 class="StatsHeader golden-text">Starting Stats:</h3>
+	<p class="StatsPar">Base Health: 10 + (Fortitude)</p>
+	<p class="StatsPar">Bonus Health when leveling up: +5</p>
+</div>
+<div class="Language bordered split-box">
+	<h3 class="LanguageHeader golden-text">Languages</h3>
+	<p class="LanguagePar">If your Intelligence is at least 2, choose one Higher language you can speak.</p>
+</div>
+</div>
+<div class="split">
+<div class="MainStat bordered split-box">
+	<h3 class="MainStatHeader golden-text">Spellcasting and Main Stat</h3>
+	<div class="MainStatPart bordered">
+		<p class="MainStatParagraph">Choose between Intelligence, Dexterity or Charisma. This is your Main Stat.</p>
+	</div>
+	<div class="MainStatPart bordered">
+		<p class="MainStatParagraph">Your Spell DC is 8 + (Main Stat).</p>
+		<p class="MainStatParagraph">Your Spell Hit Bonus is (Main Stat).</p>
+	</div>
+	<div class="MainStatPart bordered">
+		<p class="MainStatParagraph">You are Trained in Spells.</p>
+		<p class="MainStatParagraph">Some spells will tell you to add your Spell Power to the damage dice.</p>
+		<p class="MainStatParagraph">Your Race tells you what your Spell Power is.</p>
+	</div>
+	<div class="MainStatPart bordered">
+		<p class="MainStatParagraph">You have 2 Charges: O O</p>
+		<p class="MainStatParagraph">Certain Abilities require you to spend Charges.</p>
+		<p class="MainStatParagraph">You regain all Charges back when you rest.</p>
+	</div>
+</div>
+<div class="SpellList bordered">
+	<h3 class="Spells golden-text">Casting Spells and Maneuvers</h3>
+	<p>You know a total number of spells and maneuvers equal to 2 + Your Level + Your Intelligence.</p>
+	<p>You can reasign your spells whenever you level up.</p>
+	<p>This is your spell list:</p>
+	<ul class="ListOfSpells">
+		<li class="ListOfSpellsHeader">Maneuvers: All</li>
+		<li class="ListOfSpellsHeader">Basic Spels:</li>
+		<li class="ListOfSpellsElement">Acid Burst</li>
+		<li class="ListOfSpellsElement">Poison Spray</li>
+		<li class="ListOfSpellsElement">Burning Breath</li>
+		<li class="ListOfSpellsElement">Bonfire</li>
+		<li class="ListOfSpellsElement">Dancing Blade</li>
+		<li class="ListOfSpellsElement">Eldritch Blast</li>
+		<li class="ListOfSpellsElement">Fire Bolt</li>
+		<li class="ListOfSpellsElement">Guidance</li>
+		<li class="ListOfSpellsElement">Hollow Touch</li>
+		<li class="ListOfSpellsElement">Flameblade</li>
+		<li class="ListOfSpellsElement">Magic Missiles</li>
+		<li class="ListOfSpellsElement">Mastery</li>
+		<li class="ListOfSpellsElement">Mind Blast</li>
+		<li class="ListOfSpellsElement">Prestidigitation</li>
+		<li class="ListOfSpellsElement">Thaumaturgy</li>
+		<li class="ListOfSpellsElement">Thunder Clap</li>
+	</ul>
+	<ul class="ListOfSpells">
+		<li class="ListOfSpellsHeader">Normal Spells:</li>
+		<li class="ListOfSpellsElement">Chaining Grasp</li>
+		<li class="ListOfSpellsElement">Absorb Element</li>
+		<li class="ListOfSpellsElement">Animate Dead</li>
+		<li class="ListOfSpellsElement">Charming Word</li>
+		<li class="ListOfSpellsElement">Cure Wounds</li>
+		<li class="ListOfSpellsElement">Dispel Magic</li>
+		<li class="ListOfSpellsElement">Fog Cloud</li>
+		<li class="ListOfSpellsElement">Curse of Pain</li>
+		<li class="ListOfSpellsElement">Curse of Weakness</li>
+		<li class="ListOfSpellsElement">Deathfire Bolt</li>
+		<li class="ListOfSpellsElement">Distort Vision</li>
+		<li class="ListOfSpellsElement">Fake Sound</li>
+		<li class="ListOfSpellsElement">Mage Armor</li>
+		<li class="ListOfSpellsElement">Phase Orb</li>
+		<li class="ListOfSpellsElement">Scorching Rays</li>
+		<li class="ListOfSpellsElement">Turn Undead</li>
+	</ul>
+	<ul class="ListOfSpells">
+		<li class="ListOfSpellsHeader">Higher Level Spells:</li>
+		<li class="ListOfSpellsElement">Antimagic Rune</li>
+		<li class="ListOfSpellsElement">Conjure Object</li>
+		<li class="ListOfSpellsElement">Fire Ball</li>
+		<li class="ListOfSpellsElement">Invisibility</li>
+		<li class="ListOfSpellsElement">Levitate</li>
+		<li class="ListOfSpellsElement">Sense Magic</li>
+		<li class="ListOfSpellsElement">Spare the Dying</li>
+		<li class="ListOfSpellsElement">Spider Climb</li>
+		<li class="ListOfSpellsElement">Translation</li>
+	</ul>
+	<ul class="ListOfSpells">
+		<li class="ListOfSpellsHeader">Portal] : 4 Hours (Level 8)</li>
+		<li class="ListOfSpellsElement">Wraithwalk</li>
+	</ul>
+</div>
+<div class="ClassAbilities split-box">
+	<h3 class="AbilitiesTitle golden-text">Abilities</h3>
+	<div class="AbilitiesPart">
+		<p class="AbilitiesParagraph">You start with the following class abilities:</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Life Tap</span> : <span class="SpellActionsNormal">0.5 Actions</span></h4>
+				<p class="SpellDescription">Take 6 damage.<br>Gain 1 Charge.</p>
+			</div>
+		</div>
+	</div>
+	<div class="AbilitiesPart">
+		<p class="AbilitiesParagraph">~ 3 Charges ?</p>
+	</div>
+</div>
+</div>
+<div class="Other">
+	<h3 class="OtherHeader golden-text">Other Notices</h3>
+	<div class="OtherPart">
+		<p>Choose one of the following types of patrons:</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Fey Patron</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">Your lord is a higher fey creature.<br>You can pick a Racial Ability from any other race and have it permanently.<br>Your Spell DC increases by +2 when you try to put enemies to Sleep or to Charm them.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Celestial Patron</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">Your lord is a celestial being, who lives in a higher plane.<br>Your Spell DC increases by +2 when you try to Snare or Blind enemies.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Life Cycle</span> : <span class="SpellActionsNormal">0.5 Actions</span></h4>
+				<p class="SpellDescription">Take 6 damage and heal an ally within 3 meters for 6 Health.<br>Or deal 6 damage to a willing ally within 3 meters and heal yourself for 6 Health.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Demon Pact</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">Your lord is a powerful demon.<br>Once per Long Rest, you can use Life Tap for 0 Actions and without taking Damage.<br>Your Spell DC increases by +2 when you try to Stun enemies.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Old God Pact</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">Your lord is an old, slumbering god.<br>The first time you choose a Race talent, gain all of them.</p>
+			</div>
+		</div>
+	</div>
+	<div class="OtherPart">
+		<p>Now that your character is almost ready, choose your specialization:</p>
+	</div>
+</div>
+<div class="Specialization bordered">
+	<h3 class="SpecializationTitle golden-text">Choosing Your Specialization...</h3>
+	<p class="SpecializationPar">At Level 1, you can choose your specialization.</p>
+	<p class="SpecializationPar">Every Warlock can choose from the following Warlock specializations:</p>
+	<ul class="SpecializationsList">
+		<li class="SpecializationsListItem">Hexblade, a user of both magic and a weapon infused with the power of their master</li>
+		<li class="SpecializationsListItem">Summoner, specialized in calling for aid from familiars and other worldly beings</li>
+		<li class="SpecializationsListItem">Waverer, whose master's magic is far beyond its control: one who should expect the unexpected</li>
+	</ul>
+</div>
+<div class="Spec bordered">
+	<h2 class="SpecTitle golden-text">Hexblade	~ 4.25 Charges</h2>
+	<div class="SpecPart">
+		<p>Lorem ipsum snitel dolor.</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Sentient Weapon</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">You have a Hexblade Weapon, inside which your patron lies, either possessing the weapon, being trapped inside it or using it as a means of communication with you.<br>Pick any weapon type, and it becomes your Hexblade Weapon.<br>You can customize your weapon's personality, voice, the way it looks. Talk to your DM about this.<br>You are automatically considered trained in your Hexblade Weapon.<br>There is no penalty to casting spells while wielding the Hexblade Weapon.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Hexblade</span> : <span class="SpellActionsPassive">Passive	~ 1 Charge</span></h4>
+				<p class="SpellDescription">After you cast an offensive spell, your next weapon attack deals +1 (1-Handed) or +2 damage (2-Handed) if it hits.</p>
+			</div>
+		</div>
+	</div>
+	<div class="SpecPart">
+		<p>At Level 2, pick one of the following Talents and learn it permanently:</p>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Shapeshifting Weapon</span> : <span class="SpellActionsNormal">0 Actions</span></h4>
+				<p class="SpellDescription">You can instantly change the type of weapon of your Hexblade.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Hexstaff</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">Your [Hexblade] Ability is changed and now has the following effect:<br>After you attack with a weapon, your next spell has +1 DC, +1 to hit and deals +<span style="color: #FF5500">1d4</span> damage.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Doublehex</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">You now have 1 more Hexblade Weapon, of any kind. The same patron or another one is possessing your second weapon.<br>At any time, you can vanish or resummon either weapon.<br>You must wait at least 5 minutes (for each weapon separately) after resummoning a weapon to vanish it again.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="Spec bordered">
+	<h2 class="SpecTitle golden-text">Summoner</h2>
+	<div class="SpecPart">
+		<p>Lorem ipsum snitel dolor.</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Summon Familiar</span> : <span class="SpellActionsPassive">1 Hour</span></h4>
+				<p class="SpellDescription">You conjure a ritual using various magical materials worth 25 Gold.<br>The first time you cast this ritual, you summon a familiar which becomes yours.<br>You can choose which type of familiar you want:<br>- It can take the shape of a small creature.<br>- It can look spectral or look as a normal animal with a slight glow (does not radiate light).<br>- You can choose what color it is if it's spectral or what color its glow is.<br>Also, choose an element which is bound to it: Fire, Water, Frost, Arcane, Thunder, Earth, Wind, Light or Darkness.<br>That becomes your Familiar Element.<br>Your familiar comes with a name. Roll for your familiar name on the Familiar Name Table (or your DM will choose one for you).<br>You can communicate with your Familiar telepathically.<br>The familiar doesn't take turns on its own, but at the same time as you.<br>On your turn, your familiar can use its own movement to move, but you must spend your actions for it to take actions.<br>If your familiar goes more than 20 meters away from you, it becomes unsummoned.<br>If it dies, it becomes unsummoned.<br>You can always summon it back with this Ability.<br>After your familiar is unsummoned, it needs 24 hours to be summonable back.</p>
+			</div>
+		</div>
+	</div>
+	<div class="SpecPart">
+		<p>Your familiar has the following stats:</p>
+		<p>- Health: 10 + Your Fortitude + 2 per level after level 1.</p>
+		<p>- Armor: 10 + Your Dexterity</p>
+		<p>- Stats and Saves: Same as yours</p>
+		<p>- Movement: Same as yours, can't fly, but it can swim</p>
+		<p>- Attack Bonus: +3</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Pet Attack</span> : <span class="SpellActionsNormal">0.5 Actions</span></h4>
+				<p class="SpellDescription">The pet melee attacks a target.<br>The attack deals <span style="color: #FF5500">1d8</span> + 1 damage (of your pet's elemental type).<br>You can do this once per turn.</p>
+			</div>
+		</div>
+	</div>
+	<div class="SpecPart">
+		<p>As a summoner, you have access to special Familiar feats.</p>
+		<p>These feats give you extra abilities for your Familiar.</p>
+		<p>When creating your character, you also get one of these feats for free.</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Element Lash</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">The closest creature (you choose if tie) to the familiar makes a Dexterity save.<br>If it fails, it takes <span style="color: #FF5500">2d8</span> + 2 damage (of your Familiar Element).<br>3 meter range.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Soul Attack</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Your familiar makes a melee attack against a creature.<br>If it hits, it deals <span style="color: #FF5500">4d8</span> - 2 damage (of your Familiar Element).<br>After that, your familiar briefly disappears.<br>It appears back near you at the start of your next-next turn.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Meat Shield</span> : <span class="SpellActionsPassive">Reaction</span></h4>
+				<p class="SpellDescription">Passively, your pet doubles its maximum health and its size becomes Large.<br>When you are attacked, before the attack roll, you can activate this to make your pet dash to your position and the attack will be redirected to your pet.<br>1 use / Long Rest.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Sentience</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">Your familiar can speak and communicate in all languages you know.<br>Your Spell DC also increases by 1.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Seduce</span> : <span class="SpellActionsNormal">0.5 Actions</span></h4>
+				<p class="SpellDescription">Spend 1 Charge and choose a target within 6 feet of the familiar.<br>The target rolls a Wisdom save. If it fails, it is Charmed by your familiar, and your familiar is also Charmed by that creature.<br>(Nothing happens if the target is immune to being Charmed).</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Devour Magic</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Cure a debuff or curse on an ally.<br>Also, choose a target near the familiar.<br>That target rolls an Intelligence save.<br>If it fails, it is Silenced and takes <span style="color: #FF5500">1d10</span> damage (of your Familiar Element).</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Health Funnel</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">Deal 6 damage to your Familiar, and you gain 3 Health.<br>Or..<br>Deal 6 damage to yourself, and your Familiar gains 3 Health.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Camouflage Master</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>You and your familiar gain +5 Stealth for 10 minutes.</p>
+			</div>
+		</div>
+	</div>
+	<div class="SpecPart">
+		<p>At Level 2, pick one of the following Talents and learn it permanently:</p>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Tongues</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">You can speak all common languages.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Drain Soul</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">Choose a target within 3 meters.<br>Deal 3 Necrotic damage to that target.<br>If it dies until the start of your next turn, you gain 1 Charge.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Dream Walk</span> : <span class="SpellActionsPassive">Channeled</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Choose a sleeping target you can see within 6 meters.<br>It makes a Wisdom save with Disadvantage.<br>If it fails, you can alter their dream to your liking.<br>The target wakes up if they die, or the DM might have the target make another save for waking up later.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="Spec bordered">
+	<h2 class="SpecTitle golden-text">Waverer	~ 3.85 Charges</h2>
+	<div class="SpecPart">
+		<p>Lorem ipsum snitel dolor.</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Natural Resister</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">Due to your magical instability, you gain 50% resistance to an elemental damage type of your choice.<br>(Fire/Cold/Thunder/Force/True/Necrotic)</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Chaos Magic</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">Spend 1 Charge and roll <span style="color: #FF5500">1d6</span> to see which effect happens.<br>All of these effects have 6 meters range if not specified otherwise.<br>1. Aftermath<br>Heal the closest 2 other allies for 4 Health.<br>2. Blast Burst<br>You and all creatures directly around you take <span style="color: #FF5500">3d6</span> Fire damage.<br>3. Chaos Bolt<br>Make a spell attack against a target. If it hits, deals <span style="color: #FF5500">3d6</span> + 6 Thunder/Fire/Cold damage (you choose).<br>4. Deafening Rend<br>All creatures in front of you in a 4 meter line make a Wisdom save.<br>If they fail, they are Silenced.<br>5. Eldritch Incantation<br>An enemy makes a save. You choose what stat it uses for the save.<br>If it fails, it takes 6 damage, it is pushed up to 3 meters in any direction you choose and it is Crippled.<br>6. A creature you choose makes an Intelligence save. If it fails, it is Paralyzed for 1 minute.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Controlled Magic</span> : <span class="SpellActionsPassive">Reaction</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Instead of rolling <span style="color: #FF5500">1d6</span>6 meters.<br>It makes a Wisdom save with Disadvantage.<br>If it fails, you can alter their dream to your liking.<br>The target wakes up if they die, or the DM might have the target make another save for waking up later.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<style>body{background-image: url("Backgrounds/Warlock.jpg");}</style>
+﻿</div>
+</body>
+</html>

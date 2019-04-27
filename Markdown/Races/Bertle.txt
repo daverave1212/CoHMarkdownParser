@@ -1,0 +1,155 @@
+#Race#
+	
+	Bertle
+// VARIANT: Vulper
+
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Wisdom, Intelligence, Dexterity or Charisma
+	Choose one: +1 Movement Speed or +2 Dexterity saves
+	Choose one: +1 Fortitude Save or +1 Charisma Save or +1 Wisdom Save
+	
+#Skills#
+You have +1 Acrobatics, +1 Perception, +1 Craft
+You have -1 Animal Handling, -1 Deception, -1 History
+
+#Stats#
+Base Health: 7
+Movement: 6 meters
+Lifespan: ~75 years
+Languages: Common
+
+#Language#
+If your Intelligence is at least 2, you can speak 1 additional Common language.
+
+#OTHER#
+Due to the variations in Bertle species, you can choose if you want your size to be Small or Medium.
+
+#Abilities#
+You start with the following racial ability:
+
+[Herbivore] : Passive
+You can not eat meat.
+If you do, you take take 1d12 Poison damage and have Disadvantage on all rolls for 1 hour.
+You take 50% more damage from Poison (other than when eating meat).
+
+#LevelBonus#
+At Level 1, you can pick one of the following talents and know it permanently:
+
+{Fleet Footed} : Passive
+You are immune to slows.
+
+{Nimbleness} : Passive
+You can move through the spaces of enemy units (in normal conditions).
+
+{Darkvision} : Passive
+You can see up to 12 meters away in darkness, without discerning colors.
+
+{Cutting Teeth} : Passive
+Your teeth act as natural daggers which can pierce through some materials:
+You are able to cut rope, flesh, wood, etc (but not concrete, metal, etc).
+Attacking with your teeth takes 1 Action, adds Dexterity modifier and deals 1d8 Piercing damage.
+
+#LevelBonus#
+At Level 2 you gain +2 Feat Points.
+And don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 3, your maximum number of Charges increases by +1.
+Your maximum Health also increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 4 you gain the Action Surge ability. Use it wisely!
+
+[Action Surge] : 0 Actions
+Gain an extra 1 Action this turn!
+You can do this once per Long Rest.
+
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 5, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 6, choose any of your 5 base Stats and increase it by +1 (up to a maximum of +4).
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 7, your maximum number of Charges increases by +1.
+Your maximum Health increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 8, you gain +2 Feat Points and don't forget to choose a Talent from your class.
+
+#LevelBonus#
+At Level 9, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 10, you have reached the peak of your skill.
+Congratulations!
+But don't forget to choose a Talent from your class.
+It will be a powerful one!
+
+#PageEnd#
+
+
+Level 2: Class Talent 1. +2 Feat Points
+Level 3: Race Talent 2. Charge +1. Extra Health.
+Level 4: Class Talent 2. Action Surge. +2 Feat Points
+Level 5: Race Talent 3. Charge +1. Extra spell Tier.
+Level 6: Class Talent 3. Stat Increase. +2 Feat Points
+Level 7: Race Talent 4. Charge +1. Extra Health.
+Level 8: Class Talent 4. +2 Feat Points
+Level 9: Race Talent 5. Charge +1. Extra Spell Tier.
+Level 10: Class Talent 5.
+
+	At Level 3:
+
+{Protruded Claws} : Passive
+You gain +3 on Athletics rolls for Climbing.
+You become Trained in Unarmed (if you aren't already) and can do Unarmed attacks with any Stat instead of Dexterity/Fortitude.
+
+
+{Skipper} : Passive
+You can freely jump up to 2 meters in length when moving (still uses 2 meters of your movement speed).
+Doing this allows you to freely jump over small obstacles, gaps, etc without having to roll.
+# If playing with grid, you can jump over a square and land in the next one. #
+
+
+
+
+
+{Thick Fur} : Passive
+You have 50% resistance to Cold damage.
+
+{Sidekick} : 1 Action
+Make a melee attack against a creature with a total of +4 to the roll.
+If you hit, you deal 1d6 damage, you can Shift 1 meter in any possible direction, and the target rolls a Fortitude save.
+If it fails, it is stunned.
+You can do this once per Long Rest.
+
+{High Roller} : 0 Actions
+Choose one:
+1. Gain Advantage on an Acrobatics roll
+2. Gain +3 meters movement this turn
+You can do this once per Long Rest.
+
+
+
+{Gatherer Instincts} : Passive
+You are no longer Vulnerable to Poison.
+You have +5 on identifying plants, fruits, mushrooms, vegetables, etc.
+
+
+
+
+
+
+

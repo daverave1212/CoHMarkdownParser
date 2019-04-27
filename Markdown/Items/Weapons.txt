@@ -1,0 +1,286 @@
+
+
+
+
+
+
+#ItemWeapon#
+Punch : Fortitude or Dexterity
+1-Handed Melee, Special
+1d8 
+If you hit, your next attack has +1 to hit!
+Alternatives: Kick, Slam, Karate-Chop, etc
+
+#ItemWeapon#
+Club : Fortitude
+1-Handed Melee
+1d6 + 1 Smash damage
+Deal 100% bonus damage.
+Alternatives: Katar (Slash instead of Smash)
+
+#ItemWeapon#
+Dagger : Dexterity
+1-Handed Melee, Finesse, Thrown*
+1d8 Pierce damage
+If you are ambushing this turn, your daggers deal 50% bonus damage.
+
+#ItemWeapon#
+Mace : Fortitude
+1-Handed Melee
+1d4 + 2 Smash damage
+Ignores resistance to Smash damage.
+Alternatives: Light Morning Star
+
+#ItemWeapon#
+Hand Axe : Fortitude or Dexterity
+1-Handed Melee, Thrown
+1d10 - 1 Slash damage
+If you rolled a 9 or 10 on the die, heal for 1 health.
+Alternatives: Claws
+
+
+#ItemWeapon#
+Hand Hammer : Fortitude
+1-Handed Melee, Thrown
+1d10 - 1 Smash damage
++1 to hit if the target is wearing armor.
+
+#ItemWeapon#
+Sickle : Fortitude or Dexterity
+1-Handed Melee, Finesse
+4 Slash damage
+-
+Alternatives: Nunchaku (Smash instead of Slash)
+
+#ItemWeapon#
+Spear : Fortitude
+1-Handed Melee
+1d8 Pierce damage
+2 meters range.
+Alternatives: Lance
+
+
+#ItemWeapon#
+Flail : Fortitude
+1-Handed Melee
+1d12 - 2 Pierce or Smash damage
+None
+Alternatives: Combat Chains, Kusarigama
+
+#ItemWeapon#
+Shortsword : Fortitude or Dexterity
+1-Handed Melee
+1d6 + 1 Slash damage
+Can be used with either Fortitude or Dexterity.
+Alternatives: Falchion, Sabre, Scimitar variant
+
+#ItemWeapon#
+Scimitar : Fortitude or Dexterity
+1-Handed Melee
+1d8 Slash damage
+If you roll 1 on the damage die, reroll the die.
+
+#ItemWeapon#
+Rapier : Dexterity
+1-Handed Melee, Finesse
+1d6 + 1d8 damage
+You can only wield the Rapier in one hand. Attacking with it costs 1 Action. While wielding the rapier, you have +1 movement speed and you don't trigger attacks of oportunity.
+
+#ItemWeapon#
+Cleaver : Fortitude or Dexterity
+1-Handed Melee, Thrown
+1d4 + 2 Slash damage
+Critical strikes deal +1d6 extra damage.
+Alternatives: Variant Dagger, Dead Fish (Smash instead of Slash)
+
+#ItemWeapon#
+Warglaive : Dexterity
+1-Handed Melee, Finesse, Thrown
+1d12 - 2 Pierce damage
+None
+Alternatives: Boomerang, Chakram, Shuriken
+
+#ItemWeapon#
+Greatclub : Fortitude
+2-Handed Melee
+2d6 + 2 Smash damage
+Natural 19 attempts a stun on the target, Fortitude save, your Spell DC.
+
+#ItemWeapon#
+Poor Man's Mallet : Fortitude
+2-Handed Melee
+1d8 damage
+Attacks with this take only 0.5 Actions and you can make multiple attacks per turn with it.
+
+#ItemWeapon#
+Warhammer : Fortitude
+2-Handed Melee
+2d8 damage
+Your first attack in the encounter deals maximum damage if it hits.
+
+#ItemWeapon#
+Heavy Mace : Fortitude
+2-Handed Melee
+1d12 + 2 damage
+Ignores Smash damage resistance.
+
+#ItemWeapon#
+Longsword : Fortitude
+1-Handed or 2-Handed Melee
+1d8 / 1d12 + 2 damage
+Can be wielded either as a 1-Handed or 2-Handed weapon.
+You only need to be trained in 1-Handed or 2-Handed weapons to wield this weapon in both ways.
+
+#ItemWeapon#
+Greatsword : Fortitude
+2-Handed Melee
+1d20 Slash damage
+-
+-
+You have -3 to hit with this weapon.
+
+#ItemWeapon#
+Claymore : Fortitude
+2-Handed Melee
+2d8 damage
+Critical strikes deal 1d8 bonus damage.
+
+#ItemWeapon#
+Quarterstaff : Dexterity
+2-Handed Melee, Finesse
+1d12 + 2 damage
+Instead of attacking one target, you can attack 2 targets. Each attack deals 1d6 + 1 damage if it hits.
+Roll an attack for each target.<br>These 2 attacks happen at the same time.
+
+#ItemWeapon#
+Battle Axe : Fortitude
+2-Handed Melee
+2d10 - 2 damage
+For each 9 and 10 rolled on the dice, heal for 2 health.
+
+#ItemWeapon#
+Scythe : Fortitude or Dexterity
+2-Handed Melee
+3d4 + 1 damage
+Instead of attacking, you can just deal 3 damage to all creatures around you.
+
+#ItemWeapon#
+Pike : Fortitude
+2-Handed Melee
+1d12 + 2 Pierce damage
+2 meters range.
+
+#ItemWeapon#
+Halberd : Fortitude
+2-Handed Melee
+1d10 + 2 Slash damage
+Has +1 to hit against Large or larger enemies.
+Alternatives: Garden Rake, Glaive, Bardiche
+
+#ItemWeapon#
+Katana : Dexterity
+2-Handed Melee, Finesse
+2d10 - 4 damage
+Your Katana attacks crit on natural 19 rolls.
+
+#ItemWeapon#
+Trident : Fortitude
+2-Handed Melee
+1d12 + 2 damage
+If you moved at least 3 meters in a straight line and then attacked, the attack gains +1d4 damage if it hits.
+Alternatives: Pitchfork
+
+#ItemWeapon#
+Pickaxe : Fortitude
+2-Handed Melee
+2d4 + 4 damage
+Has +1 to hit against humanoids wearing shields.
+Alternatives: Falx
+
+#ItemWeapon#
+Whip : Dexterity
+2-Handed Melee, Finesse
+1d8 + 4 damage
+Deals +1d4 damage against unarmored or lightly armored humanoids.
+
+#ItemWeapon#
+Longbow : Dexterity
+2-Handed Ranged
+1d10 + 2 damage
+
+#ItemWeapon#
+Shortbow : Dexterity
+2-Handed Ranged
+1d10 damage
+Does not require Training to use.
+This weapon is intended for characters who are not proficient in ranged weapons, such as heavy melee, strength based warriors who want a decent ranged attack once in a while.<br><br>Alternatives: Javelin (variant)
+
+
+#ItemWeapon#
+Heavy Crossbow : Fortitude or Dexterity
+2-Handed Ranged
+1d12 + 4 damage
+You can use your Fortitude for attacks with a heavy Crossbow.
+-
+You must always spend 0.5 Actions to reload the crossbow before you can attack again.
+
+#ItemWeapon#
+Heavy Gun : Fortitude or Dexterity
+2-Handed Ranged
+3d6 - 1 damage
+Instead of attacking, you can spend 5 ammo to deal 3 damage to all creatures in a 3x3 area directly in front of you
+-
+You must always spend 0.5 Actions to reload the gun before you can attack or do its special ability again.
+
+#ItemWeapon#
+Sling : Dexterity
+1-Handed Ranged
+1d4 + 1 damage
+Attacks with slings use 0.33 actions (and you can attack 3 times per turn with the same sling).
+Alternatives: Slingshot
+
+#ItemWeapon#
+Light Crossbow : Dexterity
+1-Handed Ranged
+4 damage
+-
+-
+You must always spend 0.5 Actions to reload the crossbow before you can attack again.
+
+#ItemWeapon#
+Handgun : Dexterity
+1-Handed Ranged
+1d6 + 1 damage
+You have no penalty for melee attacks with the Handgun.<br>Enemies don't get oportunity attacks when you make Handgun attacks.
+-
+You must always spend 0.5 Actions to reload the gun before you can attack again.
+
+#ItemWeapon#
+Blowgun : Dexterity
+1-Handed Ranged
+1d4 + 1 damage
+If the target has below 50% Health, deals an extra 1d4 Poison damage.
+
+#ItemWeapon#
+Other Thrown Weapon : Dexterity
+1-Handed Ranged
+1d6 Pierce/Smash/Slash damage
+
+#PageEnd#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

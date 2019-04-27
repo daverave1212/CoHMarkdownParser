@@ -1,0 +1,114 @@
+
+
+
+#Gear#
+Unarmored
+-
+Armor Bonus: Equal to Dexterity
++1 meter Movement Speed and +2 Acrobatics
+No armor or very little clothing, such as a bare chest or lightly clothed body. You rely on your reflexes more than on armor.
+You take 50% more Piercing and Slashing damage
+
+
+#Gear#
+Common Clothes
+-
+Armor Bonus: 1
++3 Luck.
+Common Clothes can range from cheap peasant clothes to expensive, noble or formal clothes. Feel free to customize the way your character looks with Common Clothes!
+-
+
+
+
+#Gear#
+Robes
+-
+Armor Bonus: 1
++2 Initiative and +1 Spell DC
+Robes vary in purpose and design. They can symbolize a wizard's robes, a priest's apparel or a noble's dress.
+-
+
+
+
+#Gear#
+Padded Armor
+-
+Armor Bonus: 1
++2 total Health.
+Padded Armor consists of quilted layers of cloth and batting. It's thickness is both a pro and a con.
+-5 on swimming checks
+
+
+
+#Gear#
+Leather Armor
+-
+Armor Bonus: 2
++1 Stealth and +2 Initiative
+The Breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.
+-3 total Health
+
+
+#Gear#
+Hide Armor
+-
+Armor Bonus: 2
++2 Survival and 50% resistance to falling damage
+This crude armor consists of thick furs and pelts. It is commonly worn by Barbarian and other folk who lack access to the tools and materials needed to create better armor.
+50% Vulnerability to Fire damage
+
+
+#Gear#
+Splint Armor
+-
+Armor Bonus: 3
++1 Movement Speed and +2 Athletics
+This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible Chain Mail protects the joints.
+-5 Initiative
+
+
+#Gear#
+Chain Mail
+-
+Armor Bonus: 3
+-
+Made of interlocking metal rings, Chain Mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. 
+-5 Stealth
+
+#Gear#
+Scale Mail
+-
+Armor Bonus: 3
+-
+This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish.
+You take 50% more Smashing damage
+
+#Gear#
+Plate Armor
+-
+Armor Bonus: 4
++2 Intimidation
+Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.
+-5 Stealth and -1 meter Movement Speed
+
+
+#PageEnd#
+
+
+
+#Gear#
+
+-
+Armor Bonus:
+
+-
+
+
+
+
+
+
+
+
+
+

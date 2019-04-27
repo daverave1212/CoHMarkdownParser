@@ -1,0 +1,256 @@
+#Class#
+
+		Mage
+Mages are powerful spellcasters.
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Charisma, Intelligence, Wisdom, Dexterity, Fortitude
+	Choose one: +1 Weapon Effect or +2 Spell DC
+	Choose one: +2 Fortitude Save or +2 Dexterity Save
+	
+#Skills#
+You have +1 Arcana, +1 Knowledge and +1 History.
+You have -1 Athletics, -1 Acrobatics and -1 Survival
+
+#Stats#
+Base Health: 4 + (Fortitude x 2)
+Bonus Health when leveling up: +5
+
+#Language#
+If your Intelligence is at least 2, choose one Common or Wild language you can speak.
+
+#MainStat#
+Choose between Intelligence, Wisdom or Charisma. This is your Main Stat.
+
+Your Spell DC is 8 + (Main Stat).
+Your Spell Hit Bonus is (Main Stat).
+
+You are Trained in Spells.
+Some spells will tell you to add your Spell Power to the damage dice.
+Your Race tells you what your Spell Power is.
+
+You have 4 Charges: O O O O
+Certain Abilities require you to spend one Charge.
+You regain all Charges back when you Long Rest.
+
+
+	
+
+#ClassAbilities#
+You start with the following class abilities:
+
+[Magic Mastery] : 0 Actions
+Spend 1 Charge.
+The next ability you use that has the cost of 1 Action now costs 0.5 Actions.
+This is considered a maneuver.
+
+
+
+Now that your character is almost ready, choose your specialization:
+
+	//~ 4 Charges
+	//Buff: starts with 1 extra Charge
+	// Mages are the only class which starts with 4 Charges I believe...
+
+#SpellList#
+You know a total number of spells and maneuvers equal to 2 + Your Level + Your Intelligence.
+You can reasign your spells whenever you level up.
+This is your spell list:
+
+Maneuvers: All
+Basic Spels:
+	[Acid Burst]
+	[Burning Breath] : 0.5 Actions
+	[Bonfire] : 1 Action
+	[Control Flames] : 1 Action
+	[Control Water] : 1 Action
+	[Dancing Blade] : 1 Action
+	[Fire Bolt] : 1 Action
+	[Frostbite] : 1 Action
+	[Flameblade] : 0 Actions
+	[Light] : 1 Action
+	[Magic Missiles] : 1 Action
+	[Prestidigitation] : 1 Action
+	[Quicksand] : 0.5 Actions
+	[Thunder Clap] : 1 Action
+Normal Spells:
+	[Absorb Element] : Reaction
+	[Alarm] : 10 minutes
+	[Dispel Magic] : 1 Action
+	[Feather Fall] : Reaction or 0 Actions
+	[Fog Cloud] : 1 Action
+	[Distort Vision] : 1 Action
+	[Fairy Fire] : 1 Action
+	[Fire Enchantment] : 1 Action
+	[Flash] : 0 Actions
+	[Frost Rune] : 1 Action
+	[Explosion Rune] : 1 Action
+	[Fake Sound] : 0.5 Action
+	[Ice Spike] : 1 Action
+	[Flame Strike] : 1 Action
+	[Mage Armor] : 1 Action
+	[Mage Hand] : 0 Actions
+	[Mending] : 1 Action
+	[Unlock] : 1 Action
+	[Phase Orb] : 0.5 Actions
+	[Scorching Rays] : 1 Action
+	[Shield Element] : 0.5 Actions
+	[Shadow Clone] : 0 Actions
+	[Water Sphere] : 1 Action
+Higher Level Spells:
+	[Antimagic Rune] : 1 Action (Level 4)
+	[Conceal Magic] : 1 Action (Level 4)
+	[Conjure Object] : 1 Action (Level 4)
+	[Encode Thoughts] : 1 Action (Level 4)
+	[Fire Ball] : 1 Action (Level 4)
+	[Sense Magic] : 0 Actions (Level 4)
+	[Invisibility] : 1 Action (Level 4)
+	[Levitate] : 1 Action (Level 4)
+	[Magic Prison] : 5 minutes (Level 8)
+	[Portal] : 4 Hours (Level 8)
+	
+
+#Specialization#
+At Level 1, you can choose your specialization.
+Every Mage can choose from the following Mage specializations:
+- Sorcerer, a born user of magic, floating with the hard to control magic itself
+- Wizard, who became a master of magic through intense study, and carries its spells in an indispensible tome
+- Artificer, who is dedicated to creation, research and experimentation with magical potions, scrolls and magical items!
+	
+
+
+#Spec#
+SORCERER //(Spell Caster Mostly..)
+Lorem ipsum snitel dolor.
+
+[Innate Magic] : Passive
+Of all your spells, you can only cast each ONCE, except Overcharge, until your next Long Rest.
+(Ex: you can cast Firebolt once, then you can't cast Firebolt again until you Long Rest.)
+
+[Overcharge] : Depends
+This has the effect of the last ability you used (except itself), and costs the same number of Actions and Charges.
+(Ex: you can cast Firebolt, then, the next turn, Overcharge: Firebolt again).
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Master Specialization} : Passive
+Choose another class. You also have access to that class's Spell List!
+	
+{Shadow Clone} : 0 Actions
+Spend 1 Charge.
+You create an illusion of yourself at a target location within 3 meters.
+The illusion has 1 Health and 1 Armor and it fails all saves.
+You can control what the illusion does at will.
+Lasts up to 10 minutes.
+
+{Momentum Magic} : Passive
+After an encounter, you can roll 1d20 and add your Main Stat.
+If you rolled a total of or over 20, you gain 1 Charge.
+You can succeed this once per Long Rest (you can try multiple times, but after you succeed once, you need to Long Rest to do it again).
+
+#Spec#
+WIZARD
+Lorem ipsum snitel dolor.
+
+[Spell Book] : Passive
+You have a special Spell Book.
+To cast spells, you need to be holding your Spell Book.
+You can hold it in one hand without consuming actions.
+If your Spell Book has been with you for the past 8 hours, during each Long Rest, you can change any spell you know from the Wizard Spell List to another spell from the Wizard Spell List!
+(You can pick your spells again!)
+While holding the Book, your hand counts as occupied, and you can't hold anything else in it, but you still have 1 Action per turn.
+	
+[Wizard Specialization] : Passive
+When creating your character, choose any other class.
+You have access to that class's Spell List.
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Vanishing Book} : Passive
+You gain +1 in Stealth and Sleight of Hand.
+For 0 Actions, you can instantly vanish you Spell Book, or make it reappear in your hand.
+You can only vanish it every 10 minutes.
+
+{Master Specialization} : Passive
+Choose a class. You also have access to that class's Spell List!
+
+{Arcane Focus} : Passive
+Your Spell Book becomes replaced with an item called Arcane Focus.
+An Arcane Focus is an item of your choice. It can be an amulet, a sword, a cape, etc.
+As long as you have the Arcane Focus on you, it counts as if you are holding the Spell Book without occupying your hand.
+
+
+	// Talent: you can vanish the spell book, hide it, etc, and also you get like some stats cuz why not
+	// Talent: weapon spec or smth
+	// Talent: Special forged weapon: has multiple effects
+
+#Spec#	
+ARTIFICER
+Lorem ipsum snitel dolor.
+
+[Artificer] : Passive
+You own a set of Artificer's Tools, with which you can create potions, scrolls and other items.
+Some of your class spells require you to use your Artificer's Tools (described below).
+For 1 Action, you can summon or vanish your Artificer's Tools.
+If you ever lose your Artificer's Tools, the price for a new set is 200 gold.
+Also...
+Spells noted as 'Artificer:' require you to use Artificer's Tools.
+If they require you to spend Charges, those Charges become locked and can't be regained through any means, until the item created is used or destroyed.
+As usual, items created this way require 0.5 Actions to use.
+Artificer potions do not count towards the potion limit cooldown.
+
+[Artificer: Magic Scroll] : 5 minutes
+Spend 1 Charge.
+Choose a spell you can cast and spend Charges for it if it requires charges.
+You create a scroll containing that spell.
+	
+[Artificer: Magic Elixir] : 5 minutes
+Spend 1 Charge.
+Choose one of the following types of potions and create it:
+o Elixir of Healing: Heal for 2d4 + 1.
+o Elixir of Strength: Attacks with 2-Handed weapons deal +2 damage, and attacks with 1-Handed weapons deal +1 damage (1 hour).
+o Elixir of Agility: Doubled movement speed and Acrobatics bonus (1 hour).
+o Elixir of Intelligence: Gain 1 Charge.
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Master Specialization} : Passive
+Choose a class. You also have access to that class's Spell List!
+// See what cantrips would be cool combos with those things!
+
+{Artificer: Magic Weapon} : 5 minutes
+Spend 1 Charge.
+Choose one a type of weapon, and choose 2 of the following effects:
+o +1d4 damage
+o Damage is converted to Fire/Cold
+o +2 meters move speed
+o +3 health while wielding it
+You can only have 1 Magic Weapon created at a time.
+The Magic Weapon is automatically destroyed after 2 hours.
+
+{Artificer: Spellcraft} : 5 minutes
+Spend 1 Charge.
+You are able to create a custom spell which you hold prepared until your next Long Rest.
+Choose any 2 spells you can cast.
+Those spells combine into one, and both effects are cast at the same time. (You can still cast those 2 spells separately).
+This custom spell costs the combined number of Charges, but only the highest number of Actions.
+(Ex: if one spell takes 0.5 Actions and the other 1 Action, the custom spell will take 1 Action).
+You can customize what the custom spell looks like (for aesthetics only).
+You know and have this spell prepared until your next Long Rest.
+
+#PageEnd#
+
+		Trap			
+		Elemental Damage
+		Buffs
+		Choose between
+		Damage
+		Mobility
+		Pro and Con
+		On kill		
+		Zoning		
+		Swap Position
+		Return on investment
+		Specific range requirement
+		Specific position requirement

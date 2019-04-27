@@ -1,0 +1,122 @@
+#Race#
+	Elf
+A race in tune with both nature and magic, the elves highly praise intelligence and knowledge, as well as 'refined' arts of combat.
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Wisdom, Dexterity, Charisma and Intelligence
+	Choose one: +2 Feat Points or +1 meter movement speed
+	Choose one: +1 Intelligence Save or +1 Dexterity Save
+	
+#Skills#
+You have +1 Nature, +1 Knowledge, +1 Arcana
+You have -1 Athletics, -1 Use Rope, -1 Luck
+
+#Stats#
+Base Health: 6
+Movement: 6 meters
+Lifespan: ~120 years
+Languages: Common and Elvish
+
+#Weapons#
+You are trained in Longbows and Longswords.
+
+#Abilities#
+You start with the following racial ability:
+
+[The Blade Dance] : Passive
+When you land a critical strike, you reset your movement this turn and don't provoke attacks of oportunity this turn.
+
+#LevelBonus#
+At Level 1, you can pick one of the following talents and know it permanently:
+	
+{Meditation} : 4 Hours
+Instead of sleeping for 8 hours, you can meditate for 4 hours and achieve the same result.
+While meditating, all checks you perform are done at -5.	
+
+{Arcane Veins} : Passive
+You permanently know 2 spells from the Amateur Spell List.
+
+{Darkvision} : Passive
+You can see up to 12 meters away in darkness, without discerning colors.
+
+#LevelBonus#
+At Level 2 you gain +2 Feat Points.
+And don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 3, your maximum number of Charges increases by +1.
+Your maximum Health also increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 4 you gain the Action Surge ability. Use it wisely!
+
+[Action Surge] : 0 Actions
+Gain an extra 1 Action this turn!
+You can do this once per Long Rest.
+
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 5, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 6, choose any of your 5 base Stats and increase it by +1 (up to a maximum of +4).
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 7, your maximum number of Charges increases by +1.
+Your maximum Health increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 8, you gain +2 Feat Points and don't forget to choose a Talent from your class.
+
+#LevelBonus#
+At Level 9, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 10, you have reached the peak of your skill.
+Congratulations!
+But don't forget to choose a Talent from your class.
+It will be a powerful one!
+
+
+#PageEnd#
+
+	At Level 3:
+{Natual Swiftness} : 0 Actions
+Gain +4 Movement this turn.
+You can use this once per Long Rest.
+
+{Graceful Evasion} : Reaction
+When you are attacked, before the attack roll, you gain +3 Armor against that attack.
+You can use this once per Long Rest.
+
+{Elven Discipline} : Passive
+You have Advantage against being Charmed or Feared.
+
+{Mana Tap} : 0 Actions
+Spend 1 Charge.
+An enemy near you rolls an Intelligence save.
+If it fails, it is Silenced.
+
+
+	
+	
+	
+Things I can alter:
+	Starting stats
+	Base Health
+	Feat points
+	Saves
+	Dark Vision
+	Number of Maneuvers
+	Movement Speed
+	
+

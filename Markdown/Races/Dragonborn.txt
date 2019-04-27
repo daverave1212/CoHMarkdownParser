@@ -1,0 +1,126 @@
+#Race#
+
+	Dragonborn
+// VARIANT: Loxen
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Fortitude, Wisdom, Intelligence or Charisma
+	Choose one: +3 Health or 1 known spell from the Amateur Spell List
+	Choose one: +1 Fortitude Save or +1 Charisma Save or +1 Wisdom Save
+	
+#Skills#
+You have +1 Arcana, +1 Athletics, +1 Intimidation
+You have -1 Stealth, -1 Luck, -1 Nature
+
+#Stats#
+Base Health: 6
+Movement: 6 meters
+Lifespan: ~80 years
+Languages: Common
+Size: Large
+
+#Language#
+If your Intelligence is at least 1, you can speak 1 additional Common language.
+
+#Abilities#
+You start with the following racial abilities:
+
+[Draconic Ancestry] : Special
+When creating your character, choose an element: Fire, Frost (Cold), Lightning (Thunder), Poison or Acid.
+That becomes your Dragonborn Element.
+
+[Dragonborn Resistance] : Passive
+You have 50% resistance to damage of your Dragonborn Element type.
+
+[Dragon's Breath] : 1 Action
+Breathe your Dragonborn Element in a 3x1 meter line.
+All creatures caught in your breath must succeed a DC10 Dexterity save or take 2d6 damage of your Dragonborn Element type.
+
+
+
+#LevelBonus#
+At Level 1, you can pick one of the following talents and know it permanently:
+
+{Breath: Cone} : Special
+Your Dragon's Breath now breathes in a 3 meter, 45* cone instead of a line.
+
+{Breath: Line} : Special
+Your Dragon's Breath now breathes in a 4x2 meter line.
+
+{Breath: Blast} : Special
+Your Dragon's Breath now breathes on all creatures around you instead of a line.
+
+#LevelBonus#
+At Level 2 you gain +2 Feat Points.
+And don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 3, your maximum number of Charges increases by +1.
+Your maximum Health also increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 4 you gain the Action Surge ability. Use it wisely!
+
+[Action Surge] : 0 Actions
+Gain an extra 1 Action this turn!
+You can do this once per Long Rest.
+
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 5, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 6, choose any of your 5 base Stats and increase it by +1 (up to a maximum of +4).
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 7, your maximum number of Charges increases by +1.
+Your maximum Health increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 8, you gain +2 Feat Points and don't forget to choose a Talent from your class.
+
+#LevelBonus#
+At Level 9, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 10, you have reached the peak of your skill.
+Congratulations!
+But don't forget to choose a Talent from your class.
+It will be a powerful one!
+
+
+#PageEnd#
+
+	At Level 3:
+{Breath Master} : Special
+Dragon's Breath does not affect allies and its save DC increases by 2.
+
+{Scaleskin} : Passive
+When Unarmored, you can apply Fortitude instead of Dexterity to your Armor bonus.
+You also have +1 Armor when Unarmored.
+
+{Double Breath} : Passive
+You can use Dragon's Breath twice per Long Rest.
+
+{Tail Swing} : 1 Action
+Perform an attack with your tail on a creature (2 meters range, +4 to hit).
+If you hit, deal 1d8 + 1 Smash damage and that creature rolls a Fortitude save.
+If it fails, it is either pushed up to 1 meter away from you and Stunned.
+
+{Flaming Jaws} : 0.5 Action
+Leap at a target up to 4 meters away from you ignoring attacks of oportunity.
+You can then perform an attack with your jaws on the target (melee, +4 to hit).
+If you hit, deal 3 damage (of your Dragonborn Element) and heal for 3 health.
+
+
+
+

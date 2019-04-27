@@ -1,0 +1,287 @@
+#Class#
+		Shaman
+Shaman are people in close attunement with the spirits.
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Wisdom, Dexterity, Fortitude
+	Choose one: +1 Weapon Effect or +2 Spell DC
+	Choose one: +2 Intelligence Save or +2 Wisdom Save or +2 Charisma Save
+
+#Skills#
+You have +1 Nature, +1 Religion, +1 Insight
+You have -1 Sleight of Hand, -1 Arcana, -1 History
+
+#Stats#
+Base Health: 5 + (Fortitude x 2)
+Bonus Health when leveling up: +5
+
+#Language#
+If your Intelligence is at least 2, choose one Common, Wild or Elemental language you can speak.
+
+
+#MainStat#
+Wisdom is your Main Stat.
+
+Your Spell DC is 8 + (Main Stat).
+Your Spell Hit Bonus is (Main Stat).
+
+You are Trained in Spells.
+Some spells will tell you to add your Power to the damage dice.
+Your Race tells you what your Power is.
+
+You have 3 Charges: O O O
+Certain Abilities require you to spend one Charge.
+You regain all Charges back when you Long Rest.
+
+#Other#
+Choose a type of animal.
+That animal becomes your Spirit Animal for the rest of your life.
+You gain the bonuses granted by your spirit animal permanently.
+You can choose from the following animals:
+
+#SpellList#
+You know a total number of spells and maneuvers equal to 2 + Your Level + Your Intelligence.
+You can reasign your spells whenever you level up.
+This is your spell list:
+
+Maneuvers: All
+Basic Spels:
+	[Acid Burst] : 0.5 Actions
+	{Poison Spray} : 0.5 Actions
+	[Burning Breath] : 0.5 Actions
+	[Bonfire] : 1 Action
+	[Cleansing Flames] : 0 Actions
+	[Control Flames] : 1 Action
+	[Control Water] : 1 Action
+	[Control Earth] : 1 Action
+	[Detect Poison and Disease] : 1 Action
+	{Inflict Wounds} : 1 Action
+	[Guidance] : Reaction
+	[Hollow Touch] : 1 Action
+	[Mastery] : 1 Action
+	[Mind Blast] : 1 Action
+	[Purify Food and Drink] : 1 Action
+	[Prestidigitation] : 1 Action
+	[Resistance] : 1 Action
+	[Quicksand] : 0.5 Actions
+	[Thunder Clap] : 1 Action
+Normal Spells:
+	[Chaining Grasp] : 0 Actions
+	[Absorb Element] : Reaction
+	[Alarm] : 10 minutes
+	[Animate Dead] : 1 Action
+	[Charming Word] : 1 Action
+	[Cure Wounds] : 1 Action
+	[Cure Poison] : 1 Action
+	[Cure Disease] : 10 minutes
+	[Dispel Magic] : 1 Action
+	[Feather Fall] : Reaction or 0 Actions
+	[Fog Cloud] : 1 Action
+	[Cleansing Smite] : 0 Actions
+	[Distort Vision] : 1 Action
+	[Flash] : 0 Actions
+	[Fake Sound] : 0.5 Action
+	[Influence Beast] : 1 Action
+	[Mage Armor] : 1 Action
+	[Mage Hand] : 0 Actions
+	[Scorching Rays] : 1 Action
+	[Shadow Clone] : 0 Actions
+	[Speak With Animals] : 1 Action
+	[Speak With Plants] : 1 Action
+	[Turn Undead] : 0 Actions
+	[Wild Heart] : 1 Action
+	[Wild Roots] : 1 Action
+Higher Level Spells:
+	[Fire Ball] : 1 Action (Level 4)
+	[Invisibility] : 1 Action (Level 4)
+	[Levitate] : 1 Action (Level 4)
+	[Spare the Dying] : 1 Action (Level 4)
+	[Spider Climb] : 1 Action (Level 4)
+	[Translation] : 0 Actions (Level 4)
+	[Wraithwalk] : 0 Actions (Level 8)
+	
+	
+	
+	
+	
+
+#ClassAbilities#
+As a Shaman, you have a spirit animal which represents you.
+Choose one of the following spirit animals.
+You will permanently gain the bonuses of that spirit animal:
+
+[Bear Spirit]
+Your maximum health increases by 5.
+You have +2 on Athletics rolls.
+
+[Wolf Spirit]
+Your Movement Speed increases by 1 and your Initiative increases by 3.
+You have +2 on Insight rolls.
+
+[Eagle Spirit]
+Your chance to hit with all weapon attacks increases by +1.
+You have +2 on Perception rolls.
+
+[Owl Spirit]
+Your chance to hit with all spells increases by +1.
+You have +2 on Knowledge rolls.
+
+[Sabre Spirit]
+Your first landed attack in an encounter deals 1d8 bonus damage.
+You have +2 on Stealth and Acrobatics rolls.
+
+	// talent : choose one more spirit animal
+	// totem: 1 charge, you can have 2 more spirit animals xd
+	// ~ 3.75 Charges
+	
+	// DONT FORGET THE ABATHUR MECHANIC!
+	// Or regele shaman
+	
+#Specialization#
+At Level 1, you can choose your specialization.
+Every Shaman can choose from the following Shaman specializations:
+- Berserker, a heavy fighter, guided by the ways of the spirits, both wise and strong - a combination to fear
+- Seer, one who can perceive beyond the eyes and ears, who can get to the root of your mind and soul
+- Witch Doctor, a strange ally when it comes to helping, and en even stranger foe when it comes to bringing about death
+	
+
+#Spec#
+	Berserker //~ 4.25 Charges
+Lorem ipsum snitel dolor.
+
+[Path of the Berserker] : Passive
+Your total Armor is always halved, rounded up, no matter what armor type you are wearing. Buffs and debuffs to armor are also halved.
+Your total Health is increased by 50%. (buffs, item effects and health from passive Abilities are not increased)
+
+[Spirit Strike] : 0 Actions
+Your next attack becomes infused with power from your soul.
+It deals 10% of the target's maximum Health as True damage if it hits.
+You can do this once per Long Rest. 
+ 
+[Spirit Form] : 1 Action
+Spend 1 Charge.
+You take the form of your chosen animal, but appear spectral.
+None of your stats changes while in Spirit form, but you double the Skill bonus granted by your spirit animal while transformed.
+You can still speak.
+You can't fly higher than what your normal jump height is.
+Taking damage or using any ability on an enemy instantly transforms you back to your normal form.
+
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Reincarnation} : 1 Action
+Stabilize an unconscious creature or revive a creature that died recently (2 hours maximum).
+This puts the creature at 1 Health.
+You can do this on yourself if you are dead at any point (still uses 1 Action if in an encounter).
+You can do this once per Long Rest.
+
+{Meditation} : Passive
+Instead of sleeping, you can meditate for 4 hours to either provide for 8 hours of sleep, or cure a poison effect on yourself.
+While meditating, you are still alert, but all skill checks done while meditating have -5.
+
+{Primal Ways} : Passive
+You can no longer cast spells from the Shaman spell list, but you can use Spirit Strike twice per Long Rest.
+
+#Spec#
+	Seer //~ 4.25 Charges
+Lorem ipsum snitel dolor.
+
+[Spirit Bond] : 1 Action
+Touch an ally.
+Whenever either of you makes a Skill Check, add the higher Skill bonus from either of you instead of the normal Skill bonus.
+You can do this once per Long Rest, and lasts until your next Long Rest.
+
+[Mind Sight] : 1 Action
+Spend 1 Charge.
+A target within 15 meters you can clearly see makes a Wisdom save.
+If it fails, it is Stunned and can take 1d10 + 1 Psychic damage (or not, your choice).
+You can then see through the target's eyes until you make another action or move.
+If the target is unaware and it rolls 7 or less (total), it doesn't notice what just happened.
+
+[Spirit Form] : 1 Action
+Spend 1 Charge.
+You take the form of your chosen animal, but appear spectral.
+None of your stats change while in Spirit form, but you double the Skill bonus granted by your spirit animal while transformed.
+You can still speak.
+You can't fly higher than what your normal jump distance is (in height).
+Taking damage or using any ability or attack instantly transforms you back to your normal form.
+
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Reincarnation} : 1 Action
+Stabilize an unconscious creature or revive a creature that died recently (2 hours maximum).
+This puts the creature at 1 Health.
+You can do this on yourself if you are dead at any point (still uses 1 Action if in an encounter).
+You can do this once per Long Rest.
+
+{Dream Walk} : Channeled
+Spend 1 Charge.
+Choose a sleeping target you can see within 6 meters.
+It makes a Wisdom save with Disadvantage.
+If it fails, you can alter their dream to your liking.
+The target wakes up if they die, or the DM might have the target make another save for waking up later.
+
+{Far Sight} : Reaction
+Spend 1 Charge.
+Gain +3 on an Insight or Perception check (before you roll).
+
+
+#Spec#
+Witch Doctor //~ 4.35 Charges
+Lorem ipsum snitel dolor.
+
+[Spirit Guides]	: Passive
+You are in constant communion with certain spirits.
+These spirits can be the souls of people you knew who died, spirits of other animals, etc.
+These spirits will sometimes guide your way and aid you in your endeavors.
+After every Long Rest, roll 2d6 and remember what you rolled.
+You can freely consume one of those rolled numbers and add it to any d20 roll you or your party makes.
+These 2d6 reset at long Rests.
+
+[Ancient Dance] : 10 minutes
+Spend 1 Charge.
+With this ancient Dance you can either heal an ally, or damage a foe.
+o Heal: You can heal an ally who was damaged by a certain creature.
+Consuming a bone of that creature, an organ or 1 liter of its blood, you can heal the ally for 3d6 Health.
+o Damage: Gather and consume a piece of hair or body part of a creature.
+You damage that creature for 2d6 True damage.
+With Ancient Dance, you can only heal once per Long Rest, and damage once per Long Rest.
+
+
+
+
+At Level 2, pick one of the following Talents and learn it permanently:
+
+{Reincarnation} : 1 Action
+Stabilize an unconscious creature or revive a creature that died recently (2 hours maximum).
+This puts the creature at 1 Health.
+You can do this on yourself if you are dead at any point (still uses 1 Action if in an encounter).
+You can do this once per Long Rest.
+
+{Voodoo Magic} : 1 Action
+Spend 1 Charge.
+A non-epic target within 6 meters makes a Wisdom save.
+For its next 2 turns, you can choose that enemy's actions as long as it would seem reasonable to that enemy (decide with your DM).
+(Ex: You can't make a guard jump off a cliff)
+
+{Incorporeal Form} : 1 Action
+Spend 1 Charge and choose a willing ally.
+You become a bodyless soul for up to 8 hours and enter that ally.
+While inside the ally's body, you can communicate with them mentally, and only they can see you.
+You can slightly peek outside of their body, and move your arms, upper body and head as if you were a ghost originating from that ally's body.
+o You can't move yourself, but you always move with that ally.
+o You can't do any physical actions (because you are basically a ghost and can't touch anything or anyone).
+o You can cast spells as normal. 
+o You follow your own Initiative in combat.
+o You can't take damage from external sources, but you feel every body sensation that ally feels.
+You can freely exit their body and revert back to your physical self using 1 Action.
+
+#PageEnd#
+
+	// Rain dance
+
+
+
+

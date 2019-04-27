@@ -1,0 +1,132 @@
+#Race#
+	Gnome
+Gnomes are the little people, generally regarded as peaceful, curious and creative.
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Dexterity, Wisdom, Charisma and Intelligence
+	Choose one: +3 Maximum Helath or +3 Initiative or +1 Movement Speed
+	Choose one: +1 Fortitude Save or +1 Charisma Save or +1 Intelligence Save
+	
+#Skills#
+You have +1 in Luck, Stealth and Perception
+You have -1 in Athletics, Intimidation and Biology
+
+
+#Stats#
+Base Health: 3
+Movement: 5 meters
+Lifespan: ~100 years
+Languages: Common
+Size: Small or Medium (your choice)
+
+#WeaponsLanguage#
+You are trained in Daggers, Slings and Hand Crossbows.
+If your Intelligence is at least 1, you know one additional Common language.
+
+#Abilities#
+You start with the following racial abilities:
+
+[Inherited Tastes] : Passive
+You don't have a sense of taste, but your eyes perceive colors sharper than other races.
+
+[Lucky] : Reaction
+Add your Luck modifier to any d20 you rolled (at least +1).
+You can do this once per Long Rest.
+
+#LevelBonus#
+At Level 1, you can pick one of the following talents and know it permanently:
+
+{Catch Me If You Can} : 0 Actions
+This turn you don't trigger attacks of oportunity.
+You can do this once per Long Rest.
+
+{Darkvision} : Passive
+You can see up to 12 meters away in darkness, without discerning colors.
+
+{Oh, My Tongue!} : Passive
+You now have a sense of taste. Congratulations!
+You can detect whether something is poisonous by licking it without being affected by that poison.
+
+#LevelBonus#
+At Level 2 you gain +2 Feat Points.
+And don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 3, your maximum number of Charges increases by +1.
+Your maximum Health also increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 4 you gain the Action Surge ability. Use it wisely!
+
+[Action Surge] : 0 Actions
+Gain an extra 1 Action this turn!
+You can do this once per Long Rest.
+
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 5, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 6, choose any of your 5 base Stats and increase it by +1 (up to a maximum of +4).
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 7, your maximum number of Charges increases by +1.
+Your maximum Health increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 8, you gain +2 Feat Points and don't forget to choose a Talent from your class.
+
+#LevelBonus#
+At Level 9, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 10, you have reached the peak of your skill.
+Congratulations!
+But don't forget to choose a Talent from your class.
+It will be a powerful one!
+
+
+#PageEnd#
+
+	At Level 3:
+{Quick to Act} : Passive
+You gain +3 Initiative.
+	
+{Luckier} : Passive
+You can use Lucky twice per Long Rest.
+
+{Nimbleness} : Passive
+You can move through the spaces of enemy units (in normal conditions).
+
+{Fey Ties} : Passive
+You permanently learn 2 Spells from the Druid Spell List.
+
+
+
+
+
+
+
+
+	
+	
+Things I can alter:
+	Starting stats
+	Base Health
+	Feat points
+	Saves
+	Dark Vision
+	Number of Maneuvers
+	Movement Speed
+	Initiative
+	
+

@@ -1,0 +1,135 @@
+#Race#
+	Dwarf
+A race of old, the ancient Dwarves are a strong and traditional people.
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Fortitude, Wisdom, Charisma and Intelligence
+	Choose one: +2 Feat Points or +1 meter movement speed
+	Choose one: +1 Fortitude Save or +1 Wisdom Save
+	
+#Skills#
+You have +1 Athletics, +1 History, +1 Craft
+You have -1 Acrobatics, -1 Deception, -1 Stealth
+
+#Stats#
+Base Health: 9
+Movement: 5 meters
+Lifespan: ~200 years
+Languages: Common and Dwarvish
+
+#Weapons#
+You are trained in Hand Hammers, Warhammers and Heavy Guns.
+
+#Abilities#
+You start with the following racial abilities:
+
+[Dwarf Resting] : Passive
+You need 12 hours of sleep instead of 8 per day to function normally.
+Your movement speed can't be reduced below 5 meters.
+
+[Dwarven Resilience] : Reaction
+Reroll a save roll.
+You can do this once per Long Rest.
+
+#LevelBonus#
+At Level 1, you can pick one of the following talents and know it permanently:
+	
+{Stone-like Bones} : Passive
+Your bones are tough as rock.
+You take half as much damage from falling and from traps which deal physical damage.
+You also get +1 on Fortitude saves.
+
+{Darkvision} : Passive
+You can see up to 12 meters away in darkness, without discerning colors.
+
+{Runesmith} : Passive
+You permanently know 1 spell from the Amateur Spell List.
+You can identify what language most texts are written in by analyzing them.
+Your Arcana skill increases by 1.
+
+#LevelBonus#
+At Level 2 you gain +2 Feat Points.
+And don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 3, your maximum number of Charges increases by +1.
+Your maximum Health also increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 4 you gain the Action Surge ability. Use it wisely!
+
+[Action Surge] : 0 Actions
+Gain an extra 1 Action this turn!
+You can do this once per Long Rest.
+
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 5, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 6, choose any of your 5 base Stats and increase it by +1 (up to a maximum of +4).
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 7, your maximum number of Charges increases by +1.
+Your maximum Health increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 8, you gain +2 Feat Points and don't forget to choose a Talent from your class.
+
+#LevelBonus#
+At Level 9, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 10, you have reached the peak of your skill.
+Congratulations!
+But don't forget to choose a Talent from your class.
+It will be a powerful one!
+
+
+#PageEnd#
+	
+	At Level 3:
+	
+{Skill of Trade} : Reaction
+Add +2 to a Charisma check.
+You can do this once per Long Rest.
+
+{Adapted Resting} : Passive
+You now only need to sleep 8 hours per day.
+
+{Poison Resistance} : Passive
+You have 50% resistance to poison damage.
+
+{Tough Skin} : Passive
+You gain +6 maximum Health.
+
+{On the House} : Passive
+You can get free shelter and food in inns and taverns (if you would normally be able to pay for them).
+
+{Stonecunning} : Passive
+You gain an extra +5 to Investigation rolls when checking stone walls, doors, statues, etc.
+
+
+
+
+	
+	
+Things I can alter:
+	Starting stats
+	Base Health
+	Feat points
+	Saves
+	Dark Vision
+	Number of Maneuvers
+	Movement Speed
+	
+

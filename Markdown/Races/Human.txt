@@ -1,0 +1,110 @@
+#Race#
+	Human
+Humans are probably the most versatile of races, and that comes with its own advantages and disadvantages.
+
+#Options#
+When creating your character:
+	Choose 2 of these, and increase them by 1: Fortitude, Dexterity, Wisdom, Charisma and Intelligence
+	Choose one: +2 Feat Points or +1 in any Save
+	Choose one: +1 meter movement speed or permanently know 1 maneuver
+	
+#Skills#
+You have +1 in two Skills of choice
+
+#Stats#
+Base Health: 6
+Movement: 6 meters
+Lifespan: ~80 years
+Languages: Common
+
+#Language#
+If your Intelligence is at least 1, you know one additional Common language.
+
+#OTHER#
+You start with 1 extra Feat Point.
+
+#Abilities#
+You start with the following racial ability:
+
+[Human Vigilence] : Passive
+Whenever you make a Skill Check, instead of rolling, you can automatically have 7 + your skill modifiers for that check.
+
+
+#LevelBonus#
+As a Human, a Level 1 you can pick a Talent from any other race:
+	
+{Human Diversity} : Special
+Choose any other race.
+Gain the first talent (left-most, first row, aka Level 1 Race Talent) from that race (except Dragonborn).
+
+#LevelBonus#
+At Level 2 you gain +2 Feat Points.
+And don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 3, your maximum number of Charges increases by +1.
+Your maximum Health also increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 4 you gain the Action Surge ability. Use it wisely!
+
+[Action Surge] : 0 Actions
+Gain an extra 1 Action this turn!
+You can do this once per Long Rest.
+
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 5, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 6, choose any of your 5 base Stats and increase it by +1 (up to a maximum of +4).
+Also, you get +2 Feat Points and don't forget to choose a Talent from your class!
+
+#LevelBonus#
+At Level 7, your maximum number of Charges increases by +1.
+Your maximum Health increses by 1 + Your Fortitude, in addition to the maximum Health you usually gain when leveling!
+Also, pick one of the following Talents and know it permanently:
+
+#LevelBonus#
+At Level 8, you gain +2 Feat Points and don't forget to choose a Talent from your class.
+
+#LevelBonus#
+At Level 9, your maximum number of Charges increases by +1.
+Also, pick one of the following Talents and know it permanently:
+If you are a Spellcaster, take a new look at your spells. You probably just unlocked some Level 5 spells!
+
+#LevelBonus#
+At Level 10, you have reached the peak of your skill.
+Congratulations!
+But don't forget to choose a Talent from your class.
+It will be a powerful one!
+
+
+#PageEnd#
+
+	At Level 3:
+
+
+{Negotiation Skills} : Passive
+You get a 10% discount on everything you buy and don't bargain for.
+
+
+
+
+	
+	
+Things I can alter:
+	Starting stats
+	Base Health
+	Feat points
+	Saves
+	Dark Vision
+	Number of Maneuvers
+	Movement Speed
+	Initiative
+	
+

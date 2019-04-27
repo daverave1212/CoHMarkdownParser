@@ -1,0 +1,474 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <title></title>
+</head>
+<body>
+<div class = "Navigation bordered">
+	<div class = "NavigationItem">
+		Classes
+		<div class = "NavigationDropdownContent bordered">
+			<div class = "NavAWrapper bordered">
+				<a href="Cleric.html">Cleric</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Druid.html">Druid</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Hunter.html">Hunter</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Mage.html">Mage</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Paladin.html">Paladin</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Rogue.html">Rogue</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Shaman.html">Shaman</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Warlock.html">Warlock</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Warrior.html">Warrior</a>
+			</div>
+			<div class = "NavAWrapper bordered locked">
+				<a href="#">Bard</a>
+			</div>
+			<div class = "NavAWrapper bordered locked">
+				<a href="#">Monk</a>
+			</div>
+			<div class = "NavAWrapper bordered locked">
+				<a href="#">Necromancer</a>
+			</div>
+		</div>
+	</div>
+	<div class = "NavigationItem">
+		Races
+		<div class = "NavigationDropdownContent bordered">
+			<div class = "NavAWrapper bordered">
+				<a href="Bertle.html">Bertle</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Dragonborn.html">Dragonborn</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Dwarf.html">Dwarf</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Gnome.html">Gnome</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Hollow.html">Hollow</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Human.html">Human</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Elf.html">Elf</a>
+			</div>
+			<div class = "NavAWrapper bordered">
+				<a href="Orc.html">Orc</a>
+			</div>
+		</div>
+	</div>
+	<div class = "NavigationItem">
+		<a href = "Prices.html">Items</a>
+	</div>
+</div>
+<div class = "Window bordered-full">
+
+
+<div class="Class bordered">
+	<h2 class="Name golden-text">Paladin</h2>
+	<p class="DescriptionPar">Paladins are knights in shiny armor who fight for their god</p>
+</div>
+<div class="split">
+<div class="Options bordered split-box">
+	<h3 class="OptionsHeader golden-text">When creating your character:</h3>
+	<p class="ChoicePar">Choose 2 of these, and increase them by 1: Charisma, Wisdom, Fortitude</p>
+	<p class="ChoicePar">Choose one: +1 Weapon Effect or +1 Dexterity or +5 Health</p>
+	<p class="ChoicePar">Choose one: +2 Intelligence Save or +2 Dexterity Save or +2 Wisdom Save</p>
+</div>
+<div class="Skills split-box">
+	<h3 class="SkilsHeader golden-text">Skills</h3>
+	<p class="SkillsPar">You have +1 Athletics, +1 Religion and +1 Persuasion</p>
+	<p class="SkillsPar">You have -1 Acrobatis, -1 Deception, -1 Sleight of Hand</p>
+</div>
+</div>
+<div class="split">
+<div class="Stats bordered split-box">
+	<h3 class="StatsHeader golden-text">Starting Stats:</h3>
+	<p class="StatsPar">Base Health: 11 + (Fortitude x 2)</p>
+	<p class="StatsPar">Bonus Health when leveling up: +5</p>
+</div>
+<div class="Language bordered split-box">
+	<h3 class="LanguageHeader golden-text">Languages</h3>
+	<p class="LanguagePar">If your Intelligence is at least 2, you can speak either Celestial or Abyssal.</p>
+</div>
+</div>
+<div class="split">
+<div class="MainStat bordered split-box">
+	<h3 class="MainStatHeader golden-text">Spellcasting and Main Stat</h3>
+	<div class="MainStatPart bordered">
+		<p class="MainStatParagraph">Choose between Charisma or Wisdom. This is your Main Stat.</p>
+	</div>
+	<div class="MainStatPart bordered">
+		<p class="MainStatParagraph">Your Spell DC is 8 + (Main Stat).</p>
+		<p class="MainStatParagraph">Your Spell Hit Bonus is (Main Stat).</p>
+	</div>
+	<div class="MainStatPart bordered">
+		<p class="MainStatParagraph">You have 3 Charges: O O O</p>
+		<p class="MainStatParagraph">Certain Abilities require you to spend Charges.</p>
+		<p class="MainStatParagraph">You regain all Charges back when you Long Rest.</p>
+	</div>
+</div>
+<div class="ClassAbilities split-box">
+	<h3 class="AbilitiesTitle golden-text">Abilities</h3>
+	<div class="AbilitiesPart">
+		<p class="AbilitiesParagraph">You start with the following class abilities:</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Divine Sense</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>You know the locations and types of all Holy, Unholy and Celestial creatures or things within 15 meters, unless the path to them is obstructed by thick or dense walls or magic.<br>You can do this once per rest without using a Charge.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Lay on Hands</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">You have a pool of 8 points.<br>Using an action, you can expend up to 8 points to heal a creature for the same amount.<br>Your pool resets to 8 points on Long Rests.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Divine Smite</span> : <span class="SpellActionsNormal">0 Actions</span></h4>
+				<p class="SpellDescription">Spend 2 Charges.<br>Add <span style="color: #FF5500">2d8</span> True damage to a melee damage roll.<br>You can only use Divine Smite once per turn.</p>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="SpellList bordered">
+	<h3 class="Spells golden-text">Casting Spells and Maneuvers</h3>
+	<p>You know a total number of spells and maneuvers equal to 2 + Half of Your Level + Your Intelligence.</p>
+	<p>You can reasign your spells whenever you level up.</p>
+	<p>This is your spell list:</p>
+	<ul class="ListOfSpells">
+		<li class="ListOfSpellsHeader">Maneuvers: All</li>
+		<li class="ListOfSpellsHeader">Basic Spells:</li>
+		<li class="ListOfSpellsElement">Burning Breath</li>
+		<li class="ListOfSpellsElement">Cleansing Flames</li>
+		<li class="ListOfSpellsElement">Detect Poison and Disease</li>
+		<li class="ListOfSpellsElement">Light</li>
+		<li class="ListOfSpellsElement">Purify Food and Drink</li>
+		<li class="ListOfSpellsElement">Thunder Clap</li>
+	</ul>
+	<ul class="ListOfSpells">
+		<li class="ListOfSpellsHeader">Normal Spells:</li>
+		<li class="ListOfSpellsElement">Charming Word</li>
+		<li class="ListOfSpellsElement">Cure Wounds</li>
+		<li class="ListOfSpellsElement">Cure Disease</li>
+		<li class="ListOfSpellsElement">Radiant Smite</li>
+		<li class="ListOfSpellsElement">Blinding Smite</li>
+		<li class="ListOfSpellsElement">Cleansing Smite</li>
+		<li class="ListOfSpellsElement">Scorching Rays</li>
+		<li class="ListOfSpellsElement">Turn Undead</li>
+		<li class="ListOfSpellsElement">Wild Heart</li>
+	</ul>
+	<ul class="ListOfSpells">
+		<li class="ListOfSpellsHeader">Higher Level Spells:</li>
+		<li class="ListOfSpellsElement">Spare the Dying</li>
+	</ul>
+</div>
+<div class="Specialization bordered">
+	<h3 class="SpecializationTitle golden-text">Choosing Your Specialization...</h3>
+	<p class="SpecializationPar">At Level 1, you can choose your oath (Specialization).</p>
+	<p class="SpecializationPar">By choosing your oath, you dedicate yourself to a purpose; an oath is a lifestyle, not a mere choice!</p>
+	<p class="SpecializationPar">Every Paladin can choose from the following oaths:</p>
+	<ul class="SpecializationsList">
+		<li class="SpecializationsListItem">Oath of Conquest, which inspires a strong personality and desire to achieve greatness, through whatever means</li>
+		<li class="SpecializationsListItem">Oath of Devotion, dedicated to helping the unfortunate and being someone to look up to</li>
+		<li class="SpecializationsListItem">Oath of Protection, chosen by those who vow to protect and wish to become a paragon of the people</li>
+		<li class="SpecializationsListItem">Oath of the Crusade, which vows upon fighting for your god and religion, protecting its allies and slaying its foes</li>
+	</ul>
+</div>
+<div class="Spec bordered">
+	<h2 class="SpecTitle golden-text">Conquest (Charisma heavy build?)</h2>
+	<div class="SpecPart">
+		<p>~ 4.5 Charges per long rest</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Oath of Conquest</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">Every worthy enemy YOU drop to 0 Health grants you 2 points of Lay on Hands.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Impose</span> : <span class="SpellActionsNormal">0.5 Actions</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Force a creature that can see you within 3 meters to make a Wisdom save.<br>If it fails, it is Feared.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Indomitable Presence</span> : <span class="SpellActionsNormal">0 Actions</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Gain +3 on the next Intimidation roll.</p>
+			</div>
+		</div>
+	</div>
+	<div class="SpecPart">
+		<p>At Level 2, pick one of the following Talents and learn it permanently:</p>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Be Gone!</span> : <span class="SpellActionsNormal">0.5 Actions</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>A creature within 6 meters rolls a Wisdom save.<br>If it fails, it must willingly move right now to any position it can reach with its movement speed (does not consume movement).<br>The creature chooses where it moves.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Retribution</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">You permanently lose Lay on Hands, but your maximum number of Charges you can have is increased by 1.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Unleash Fury</span> : <span class="SpellActionsNormal">0 Actions</span></h4>
+				<p class="SpellDescription">Spend 5 points of Lay on Hands.<br>Your next weapon attack will deal 50% of its base damage to all creatures around the primary target (except you) if it hits.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="Spec bordered">
+	<h2 class="SpecTitle golden-text">Devotion (Healer Build)</h2>
+	<div class="SpecPart">
+		<p>Lorem ipsum snitel dolor.</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Oath of Devotion</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">You are immune to diseases and curses.<br>When using Lay on Hands, instead of healing, you can expend 5 points to cure a minor disease or the effect of a poison.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Divine Power</span> : <span class="SpellActionsNormal">0 Actions</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Gain 6 points of Lay on Hands.</p>
+			</div>
+		</div>
+	</div>
+	<div class="SpecPart">
+		<p>At Level 2, pick one of the following Talents and learn it permanently:</p>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Divine Blast</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">Make a spell attack against a target within 12 meters.<br>If you hit, consume all your Lay on Hands points and deal half as much + Your Main Stat as True damage.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Shielding Hand</span> : <span class="SpellActionsPassive">Reaction</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Choose an ally.<br>After that ally takes damage, it gains a shield of Temporary Health equal to half of the damage taken.<br>The shield lasts up to 1 minute.<br>12 meters range.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Focused Smites</span> : <span class="SpellActionsNormal">0 Actions</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>For 1 minute, your weapon attacks deal extra True damage and whenever you hit with a weapon attack, heal an ally within 6 meters.<br>Bonus Damage and Heal: 1 for 1-Handed weapons, 2 for 2-Handed weapons.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="Spec bordered">
+	<h2 class="SpecTitle golden-text">Protection</h2>
+	<div class="SpecPart">
+		<p>Lorem ipsum snitel dolor.</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Oath of Protection</span> : <span class="SpellActionsPassive">Reaction</span></h4>
+				<p class="SpellDescription">When an ally is attacked and the attack hits, dash next to that ally.<br>You will take the damage from that attack instead of the ally.<br>You can do this twice per Long Rest.<br>3 meter range.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Stand Behind</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">You block the enemies' ranged attacks line of sight to other allies in a 3x3x3 meter cube around you.<br>So, if an ally is within 1 meter of you, it counts as if the enemy doesn't have ranged line of sight to them.<br>(Enemies can still target points or areas within that zone).</p>
+			</div>
+		</div>
+	</div>
+	<div class="SpecPart">
+		<p>At Level 2, pick one of the following Talents and learn it permanently:</p>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Divine Rain</span> : <span class="SpellActionsNormal">0.5 Actions</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>If you would drop to 0 Health until the start of your next turn, you remain instead at 1 Health.<br>When this happens, divine rays smite all enemies within 2 meters of you, and they all take <span style="color: #FF5500">1d6</span> True damage.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Reckoning</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">Spend 1 Charge and choose a target within 6 meters.<br>That target takes <span style="color: #FF5500">2d8</span> - 2 damage and rolls a Fortitude save.<br>If it fails, it is pushed away from you until the distance between you and the target is up to 6 meters.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Consacrated Zone</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>The area in a 5 meter diameter circle around you becomes Consacrated.<br>If an enemy attempts to leave the area, it must succeed a Charisma save.<br>If it fails, it takes <span style="color: #FF5500">1d10</span> True damage and loses 1 meter of movement (as if it stepped outside).<br>The enemy can attempt to escape as many times on the same turn.<br>_The zone lasts up to 1 minute and can be cancelled for 0 Actions._</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="Spec bordered">
+	<h2 class="SpecTitle golden-text">Crusader</h2>
+	<div class="SpecPart">
+		<p>Lorem ipsum snitel dolor.</p>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Oath of the Crusade</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">You permanently know Radiant Smite, Blinding Smite and Cleansing Smite, aside from your known spells.<br>After an attack which had a Smite on it kills at least 1 enemy, your next attack within 5 minutes deals <span style="color: #FF5500">1d6</span> bonus True damage if it hits.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleAbility"><span class="SpellName">Reckoning</span> : <span class="SpellActionsNormal">1 Action</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Make an attack roll on a creature within 3 meters and that creature also rolls a Charisma save.<br>The attack deals <span style="color: #FF5500">1d4</span> + 3 damage if it hits, and the target is stunned if it fails the Save.</p>
+			</div>
+		</div>
+	</div>
+	<div class="SpecPart">
+		<p>At Level 2, pick one of the following Talents and learn it permanently:</p>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Retribution</span> : <span class="SpellActionsPassive">Passive</span></h4>
+				<p class="SpellDescription">You permanently lose Lay on Hands, but your maximum number of Charges you can have is increased by 1.</p>
+			</div>
+		</div>
+	</div>
+	<div class="Spell Talent">
+		<div class="SpellContentWrapper">
+			<div class="SpellIconWrapper">
+				<img class="SpellIcon" src="None.png">
+			</div>
+			<div class="SpellText">
+				<h4 class="SpellTitle SpellTitleTalent"><span class="SpellName">Wrathful Smite</span> : <span class="SpellActionsNormal">0.5 Actions</span></h4>
+				<p class="SpellDescription">Spend 1 Charge.<br>Make a ranged spell attack against a target within 6 meters.<br>If you hit, deal <span style="color: #FF5500">2d8</span>2 meters range and can deal Fire damage instead.<br>You can do this once per Long Rest.<br>Also, passively, you can always apply smites to ranged attacks, no matter if Divine Reach is active or not.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<style>body{background-image: url("Backgrounds/Paladin.jpg");}</style>
+﻿</div>
+</body>
+</html>
